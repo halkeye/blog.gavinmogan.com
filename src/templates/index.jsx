@@ -32,7 +32,7 @@ const IndexPage = ({data, pageContext}) => {
           }
         </section>
 
-        <section id="three">
+        <section id="pagination">
           <Pagination index={index + 1} pageCount={paginatedPagesCount} />
         </section>
       </Layout>

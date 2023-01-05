@@ -5,7 +5,7 @@ import ProfileImage from '../components/ProfileImage/ProfileImage'
 
 const Sidebar = () => {
   return (
-    <aside>
+    <aside className="sidebar">
       <ProfileImage />
       <h1>Gavin Mogan</h1>
       <UserDescription />

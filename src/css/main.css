@@ -1,3 +1,11 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    --cover-image-width: 310px;
+    --post-card-padding: 10px;
+    --post-card-minwidth: calc(var(--cover-image-width) + var(--post-card-padding) + var(--post-card-padding));
+}
+
 header {
     display:grid;
     grid-template-columns: 1.5fr 1fr;
@@ -11,62 +19,67 @@ header {
     align-items: center;
 }
 
-.main-content {
+.main {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 0 1em;
+    /* flex-direction: column; */
+    width: 100%;
+    background: yellow;
+    row-gap: 10px;
+    column-gap: 10px;
 }
 
-.main-content section {
-    width: calc(100% - 23em);
-    max-width: 100%;
+.main .main-content {
+    flex-grow: 3;
+    background-color: red;
 }
 
-.main-content aside {
-    display: flex;
-    flex-direction: column;
-    min-width: 15%;
-    width: 20em;
-    max-width: 100%;
+.main .sidebar {
+    flex-basis: 250px;
+    flex-shrink: 1;
+    /* for stretching the wrapped sidebar */
+    flex-grow: 1;
+
+    box-sizing: border-box;
     color: #f39c12;
-
     background-color: #1f1815;
     background-image: url(../images/overlay.png), url(../images/aditya-chinchure-2yN10KHNTzM-unsplash-resized.jpg);
     background-attachment: scroll, scroll;
     background-position: center center, right 300px;
     background-repeat: repeat, no-repeat;
     background-size: auto, auto;
-
     padding: 15px;
 }
 
-.main-content aside .profile-image {
+.main .sidebar .profile-image {
     border-radius: 25px;
     margin-top: 2em;
     margin-left: auto;
     margin-right: auto;
 }
 
-.main-content aside a:link, .main-content aside a:visited {
+.main .sidebar a:link, .main .sidebar a:visited {
     color: white;
 }
 
 .card-list {
     display: grid;
+    justify-content: space-between;
     grid-gap: 10px;
-    grid-template-columns: repeat(auto-fit, minmax(300px , 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(var(--post-card-minwidth) , 1fr));
 }
 
 .post-card {
     display: flex;
     flex-direction: column;
-    padding: 0.5em;
+    box-sizing: border-box;
+    border: 3px solid black;
+    padding: var(--post-card-padding);
+    min-width: var(--post-card-minwidth);
 }
 
 .post-card .cover-image {
-    width: 312px;
+    width: --cover-image-width;
     height: 200px;
     border-radius: 5px;
     margin-left: auto;
