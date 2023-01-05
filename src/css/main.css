@@ -24,14 +24,12 @@ header {
     flex-wrap: wrap;
     /* flex-direction: column; */
     width: 100%;
-    background: yellow;
     row-gap: 10px;
     column-gap: 10px;
 }
 
 .main .main-content {
     flex-grow: 3;
-    background-color: red;
 }
 
 .main .sidebar {
