@@ -21,7 +21,7 @@ const Header = () => {
       <Helmet titleTemplate={`%s | ${data.site.siteMetadata.title}`} defaultTitle={data.site.siteMetadata.title}>
         <meta name="description" content={data.site.siteMetadata.siteDescription} />
       </Helmet>
-      {data.site.siteMetadata.title}
+      <h1>{data.site.siteMetadata.title}</h1>
       <nav>
         <ul className="nav">{navLinks.map(({label, to}) => (<li key={`${label}_${to}`}><a role="button" href={to}>{label}</a></li>))}</ul>
       </nav>

@@ -8,13 +8,58 @@ html, body {
 
 header {
     display:grid;
-    grid-template-columns: 1.5fr 1fr;
+    grid-template-columns: 0.25fr 1fr;
+    gap: 10px;
     align-items: center;
+
+    min-height: 100px;
+    color: white;
+
+    padding: 0 1em;
+
+    background-color: black;
+    background-image: url(../images/aditya-chinchure-2yN10KHNTzM-unsplash-resized.jpg);
+    background-attachment: scroll;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+header ul.nav {
+    padding: 0;
+    margin: 0;
+}
+
+header .nav li {
+    list-style: none;
+    margin: 0;
+
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+    line-height: 2em;
+    background-color: rgba(25%, 25%, 25%, 80%);
+    border-radius: 10%;
+    padding: 0 2em;
+}
+
+header .nav li:hover {
+    background-color: rgba(35%, 35%, 35%, 90%);
+}
+
+header .nav li a {
+    display: inline-block;
+}
+
+header .nav a:link, header .nav a:visited {
+    color: white;
+    font-size: 2em;
+    text-decoration: none;
 }
 
 .nav {
     display:grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px , 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px , 1fr));
     grid-gap:10px;
     align-items: center;
 }
@@ -40,12 +85,7 @@ header {
 
     box-sizing: border-box;
     color: #f39c12;
-    background-color: #1f1815;
-    background-image: url(../images/overlay.png), url(../images/aditya-chinchure-2yN10KHNTzM-unsplash-resized.jpg);
-    background-attachment: scroll, scroll;
-    background-position: center center, right 300px;
-    background-repeat: repeat, no-repeat;
-    background-size: auto, auto;
+    background-color: black;
     padding: 15px;
 }
 
@@ -71,7 +111,6 @@ header {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    border: 3px solid black;
     padding: var(--post-card-padding);
     min-width: var(--post-card-minwidth);
 }
