@@ -7,8 +7,6 @@ module.exports = {
   siteDescription: 'Meow Meow Meow Meow Neow?', // Website description used for RSS feeds/meta description tag.
   siteRss: '/rss.xml', // Path to the RSS file.
   siteFBAppID: null, // FB Application ID for using app insights
-  disqusShortname: 'halkeye-net', // Disqus shortname.
-  disqusUrl: 'https://halkeye.net', // Domain of your website without pathPrefix.
   postDefaultCategoryID: 'Tech', // Default category for posts.
   userName: 'Gavin Mogan', // Username to display in the author segment.
   userTwitter: 'halkeye', // Optionally renders "Follow Me" in the UserInfo segment.

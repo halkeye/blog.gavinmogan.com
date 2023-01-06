@@ -29,7 +29,7 @@ const ProjectList = ({ nodes, onlyCategory }) => (
 );
 
 const ProjectsPage = ({ data, location }) => {
-  const nodes = data.allFile.edges.map(edge => toPostInfo(edge.childMarkdownRemark));
+  const nodes = data.allFile.edges.map(edge => toPostInfo(edge.node.childMarkdownRemark));
   const categories = new Set();
   nodes.forEach(node =>
     node.categories.forEach(cat => categories.add(cat.slug))

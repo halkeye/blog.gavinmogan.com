@@ -13,7 +13,7 @@ const Chip = ({ children }) => <div>FIXME, {children}</div>
 const Typography = ({ children }) => <div>FIXME, {children}</div>
 
 export default function ItemBlock ({ slug, tags, cover, link, links, title, attachments, html, excerpt, urlPrefix }) {
-  const classes = useStyles();
+  const classes = {}
   if (!cover) {
     const data = useStaticQuery(graphql`
       query {

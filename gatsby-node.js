@@ -31,16 +31,9 @@ exports.onCreateNode = ({node, actions, getNode}) => {
     fileNodes[node.relativePath] = node.absolutePath;
   }
 
-  if (node.internal.type === 'ContentfulBlogPosts') {
-    createNodeField({
-      node,
-      name: 'url',
-      value: `${urlDatePrefix(node)}/${node.slug}`
-    });
-  }
-
   if (node.internal.type === 'MarkdownRemark' || node.internal.type === 'Mdx') {
     const fileNode = getNode(node.parent);
+    /*
     if (node.frontmatter.cover) {
       node.frontmatter.cover = fileNode[node.frontmatter.cover] || node.frontmatter.cover;
     }
@@ -57,6 +50,7 @@ exports.onCreateNode = ({node, actions, getNode}) => {
         };
       });
     }
+    */
 
     createNodeField({
       node,
@@ -208,7 +202,8 @@ exports.createPages = async ({graphql, actions}) => {
     };
     //const tagSet = new Set();
     //const categorySet = new Set();
-    result.data.allFile.edges.forEach(({node: {childrenMarkdownRemark: node}}) => {
+    result.data.allFile.edges.forEach(({node}) => {
+      node = node.childrenMarkdownRemark[0];
       /*
       if (node.fields?.tags) {
         node.fields.tags.forEach(tag => tagSet.add(tag));

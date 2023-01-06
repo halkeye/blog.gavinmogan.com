@@ -17,7 +17,7 @@ const IndexPage = ({data, pageContext}) => {
             postEdges.map(({ node: { childMarkdownRemark: post }}) => {
               return (
                 <div className="post-card" key={post.id}>
-                  <CoverImage cover={post.frontmatter.cover} />
+                  <Link to={post.fields.slug}><CoverImage cover={post.frontmatter.cover} /></Link>
                   <div>
                     <div className="date">
                       <time datetime={post.frontmatter.date}>{new Intl.DateTimeFormat('en-CA', { dateStyle: 'full', timeStyle: 'long'}).format(Date.parse(post.frontmatter.date))}</time>

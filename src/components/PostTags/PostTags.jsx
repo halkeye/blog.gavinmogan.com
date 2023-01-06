@@ -1,28 +1,18 @@
-import React, { Component } from 'react';
+import React from 'react';
 import kebabCase from 'lodash.kebabcase';
 import { Link } from 'gatsby';
-import './PostTags.scss';
 
-const Chip = ({ children }) => <div>FIXME, {children}</div>
-
-class PostTags extends Component {
-  render () {
-    const { tags } = this.props;
-    return (
-      <div className="post-tag-container">
-        {tags &&
-          tags.map(tag => (
-            <Link
-              key={tag}
-              style={{ textDecoration: 'none' }}
-              to={`/tags/${kebabCase(tag)}`}
-            >
-              <Chip label={tag} className="post-preview-tags" />
-            </Link>
-          ))}
-      </div>
-    );
+const PostTags = ({ tags }) => {
+  if (!tags) {
+    return <div className="post-tag-container" />
   }
+  return (
+    <div className="post-tag-container">
+      <ul>
+        {tags.map(tag => (<li key={tag}><Link to={`/tags/${kebabCase(tag)}`}>{tag}</Link></li>))}
+      </ul>
+    </div>
+  );
 }
 
 export default PostTags;
