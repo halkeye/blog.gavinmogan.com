@@ -9,9 +9,9 @@ category: "People"
 tags: []
 ---
 
-![](./4201688685_95deeee9ac.jpg)
+![](4201688685_95deeee9ac.jpg)
 
-![](./4201688511_0d1e3ddb3e.jpg)
+![](4201688511_0d1e3ddb3e.jpg)
 
 I've never had more fun watching tv and anime and such..
 

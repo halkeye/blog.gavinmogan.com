@@ -11,7 +11,7 @@ tags: []
 
 Review of [Multi Theft Auto](https://web.archive.org/web/20180307003844/https://mtavc.com/)
 
-![moocow](./2956_f5f06c8aba2da87601eb0384c0d65c0d.jpg)
+![moocow](2956_f5f06c8aba2da87601eb0384c0d65c0d.jpg)
 
   
 

@@ -9,7 +9,7 @@ category: "Gaming"
 tags: []
 ---
 
-![](./Composite_Jan_30_005.jpg)
+![](Composite_Jan_30_005.jpg)
 
 Been playing iNinja again between releases.. okay, since first release and second of MTLJPost...
 

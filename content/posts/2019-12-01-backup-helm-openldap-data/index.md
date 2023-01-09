@@ -1,7 +1,7 @@
 ---
 title: Backup helm's stable/openldap's data!
 date: 2019-12-01T22:15:04.207Z
-cover: ./sergio-souza-luiyb9pj9dk-unsplash.jpg
+cover: sergio-souza-luiyb9pj9dk-unsplash.jpg
 tags:
   - k8s
   - openldap

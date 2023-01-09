@@ -10,13 +10,13 @@ tags: []
 ---
 
 lets tell a story...
-![](./4202463656_140e4aa651.jpg)
+![](4202463656_140e4aa651.jpg)
 there once was a code monkey,
 always working hard, doing work for others
-![](./4202464026_2bc3ee4381.jpg)
+![](4202464026_2bc3ee4381.jpg)
 then one day, he turned completly evil,
 refused todo his work, went after people with plastic knives
-![](./4201706163_1b67517208.jpg)
+![](4201706163_1b67517208.jpg)
 so then he had to be taken care of in the most humane way possible.
 
 

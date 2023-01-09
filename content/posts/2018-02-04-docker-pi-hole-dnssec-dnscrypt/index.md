@@ -17,7 +17,7 @@ Docker has the usual advantage of things working out of the box. No configuring 
 
 So off I go to find an install of [Pi-hole](https://pi-hole.net/) that works, and I can poke around with. It didn't take long. https://github.com/diginc/docker-pi-hole seems to work really well. Installed it, looked pretty good. Restarted it with ports mapped so I could play with it. Still success. DNS seemed fast and zippie. Fully usable.
 
-![pihole](./pihole.png)
+![pihole](pihole.png)
 
 But I wanted more. I was reading about dns-crypt, and had heard it could encrypt your DNS requests so your ISP and such couldn't actually track what you were doing (Not that I wanted to hide, but I liked the idea of it).
 
@@ -35,11 +35,11 @@ Lastly I found a quick script using docker inspect. `docker inspect --format='{{
 
 I really wasn't sure this would actually work because in theory ips could change every time it starts up, but it seems to allocate the same ip if possible, so kinda lucked out. So now I had Pi-hole talking to dnscrypt-proxy, which meant my lookups were encrypted. Yay!
 
-![](./success.jpg)
+![](success.jpg)
 
 Okay, whats next? Next I want to get dnssec working again. Not the end of the world for Canada. Our government and ISP are not supposed to mess with dns results, but I wanted it anyways. Plus its nice to have when the time comes.
 
-![](./dnssec.png)
+![](dnssec.png)
 
 Oh Awesome. Pi-hole has a option for it. Time to enable it.
 

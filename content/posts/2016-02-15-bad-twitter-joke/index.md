@@ -15,4 +15,4 @@ Oh man. I used to post some really horrible jokes I found around the internet.
 
 The answer is a seatbelt btw. I love seeing other peoples reactions.
 
-![Justin Bad Seatbelt to Joke](./Justin-Bad-Seatbelt-to-Joke.png)
+![Justin Bad Seatbelt to Joke](Justin-Bad-Seatbelt-to-Joke.png)

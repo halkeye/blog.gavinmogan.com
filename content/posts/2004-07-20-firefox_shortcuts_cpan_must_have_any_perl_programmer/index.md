@@ -9,18 +9,18 @@ category: "Internet"
 tags: []
 ---
 
-![](./bookmarks1.jpg)  
+![](bookmarks1.jpg)  
 if you goto manage bookmarks, then new bookmark  
 you can set keywords for bookmarks  
 then if you put a %s in, you can do  string
 
-![](./bookmarks2.jpg)  
+![](bookmarks2.jpg)  
 https://search.cpan.org/search?query=%s&mode;=all  
 keyword: cpan  
 "cpan Module::name"
 And Voila!!!  
 
-![](./bookmarks3.jpg)  
+![](bookmarks3.jpg)  
 Nice and simple cpan searching
   
 

@@ -11,7 +11,7 @@ tags: ['android', 'gamepad', 'nexus 7', 'snes']
 
 So a while ago (Dec 2012, so only a couple months :D) I posted a little picture of a setup I got working with my nexus 7.
 
-![](./2012-12-27-16.50.34.jpg)
+![](2012-12-27-16.50.34.jpg)
 
 I promised I would document how I did it for others, and so I'll  best to explain what / how I got it working but it's been a long time since I did any sort of technical writing, so bear with me.
 
@@ -29,12 +29,12 @@ All in all I would say it's not exactly a hard process. Joystick Center is expen
 
 Once you get everything hooked up and Joystick center installed and running, you need to make sure it finds the gamepad. It's a bit finicky, especially if you have other USB apps installed. Once you have the app running and find the device you see something like:
 
-![](./Screenshot_2013-03-09-21-22-11.png)
+![](Screenshot_2013-03-09-21-22-11.png)
  
 
 Next you need to select that device. When that is done, you'll see another row. This row confused me the most. It's not that important other than the driver button on the left hand side. Once you've clicked/tapped the **driver** button, you'll come across a screen kind like:
 
-![](./Screenshot_2013-03-09-21-22-26.png)
+![](Screenshot_2013-03-09-21-22-26.png)
 
 This would be the most important screen. It took me a few trues and a few videos to figure everything out but it's actually quite simple.
 

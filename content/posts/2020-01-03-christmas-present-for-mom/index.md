@@ -1,7 +1,7 @@
 ---
 title: Winter Diorama Christmas Present
 date: 2020-01-03T02:11:59.846Z
-cover: ./img_20191222_211651.jpg
+cover: img_20191222_211651.jpg
 tags:
   - 3d printer
   - christmas

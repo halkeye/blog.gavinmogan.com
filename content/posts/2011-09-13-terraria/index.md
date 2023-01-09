@@ -7,7 +7,7 @@ post_name: "terraria"
 status: "publish"
 category: "PC"
 tags: []
-cover: "./Screenshot-Terraria-RoomatesHouse-1024x480.png"
+cover: "Screenshot-Terraria-RoomatesHouse-1024x480.png"
 ---
 
 Sometime during the last big steam sale (I think it was the summer sale) my roommate and I both picked up [Terraria](https://store.steampowered.com/app/105600/?snr=1_4_4__13) off of steam. I don't think either of us played it for months. It was always on the to play list, but I was busy with other games, he was busy with Minecraft. So we just put it off.
@@ -20,7 +20,7 @@ I quickly found and setup a [multiplayer server](https://www.tdsm.org/) for the
 
 Fast forward a couple weeks. I get back from family trip/PAX to find my roommate has built a couple really sweet houses.
 
-![](./Screenshot-Terraria-RoomatesHouse-1024x480.png)
+![](Screenshot-Terraria-RoomatesHouse-1024x480.png)
 
 Got my friend [Nigel](https://www.forgreatjustice.ca/) playing on my server the last few nights. Last night My roommate and I went down to the lava areas to mine for [Obsidian](https://terraria.wikia.com/wiki/Obsidian), after about an hour, we came back up, to find Nigel had been busy on his own house. I can't wait to see what we do next. I think the group exploring is the most fun.
 

@@ -9,7 +9,7 @@ category: "Linux"
 tags: []
 ---
 
-![](./legostarwars.png)
+![](legostarwars.png)
 
 Tried [LEGO Starwars](https://www.3dgamers.com/games/legostarwars/) this morning. Man, it was very cute, everything is done in LEGO, and you can destroy most things with your lightsaber / blaster.
 

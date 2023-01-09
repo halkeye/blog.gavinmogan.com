@@ -1,5 +1,5 @@
 ---
-cover: "./00100dPORTRAIT_00100_BURST20180414170943592_COVER.jpg"
+cover: "00100dPORTRAIT_00100_BURST20180414170943592_COVER.jpg"
 title: "Node School and Node Bots"
 author: "halkeye"
 post_name: "NodeSchool-NodeBots"
@@ -15,7 +15,7 @@ tags:
 
 HI EVERYBODY!
 
-![](./stitch_says_hi.gif)
+![](stitch_says_hi.gif)
 
 I'm setting the scene here. It was a dark and stormy night. No wait, it was almost a year ago now that I saw a post about how awesome the author's local [node schools](https://nodeschool.io/) are and got super excited about our [local chapter](https://nodeschool.io/vancouver/).
 

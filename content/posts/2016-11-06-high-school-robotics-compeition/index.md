@@ -22,7 +22,7 @@ As I love to mentor and build up people, especially kids, I very quickly signed 
 Last month due to traveling I wasn't able to get involved, but when the tournament rolled around and again I was asked if I was up for helping judging I promptly signed up.
 
 We had about 8 people, so that easily allowed us to have pairs. We had 3 groups of 2 setup at tables so the various clubs could come and get reviewed and judged. Some were really amazing and had been doing this for a long while. Others were just starting out and it was a bit better to give them feed back instead of worrying about judges.
-![20161105_153829.jpg](./20161105_153829.jpg)
+![20161105_153829.jpg](20161105_153829.jpg)
 
 The other judges were outside watching the games, and watched how the various students/drivers performed.
 

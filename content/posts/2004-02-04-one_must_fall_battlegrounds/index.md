@@ -9,7 +9,7 @@ category: "Gaming"
 tags: []
 ---
 
-![](./clp82.png) How to put this kindly....
+![](clp82.png) How to put this kindly....
 
 The game is constantly crashing on me. I have no idea if its my machine or the game itself.. twice now I've gotten unrecoverable errors.
 
