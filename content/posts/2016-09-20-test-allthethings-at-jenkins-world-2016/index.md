@@ -7,9 +7,9 @@ post_name: "test-allthethings-at-jenkins-world-2016"
 status: "publish"
 category: "General"
 tags: []
-cover: "/assets/PANO_20160914_072416.jpg"
+cover: "./PANO_20160914_072416.jpg"
 ---
-![CsXFwi9UMAA-2vI](CsXFwi9UMAA-2vI.jpg)
+![CsXFwi9UMAA-2vI](./CsXFwi9UMAA-2vI.jpg)
 
 I spent last week at Jenkins World 2016.
 
@@ -19,7 +19,7 @@ I have to say I'm realy enjoying it. I don't think I could do it full time, but 
 
 Jenkins World was actually incredably well done itself. I snuck off to the keynote to check things out on Wed morning. As someone who is lightly attached to the community, I didn't really find anything all that new, but there was lots of exciting news. He explained why the UI hasn't really changed in the past, and what they are going to do about it (Blue Ocean) and what they want to do long term, including the sexy sexy configuring Jenkins by Pull requests.
 
-![IMG_20160914_074254](IMG_20160914_074254.jpg)
+![IMG_20160914_074254](./IMG_20160914_074254.jpg)
 
 Our booth was right next to the entrance to a couple of the theaters, and the event had planned it so people would come back to the main hall between talks for food and snacks and stuff. While some of the talks were on, things got pretty slow, but we did have visitors, and I got to talk to some of the other out of town saucers that I normally don't get to interact with.
 
@@ -31,7 +31,7 @@ Wednesday was the longest of everything. I took the first shuttle from the hotel
 
 Thursday was a much shorter day, only going to 5pm. Less people came by, but we had one guy who came by, and came back later that afternoon with his boss so things could be re-explained. I think by the end I had her convinced as well :D
 
-![IMG_20160914_085904.jpg](IMG_20160914_085904.jpg)
+![IMG_20160914_085904.jpg](./IMG_20160914_085904.jpg)
 
 Last but not least, Jenkins World had the team (I didn't know it was a team) behind [Commitstrip](https://www.commitstrip.com/en/?) come by from France. They were producing a mural just outside the main rooms. The plan was that the attendiees would be able to color it in, but they'd draw the thing.
 
@@ -39,6 +39,6 @@ I walked by it a few times. I really wish I had snagged a picture of the colored
 
 I know at least one of them (Okay I'm not certain there's a team) was on stage for the keynote on Wed morning. He was live drawing while people were getting steated. It was so much fun to watch. Whoa, whats he doing? Oh, shading, thats probably not needed is it?... oh whoa, zoomed out, Okay I can see how much that adds. Thats amazing.
 
-![PANO_20160914_072416.jpg](PANO_20160914_072416.jpg)
+![PANO_20160914_072416.jpg](./PANO_20160914_072416.jpg)
 
 Overall a blast. I'm going to keep signing up for booth duty in the future. I had a blast.. as I've already said. And its so cool to work at a company/for a product you actually believe in and am not ashamed of. I havn't felt like that since LiveJournal.

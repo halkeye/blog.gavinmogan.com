@@ -1,5 +1,5 @@
 ---
-cover: "/assets/john-schnobrich-520023-unsplash.jpg"
+cover: "./john-schnobrich-520023-unsplash.jpg"
 title: "Open source and me"
 post_name: "open-source-and-me"
 date: 2018-08-15T21:09:24.790-0700

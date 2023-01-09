@@ -9,7 +9,7 @@ category: "Coding"
 tags: []
 ---
 
-![](clp83.png)
+![](./clp83.png)
 
 Doing a configuration interface. It looks kinda cool.
 

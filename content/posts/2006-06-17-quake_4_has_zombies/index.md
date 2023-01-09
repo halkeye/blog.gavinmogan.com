@@ -9,7 +9,7 @@ category: "Gaming"
 tags: []
 ---
 
-![](screenshot.png)
+![](./screenshot.png)
 
 that is all.
 

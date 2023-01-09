@@ -21,7 +21,7 @@ It turned out I could get something done pretty quickly. This time I decided to 
 
 Curious how it looks? But don't really want to install it yet? Checkout this awesome animated gif one of our product team members created.
 
-![take3-short-with-zoom](Take3-Short-with-zoom.gif)
+![take3-short-with-zoom](./Take3-Short-with-zoom.gif)
 
 I'm so absolutely excited for this integration, and on top of that, as someone who loves contributing open source, a great example of a working hipchat integration for everyone to learn from and contribute to.
 

@@ -1,7 +1,7 @@
 ---
 title: New Table Top RPG Tokens
 date: 2019-10-10T03:20:00.790Z
-cover: /assets/img_20191008_213035.jpg
+cover: ./img_20191008_213035.jpg
 tags:
   - 3d printer
   - wetfly
@@ -14,7 +14,7 @@ This is my first post since setting up netlifycms, which is also why I haven't p
 
 So onto the purpose of this post.
 
-![newly printed out tokens on a battle mat](/assets/img_20191009_171043.jpg "So a monkey walks into a bar")
+![newly printed out tokens on a battle mat](./img_20191009_171043.jpg "So a monkey walks into a bar")
 
 Last week I started to prep for an upcoming table top adventure over the weekend. I was expecting to use my normal M&Ms to mark killable NPCs (cause people can eat thier souls upon death), from a stat keeping perspective, I was pretty limited to 5 items, or having to use something other than color.
 
@@ -26,4 +26,4 @@ I'm really happy with the outcome of these tokens. They fit well within the grid
 
 We debated about if 6 and 9 will be hard to tell the difference, so he made some with underlines. They certainly work, but I think I prefer the non underlined versions for now.
 
-![newly printed out tokens on a battle mat (underline version)](/assets/img_20191009_171107.jpg "Underline version")
+![newly printed out tokens on a battle mat (underline version)](./img_20191009_171107.jpg "Underline version")

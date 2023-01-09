@@ -9,7 +9,7 @@ category: "Movies"
 tags: []
 ---
 
-![100.jpg](100.jpg)  
+![100.jpg](./100.jpg)  
 
 It seems that [Stargate Atlantis](https://www.gateworld.net/atlantis/s1/101.shtml) is almost here. Infact the specs on the pilot episode are up and published.
 
