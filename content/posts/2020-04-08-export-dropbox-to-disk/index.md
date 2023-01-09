@@ -1,7 +1,6 @@
 ---
 title: Export Dropbox
 date: 2018-04-07T07:00:00.000Z
-cover: assets/cover-image.jpg
 tags:
   - linux
   - dropbox

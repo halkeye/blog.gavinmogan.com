@@ -1,8 +1,7 @@
 ---
 title: Introducing r.g4v.dev
 date: 2020-04-20T00:52:59.999Z
-cover: >-
-  assets/differences-between-a-dockerfile-docker-image-and-docker-container-001320c81dd8d2989df10d0bec36341fd6a94b043f6f9de1c26ee79eaf16e566.jpg
+cover: differences-between-a-dockerfile-docker-image-and-docker-container-001320c81dd8d2989df10d0bec36341fd6a94b043f6f9de1c26ee79eaf16e566.jpg
 tags:
   - docker-registry
   - kubernetes
