@@ -146,7 +146,7 @@ exports.createPages = async ({graphql, actions}) => {
       ) {
       edges {
         node {
-          childrenMarkdownRemark {
+          childMarkdownRemark {
             fields {
               slug
               category
@@ -154,6 +154,26 @@ exports.createPages = async ({graphql, actions}) => {
             }
             frontmatter {
               title
+            }
+          }
+        }
+        next {
+          childMarkdownRemark {
+            frontmatter {
+              title
+            }
+            fields {
+              slug
+            }
+          }
+        }
+        previous {
+          childMarkdownRemark {
+            frontmatter {
+              title
+            }
+            fields {
+              slug
             }
           }
         }
@@ -200,24 +220,23 @@ exports.createPages = async ({graphql, actions}) => {
         }
       });
     };
-    //const tagSet = new Set();
-    //const categorySet = new Set();
-    result.data.allFile.edges.forEach(({node}) => {
-      node = node.childrenMarkdownRemark[0];
-      /*
-      if (node.fields?.tags) {
-        node.fields.tags.forEach(tag => tagSet.add(tag));
+    const tagSet = new Set();
+    result.data.allFile.edges.forEach((edge) => {
+      if (!edge?.node?.childMarkdownRemark?.fields?.slug) {
+        return
       }
 
-      if (node.fields?.category) {
-        categorySet.add(node.fields.category);
+      // console.log(JSON.stringify(edge, null, 4))
+      if (edge?.node?.childMarkdownRemark?.fields?.tags) {
+        edge?.node?.childMarkdownRemark?.fields?.tags?.forEach(tag => tagSet.add(tag));
       }
-      */
       createPage({
-        path: node.fields.slug,
+        path: edge.node.childMarkdownRemark.fields.slug,
         component: postPage,
         context: {
-          slug: node.fields.slug
+          slug: edge.node.childMarkdownRemark.fields.slug,
+          next: edge.next?.childMarkdownRemark,
+          previous: edge.previous?.childMarkdownRemark,
         }
       });
     });
@@ -231,18 +250,6 @@ exports.createPages = async ({graphql, actions}) => {
         context: {
           tag,
           slug: `/tags/${kebabCase(tag)}/`
-        }
-      });
-    });
-
-    const categoryList = Array.from(categorySet);
-    categoryList.forEach(category => {
-      createPage({
-        path: `/categories/${category}/`,
-        component: categoryPage,
-        context: {
-          category,
-          slug: `/categories/${category}/`
         }
       });
     });
