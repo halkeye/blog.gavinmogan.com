@@ -5,7 +5,6 @@ import { toPostInfo } from '../postUtils.js';
 import ItemBlock from '../components/ItemBlock/ItemBlock.jsx';
 import SubHeader from '../components/SubHeader/SubHeader.jsx';
 import Layout from '../components/Layout.jsx';
-import './presentations.scss';
 
 const PresentationList = ({ nodes }) => (
   <div className="md-grid">

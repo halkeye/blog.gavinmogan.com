@@ -6,7 +6,6 @@ import clamp from 'lodash/clamp';
 import faAngleDoubleLeft from '@fortawesome/fontawesome-free-solid/faAngleDoubleLeft';
 import faAngleDoubleRight from '@fortawesome/fontawesome-free-solid/faAngleDoubleRight';
 
-import './style.scss';
 
 const Card = ({ children }) => <div>FIXME, {children}</div>
 const CardText = ({ children }) => <div>FIXME, {children}</div>

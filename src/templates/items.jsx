@@ -8,7 +8,6 @@ import PostTags from '../components/PostTags/PostTags.jsx';
 import SocialLinks from '../components/SocialLinks/SocialLinks.jsx';
 import SEO from '../components/SEO/SEO.jsx';
 import './b16-tomorrow-dark.css';
-import './post.scss';
 
 const PostCover = ({ children }) => <div>FIXME, {children}</div>
 const Card = ({ children }) => <div>FIXME, {children}</div>

@@ -61,7 +61,11 @@ spec:
                 - "/bin/sh"
               args:
                 - "-c"
-                - "ldapsearch -x -H ldap://openldap -b dc=gavinmogan,dc=com -D \"cn=admin,dc=gavinmogan,dc=com\" -w \"${LDAP_ADMIN_PASSWORD}\" | tee /backup/backupOn`date +%Y-%m-%d-%H-%M`.dump > /dev/null"
+                - |
+                ldapsearch -x -H ldap://openldap -b dc=gavinmogan,dc=com \
+                  -D "cn=admin,dc=gavinmogan,dc=com" \
+                  -w "${LDAP_ADMIN_PASSWORD}" | \
+                  tee /backup/backupOn`date +%Y-%m-%d-%H-%M`.dump > /dev/null
               volumeMounts:
                 - mountPath: "/backup"
                   name: backup-volume

@@ -6,21 +6,23 @@ import truncate from 'truncate';
 // FIXME - import RehypeReact from 'rehype-react';
 // FIXME - import Gist from 'react-gist';
 
+import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import Layout from '../components/Layout';
-import CoverImage from '../components/CoverImage';
 import PostTags from '../components/PostTags/PostTags';
 import SEO from '../components/SEO/SEO.jsx';
 
 // FIXME - const renderAst = new RehypeReact({ createElement: React.createElement, components: { 'github-gist': Gist } }).Compiler;
 
-const NavItem = ({ mode, edge }) => {
-  if (!edge) { return; }
+const NavItem = ({ mode, edge, className }) => {
+  if (!edge) {
+    return (<li className={className} />);
+  }
   return (
-    <li>
+    <li className={className}>
       <Link to={edge.fields.slug}>
-        {mode === 'previous' && '← '}
+        {mode === 'previous' && '« '}
         {truncate(edge.frontmatter.title, 40)}
-        {mode === 'next' && ' ⟶'}
+        {mode === 'next' && ' »'}
       </Link>
     </li>
   );
@@ -32,18 +34,24 @@ const PostTemplate = ({ pageContext: { next, previous }, data: { markdownRemark:
       <SEO postPath={post.fields.slug} type="article" tags={post.fields.tags} />
       <section id="post">
         <ul className="navigate">
-          <NavItem mode="previous" edge={previous} />
-          <li><Link to="/" className="nav-link">Home</Link></li>
-          <NavItem mode="next" edge={next} />
+          <NavItem mode="previous" edge={previous} className="previous" />
+          <li className="home"><Link to="/">Home</Link></li>
+          <NavItem mode="next" edge={next} className="next" />
         </ul>
-        <div>
-          <CoverImage cover={post.frontmatter.cover} />
+        <div className="post-card">
+          <div>
+            {post.frontmatter.cover && <GatsbyImage
+              image={getImage(post.frontmatter.cover.childImageSharp)}
+              alt="Cover Image"
+              className="cover-image"
+            />}
+          </div>
           <div className="date">
             <time datetime={post.frontmatter.date}>{new Intl.DateTimeFormat('en-CA', { dateStyle: 'full', timeStyle: 'long'}).format(Date.parse(post.frontmatter.date))}</time>
           </div>
           <h2 className="title"><Link to={post.fields.slug}>{post.frontmatter.title}</Link></h2>
-          <div className="content" dangerouslySetInnerHTML={{ __html: post.html }} />
-          <PostTags tags={post.frontmatter.tags} />
+          <div dangerouslySetInnerHTML={{ __html: post.html }} />
+          <PostTags tags={post.frontmatter.tags} noTitle />
         </div>
       </section>
     </Layout>
@@ -66,19 +74,12 @@ export const pageQuery = graphql`
         title
         cover {
           childImageSharp {
-            gatsbyImageData(height: 200)
+            gatsbyImageData(height: 200, transformOptions: {fit: COVER})
           }
         }
         date
         tags
       }
-
-      #fields {
-      #  nextTitle
-      #  nextSlug
-      #  prevTitle
-      #  prevSlug
-      #}
     }
   }
 `;
