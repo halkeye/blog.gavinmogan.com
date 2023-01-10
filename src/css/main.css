@@ -6,6 +6,12 @@ html, body {
     --post-card-minwidth: calc(var(--cover-image-width) + var(--post-card-padding) + var(--post-card-padding));
 }
 
+* {
+    box-sizing: border-box;
+    min-width: 0;
+    min-height: 0;
+}
+
 header {
     display:grid;
     grid-template-columns: 0.25fr 1fr;
@@ -72,6 +78,14 @@ header .nav a:link, header .nav a:visited {
     row-gap: 10px;
     column-gap: 10px;
 }
+/*
+.main .main-content {
+    flex: 1 1 auto;
+}
+
+.main .sidebar {
+    flex: 0 1 200px;
+*/
 
 .main .main-content {
     flex-grow: 3;
@@ -109,10 +123,16 @@ header .nav a:link, header .nav a:visited {
 .post-card {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     box-sizing: border-box;
     padding: var(--post-card-padding);
     min-width: var(--post-card-minwidth);
 }
+
+.post-card * {
+    flex: 1 1 auto; 
+}
+
 
 .post-card .cover-image {
     width: --cover-image-width;
@@ -182,4 +202,23 @@ header .nav a:link, header .nav a:visited {
 
 .social {
     justify-self: end;
+}
+
+#post {
+    background: red;
+}
+
+#post .navigate {
+    display: flex;
+    justify-content: space-between;
+}
+
+#post .navigate li {
+    list-style: none;
+}
+
+#post .content {
+}
+
+#post .content p {
 }

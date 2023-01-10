@@ -4,10 +4,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import fasCalendar from '@fortawesome/fontawesome-free-solid/faCalendar';
 import { Link } from 'gatsby';
 import PostTags from '../PostTags/PostTags.jsx';
-import PostCover from '../PostCover/PostCover.jsx';
 import './PostPreview.scss';
 
 
+const PostCover = ({ children }) => <div>FIXME, {children}</div>
 const Grid = ({ children }) => <div>FIXME, {children}</div>
 const CardMedia = ({ children }) => <div>FIXME, {children}</div>
 const Card = ({ children }) => <div>FIXME, {children}</div>

@@ -2,8 +2,8 @@ import React from 'react';
 import { Link, graphql, useStaticQuery } from 'gatsby';
 
 import ItemBlockLinks from '../ItemBlockLinks/ItemBlockLinks.jsx';
-import PostCover from '../PostCover/PostCover.jsx';
 
+const PostCover = ({ children }) => <div>FIXME, {children}</div>
 const CardActionArea = ({ children }) => <div>FIXME, {children}</div>
 const CardActions = ({ children }) => <div>FIXME, {children}</div>
 const CardContent = ({ children }) => <div>FIXME, {children}</div>

@@ -1,57 +1,55 @@
-import { graphql } from 'gatsby';
+import { graphql, Link } from 'gatsby';
 import React from 'react';
+
+import truncate from 'truncate';
+
 // FIXME - import RehypeReact from 'rehype-react';
 // FIXME - import Gist from 'react-gist';
-import { Helmet } from 'react-helmet';
 
 import Layout from '../components/Layout';
-import PostTags from '../components/PostTags/PostTags.jsx';
-import PostCover from '../components/PostCover/PostCover.jsx';
-import PostInfo from '../components/PostInfo/PostInfo.jsx';
-import SocialLinks from '../components/SocialLinks/SocialLinks.jsx';
+import CoverImage from '../components/CoverImage';
+import PostTags from '../components/PostTags/PostTags';
 import SEO from '../components/SEO/SEO.jsx';
-import config from '../../data/SiteConfig.js';
-import { toPostInfo } from '../postUtils.js';
-
-const Card = ({ children }) => <div>CARD-FIXME, {children}</div>
-const CardContent = ({ children }) => <div>CARDCONTENT-FIXME, {children}</div>
 
 // FIXME - const renderAst = new RehypeReact({ createElement: React.createElement, components: { 'github-gist': Gist } }).Compiler;
 
-const PostTemplate = ({ pageContext: { slug }, data: { markdownRemark } }) => {
-  console.log(markdownRemark);
-  const post = toPostInfo(markdownRemark);
+const NavItem = ({ mode, edge }) => {
+  if (!edge) { return; }
   return (
-    <Layout title={post.title}>
-      <div className="post-page md-grid md-grid--no-spacing">
-        <Helmet>
-          <title>{post.title}</title>
-        </Helmet>
-        <SEO
-          postPath={slug}
-          postNode={post}
-          type="article"
-          tags={post.tags}
-          categories={post.categories}
-        />
-        <PostCover cover={post.cover} />
+    <li>
+      <Link to={edge.fields.slug}>
+        {mode === 'previous' && '← '}
+        {truncate(edge.frontmatter.title, 40)}
+        {mode === 'next' && ' ⟶'}
+      </Link>
+    </li>
+  );
+}
+
+const PostTemplate = ({ pageContext: { next, previous }, data: { markdownRemark: post } }) => {
+  return (
+    <Layout title={post.fields.title}>
+      <SEO postPath={post.fields.slug} type="article" tags={post.fields.tags} />
+      <section id="post">
+        <ul className="navigate">
+          <NavItem mode="previous" edge={previous} />
+          <li><Link to="/" className="nav-link">Home</Link></li>
+          <NavItem mode="next" edge={next} />
+        </ul>
         <div>
-          <Card className="md-grid md-cell md-cell--12 post">
-            <CardContent className="post-body">
-              <h1 className="md-display-2 post-header">{post.title}</h1>
-              <PostInfo postNode={post} />
-              <div dangerouslySetInnerHTML={{ __html: post.html }} />
-            </CardContent>
-            <div className="post-meta">
-              <PostTags tags={post.tags} />
-              <SocialLinks postPath={slug} postNode={post} />
-            </div>
-          </Card>
+          <CoverImage cover={post.frontmatter.cover} />
+          <div className="date">
+            <time datetime={post.frontmatter.date}>{new Intl.DateTimeFormat('en-CA', { dateStyle: 'full', timeStyle: 'long'}).format(Date.parse(post.frontmatter.date))}</time>
+          </div>
+          <h2 className="title"><Link to={post.fields.slug}>{post.frontmatter.title}</Link></h2>
+          <div className="content" dangerouslySetInnerHTML={{ __html: post.html }} />
+          <PostTags tags={post.frontmatter.tags} />
         </div>
-      </div>
+      </section>
     </Layout>
   );
 }
+PostTemplate.displayName = 'PostTemplate'
 
 /* eslint no-undef: "off" */
 export const pageQuery = graphql`
@@ -68,9 +66,7 @@ export const pageQuery = graphql`
         title
         cover {
           childImageSharp {
-            fluid(maxWidth: 800, maxHeight: 300, cropFocus: ENTROPY) {
-              ...GatsbyImageSharpFluid_withWebp_tracedSVG
-            }
+            gatsbyImageData(height: 200)
           }
         }
         date
