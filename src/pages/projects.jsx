@@ -2,7 +2,6 @@ import { graphql } from 'gatsby';
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import ItemBlock from '../components/ItemBlock/ItemBlock.jsx';
-import SubHeader from '../components/SubHeader/SubHeader.jsx';
 import Layout from '../components/Layout.jsx';
 import { toPostInfo } from '../postUtils.js';
 
@@ -21,33 +20,30 @@ const ProjectList = ({ nodes, onlyCategory }) => (
           key={edge.id}
           {...edge}
           html={edge.html}
-          urlPrefix="/projects/"
         />
       );
     })}
   </div>
 );
 
-const ProjectsPage = ({ data, location }) => {
+const ProjectsPage = ({ data }) => {
   const nodes = data.allFile.edges.map(edge => toPostInfo(edge.node.childMarkdownRemark));
   const categories = new Set();
-  nodes.forEach(node =>
-    node.categories.forEach(cat => categories.add(cat.slug))
-  );
+  nodes.forEach(node => node.categories.forEach(cat => categories.add(cat.slug)));
 
   return (
-    <Layout location={location} title="Projects">
-      <div className="projects-container">
+    <Layout title="Projects">
+      <div id="page">
         <Helmet>
           <title>Projects</title>
         </Helmet>
-        <SubHeader title="Projects" />
+        <h3>Projects</h3>
 
         <div>
           <ProjectList nodes={nodes} />
           {Array.from(categories).map(category => (
             <div key={category}>
-              <SubHeader title={category} />
+              <h3>{category}</h3>
               <ProjectList nodes={nodes} onlyCategory={category} />
             </div>
           ))}

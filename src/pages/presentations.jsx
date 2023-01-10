@@ -3,7 +3,6 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 import { toPostInfo } from '../postUtils.js';
 import ItemBlock from '../components/ItemBlock/ItemBlock.jsx';
-import SubHeader from '../components/SubHeader/SubHeader.jsx';
 import Layout from '../components/Layout.jsx';
 
 const PresentationList = ({ nodes }) => (
@@ -13,21 +12,20 @@ const PresentationList = ({ nodes }) => (
         key={edge.id}
         {...edge}
         html={edge.html}
-        urlPrefix="/presentations/"
       />
     ))}
   </div>
 );
 
-const PresentationsPage = ({ data, location }) => {
-  const nodes = data.allFile.edges.map(edge => toPostInfo(edge.childMarkdownRemark));
+const PresentationsPage = ({ data }) => {
+  const nodes = data.allFile.edges.map(edge => toPostInfo(edge.node.childMarkdownRemark));
   return (
-    <Layout location={location} title="Presentations">
-      <div className="presentations-container">
+    <Layout title="Presentations">
+      <div id="page">
         <Helmet>
           <title>Presentations</title>
         </Helmet>
-        <SubHeader title="Presentations" />
+        <h3>Presentations</h3>
 
         <PresentationList nodes={nodes} />
       </div>
@@ -44,15 +42,6 @@ export const pageQuery = graphql`
       filter: {sourceInstanceName: {eq: "presentation"}}
       sort: {childrenMarkdownRemark: {fields: {date: DESC}}}
     ) {
-      pageInfo {
-        itemCount
-        totalCount
-        pageCount
-        hasNextPage
-        currentPage
-        hasPreviousPage
-        perPage
-      }
       edges {
         node {
           sourceInstanceName
@@ -81,7 +70,7 @@ export const pageQuery = graphql`
                 url
               }
               attachments {
-                absolutePath
+                relativePath
                 publicURL
               }
             }

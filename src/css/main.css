@@ -177,14 +177,14 @@ header .nav {
 	top:1px;
 }
 
-#post {
+#page {
     width: 80%;
     margin: auto;
     padding: 10px;
     margin-top: 10px;
 }
 
-#post .cover-image {
+#page .cover-image {
     background-color: red;
     width: 800px;
     height: 200px;
@@ -192,37 +192,37 @@ header .nav {
     display: block;
 }
 
-#post .gatsby-highlight {
+#page .gatsby-highlight {
     max-width: 70vw;
 }
 
-#post ul.navigate {
+#page ul.navigate {
     display: grid;
     grid-template-columns: 33% 33% 33%;
 }
 
-#post ul.navigate li {
+#page ul.navigate li {
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-#post ul.navigate li a {
+#page ul.navigate li a {
     display: inline-block;
     padding: 8px 16px;
 }
 
-#post ul.navigate .previous a {
+#page ul.navigate .previous a {
     display: block;
     text-align: left;
 }
 
-#post ul.navigate .home a {
+#page ul.navigate .home a {
     display: block;
     text-align: center;
 }
 
-#post ul.navigate .next a {
+#page ul.navigate .next a {
     display: block;
     text-align: right;
 }
@@ -237,4 +237,29 @@ header .nav {
     display: inline;
     margin: 0 5px;
     list-style: none;
+}
+
+#page .tags {
+    text-align: center;
+}
+
+#page .tags li {
+    display: inline;
+    margin: 5px;
+    list-style: none;
+}
+
+#page .links {
+    margin: 0;
+    padding: 0;
+}
+
+#page .links li {
+    list-style: none;
+}
+
+#page .item-block {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid black;
 }

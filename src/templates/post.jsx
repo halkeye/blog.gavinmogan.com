@@ -32,7 +32,7 @@ const PostTemplate = ({ pageContext: { next, previous }, data: { markdownRemark:
   return (
     <Layout title={post.fields.title}>
       <SEO postPath={post.fields.slug} type="article" tags={post.fields.tags} />
-      <section id="post">
+      <section id="page">
         <ul className="navigate">
           <NavItem mode="previous" edge={previous} className="previous" />
           <li className="home"><Link to="/">Home</Link></li>
