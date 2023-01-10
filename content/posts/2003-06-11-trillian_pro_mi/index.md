@@ -29,11 +29,11 @@ Anyways, Gaim is cool, is nice and big, nice, tabbed, etc, nice, but i havn't re
 
 
 
-Trillian (Pro): ![](/img/star.gif)![](/img/star.gif) (2/5)
+Trillian (Pro): ![](star.gif)![](star.gif) (2/5)
 - Nice, but has issues, a bit of a memory bloat
-Miranda: ![](/img/star.gif)![](/img/star.gif)![](/img/star.gif) (3/5)
+Miranda: ![](star.gif)![](star.gif)![](star.gif) (3/5)
 - Awsome, but doesn't support everything that well.. No file support for aim, MSN chats can be joined, but not started
-Gaim: ![](/img/star.gif)![](/img/star.gif)![](/img/star.gif)![](/img/star.gif)![](/img/star.gif) (4/5)
+Gaim: ![](star.gif)![](star.gif)![](star.gif)![](star.gif)![](star.gif) (4/5)
 - A little weird on windows, but quite impressive, supports file transfers now, msn chats, all that stuff, its cool.
 
 ## Comments
