@@ -5,6 +5,7 @@ html, body {
     --post-card-padding: 10px;
     --post-card-minwidth: calc(var(--cover-image-width) + var(--post-card-padding) + var(--post-card-padding));
     --sidebar-gap: 10px;
+    --active-link-color: lightblue;
 }
 
 header {
@@ -34,7 +35,10 @@ header ul.nav {
 header .nav li {
     list-style: none;
     margin: 0;
+}
 
+header .nav li a {
+    width: 100%;
     box-sizing: border-box;
     display: inline-block;
     text-align: center;
@@ -44,12 +48,8 @@ header .nav li {
     padding: 0 2em;
 }
 
-header .nav li:hover {
+header .nav li a:hover {
     background-color: rgba(35%, 35%, 35%, 90%);
-}
-
-header .nav li a {
-    display: inline-block;
 }
 
 header .nav a:link, header .nav a:visited {
@@ -260,4 +260,23 @@ header .nav {
     margin-bottom: 15px;
     padding-bottom: 15px;
     border-bottom: 1px solid black;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+}
+
+.pagination > * {
+    width: 20px;
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 25%;
+}
+
+.pagination .active {
+    background-color: var(--active-link-color);
 }

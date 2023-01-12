@@ -208,11 +208,10 @@ module.exports = {
                       fields {
                         slug
                         date
+                        tags
                       }
                       frontmatter {
                         title
-                        category
-                        tags
                       }
                     }
                   }

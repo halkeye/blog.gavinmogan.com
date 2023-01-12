@@ -1,19 +1,44 @@
 import React from 'react';
-import PostPreview from '../PostPreview/PostPreview.jsx';
-import { toPostInfo } from '../../postUtils';
+import { Link } from 'gatsby';
 
-const Grid = ({ children }) => <div>FIXME, {children}</div>
+import CoverImage from '../CoverImage';
+import Pagination from '../Pagination/Pagination.jsx';
 
-const PostListing = ({ nodes }) => {
-  const postList = nodes.map(toPostInfo);
+const PostListing = ({ postEdges, pageInfo }) => {
   return (
-    <Grid>
-      <div>
-        {postList.map(post => (
-          <PostPreview key={post.slug} postInfo={post} />
-        ))}
-      </div>
-    </Grid>
+    <>
+      <section class="card-list">
+        {
+          postEdges.map(({ node: { childMarkdownRemark: post }}) => {
+            return (
+              <div className="post-card" key={post.id}>
+                <Link to={post.fields.slug}><CoverImage cover={post.frontmatter.cover} /></Link>
+                <div>
+                  <div className="date">
+                    <time datetime={post.frontmatter.date}>{new Intl.DateTimeFormat('en-CA', { dateStyle: 'full', timeStyle: 'long'}).format(Date.parse(post.frontmatter.date))}</time>
+                  </div>
+                </div>
+                <h2 className="title"><Link to={post.fields.slug}>{post.frontmatter.title}</Link></h2>
+                <div className="excerpt">{post.excerpt}</div>
+                <Link className="btn" to={post.fields.slug}>Read More</Link>
+              </div>
+            );
+          })
+        }
+      </section>
+
+      <section id="pagination">
+        <Pagination
+          hasNextPage={pageInfo.hasNextPage}
+          hasPreviousPage={pageInfo.hasPreviousPage}
+          perPage={pageInfo.perPage}
+          totalCount={pageInfo.totalCount}
+          itemCount={pageInfo.itemCount}
+          currentPage={pageInfo.currentPage}
+          pageCount={pageInfo.pageCount}
+        />
+      </section>
+    </>
   );
 };
 

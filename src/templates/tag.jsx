@@ -1,24 +1,24 @@
 import { graphql } from 'gatsby';
 import React from 'react';
+
 import { Helmet } from 'react-helmet';
 import PostListing from '../components/PostListing/PostListing.jsx';
-import Layout from '../layouts/index.jsx';
+import Layout from '../components/Layout';
 
-class TagTemplate extends React.Component {
-  render () {
-    const { tag } = this.props.pageContext;
-    const postEdges = this.props.data.allFile.edges;
-    return (
-      <Layout location={this.props.location} title={`Posts tagged as "${tag}"`}>
-        <div className="tag-container">
-          <Helmet>
-            <title>{`Posts tagged as "${tag}"`}</title>
-          </Helmet>
-          <PostListing postEdges={postEdges.map(e => e.childMarkdownRemark)} />
-        </div>
-      </Layout>
-    );
-  }
+const TagTemplate = ({ pageContext, data }) => {
+  return (
+    <Layout title={`Posts tagged as "${pageContext.tag}"`}>
+      <div id="page">
+        <Helmet>
+          <title>{`Posts tagged as "${pageContext.tag}"`}</title>
+        </Helmet>
+        <PostListing
+          postEdges={data.allFile.edges}
+          pageInfo={data.allFile.pageInfo}
+        />
+      </div>
+    </Layout>
+  );
 }
 
 export default TagTemplate;

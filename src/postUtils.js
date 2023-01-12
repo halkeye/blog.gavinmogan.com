@@ -16,7 +16,7 @@ function toPostInfo(node) {
   const ret = {
     id: node.id,
     author: node.frontmatter.author,
-    categories: [node.fields.category].filter(Boolean).map(cat => {
+    categories: [node.frontmatter.category].filter(Boolean).map(cat => {
       return {
         slug: cat,
         title: cat

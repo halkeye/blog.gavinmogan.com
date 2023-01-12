@@ -51,13 +51,12 @@ export const pageQuery = graphql`
             timeToRead
             fields {
               slug
-              category
               date
               tags
             }
             frontmatter {
               title
-              tags
+              category
               date
               image {
                 childImageSharp {

@@ -23,7 +23,7 @@ const Header = () => {
       </Helmet>
       <h1>{data.site.siteMetadata.title}</h1>
       <nav>
-        <ul className="nav">{navLinks.map(({label, to}) => (<li key={`${label}_${to}`}><a role="button" href={to}>{label}</a></li>))}</ul>
+        <ul className="nav">{navLinks.map(({label, to}) => (<li key={`${label}_${to}`}><Link role="button" to={to}>{label}</Link></li>))}</ul>
       </nav>
     </header>
   );

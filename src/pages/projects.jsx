@@ -8,7 +8,7 @@ import { toPostInfo } from '../postUtils.js';
 const ProjectList = ({ nodes, onlyCategory }) => (
   <div className="md-grid">
     {nodes.map(edge => {
-      const category = edge.categories || [];
+      const category = edge.frontmatter.category || [];
       if (onlyCategory && !category.map(c => c.slug).includes(onlyCategory)) {
         return null;
       }
@@ -29,7 +29,7 @@ const ProjectList = ({ nodes, onlyCategory }) => (
 const ProjectsPage = ({ data }) => {
   const nodes = data.allFile.edges.map(edge => toPostInfo(edge.node.childMarkdownRemark));
   const categories = new Set();
-  nodes.forEach(node => node.categories.forEach(cat => categories.add(cat.slug)));
+  data.allFile.edges.forEach(edge => categories.add(edge.node.childMarkdownRemark.frontmatter.category))
 
   return (
     <Layout title="Projects">
@@ -78,12 +78,12 @@ export const pageQuery = graphql`
               slug
               date
               tags
-              category
             }
             id
             html
             frontmatter {
               title
+              category
               image {
                 childImageSharp {
                   gatsbyImageData(height: 405)

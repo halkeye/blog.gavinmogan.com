@@ -64,13 +64,8 @@ exports.onCreateNode = ({node, actions, getNode}) => {
     });
     createNodeField({
       node,
-      name: 'category',
-      value: node.frontmatter.category || ''
-    });
-    createNodeField({
-      node,
       name: 'tags',
-      value: [].concat(node.frontmatter.tags || [])
+      value: [node.frontmatter.category].concat(node.frontmatter.tags || []).filter(Boolean).map(tag => tag.toLowerCase())
     });
     // if (fileNode.sourceInstanceName === 'blog') {
     //  postNodes.push(node);
@@ -97,9 +92,7 @@ exports.createPages = async ({graphql, actions}) => {
 
   const indexPage = path.resolve('src/templates/index.jsx');
   const postPage = path.resolve('src/templates/post.jsx');
-  //const tagPage = path.resolve('src/templates/tag.jsx');
-  //const categoryPage = path.resolve('src/templates/category.jsx');
-  const itemPage = path.resolve('src/templates/items.jsx');
+  const tagPage = path.resolve('src/templates/tag.jsx');
 
   await Promise.all(
     ['presentation', 'project'].map(async sourceName => {
@@ -126,15 +119,11 @@ exports.createPages = async ({graphql, actions}) => {
         throw result.errors;
       }
       result.data.allFile.edges.forEach(edge => {
-        createPage({
-          path: `/${sourceName}s${edge.node.childMarkdownRemark.fields.slug}`,
-          component: itemPage,
-          context: {
-            urlPrefix: `/${sourceName}s/`,
-            type: `${ucFirst(sourceName)}s`,
-            slug: edge.node.childMarkdownRemark.fields.slug
-          }
-        });
+        createRedirect({
+          fromPath: `/${sourceName}s${edge.node.childMarkdownRemark.fields.slug}`,
+          toPath: `/${sourceName}s/`,
+          isPermanent: true
+        })
       });
     })
   );
@@ -149,7 +138,6 @@ exports.createPages = async ({graphql, actions}) => {
           childMarkdownRemark {
             fields {
               slug
-              category
               tags
             }
             frontmatter {
@@ -226,7 +214,6 @@ exports.createPages = async ({graphql, actions}) => {
         return
       }
 
-      // console.log(JSON.stringify(edge, null, 4))
       if (edge?.node?.childMarkdownRemark?.fields?.tags) {
         edge?.node?.childMarkdownRemark?.fields?.tags?.forEach(tag => tagSet.add(tag));
       }
@@ -241,7 +228,6 @@ exports.createPages = async ({graphql, actions}) => {
       });
     });
 
-    /*
     const tagList = Array.from(tagSet);
     tagList.forEach(tag => {
       createPage({
@@ -253,6 +239,5 @@ exports.createPages = async ({graphql, actions}) => {
         }
       });
     });
-    */
   });
 };

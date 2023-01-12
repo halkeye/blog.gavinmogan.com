@@ -47,11 +47,11 @@ const PostTemplate = ({ pageContext: { next, previous }, data: { markdownRemark:
             />}
           </div>
           <div className="date">
-            <time datetime={post.frontmatter.date}>{new Intl.DateTimeFormat('en-CA', { dateStyle: 'full', timeStyle: 'long'}).format(Date.parse(post.frontmatter.date))}</time>
+            <time datetime={post.fields.date}>{new Intl.DateTimeFormat('en-CA', { dateStyle: 'full', timeStyle: 'long'}).format(Date.parse(post.fields.date))}</time>
           </div>
           <h2 className="title"><Link to={post.fields.slug}>{post.frontmatter.title}</Link></h2>
           <div dangerouslySetInnerHTML={{ __html: post.html }} />
-          <PostTags tags={post.frontmatter.tags} noTitle />
+          <PostTags tags={post.fields.tags} noTitle />
         </div>
       </section>
     </Layout>
@@ -68,7 +68,8 @@ export const pageQuery = graphql`
       timeToRead
       excerpt
       fields {
-        category
+        tags
+        date
       }
       frontmatter {
         title
@@ -77,8 +78,6 @@ export const pageQuery = graphql`
             gatsbyImageData(height: 200, transformOptions: {fit: COVER})
           }
         }
-        date
-        tags
       }
     }
   }

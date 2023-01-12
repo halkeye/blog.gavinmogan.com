@@ -1,5 +1,5 @@
 
-const { toPostInfo } = require('../../src/postUtils.js');
+const {toPostInfo} = require('../../src/postUtils.js');
 
 describe('Utils', () => {
   it('real doesnt crash', () => {
@@ -10,7 +10,6 @@ describe('Utils', () => {
         timeToRead: 5,
         excerpt: 'Got a tiny little pull request on a old hubot module I created a while ago, and it reminded me I was going to talk about open source. How…',
         fields: {
-          category: 'General',
           date: 'Wed, 15 Aug 2018 21:09:24 -0700',
           slug: '/open-source-and-me',
           sourceName: 'blog',
@@ -31,7 +30,6 @@ describe('Utils', () => {
           tags: [
             'Open Source'
           ],
-          category: 'General',
           author: 'halkeye'
         }
       }
