@@ -1,17 +1,20 @@
 {
-  "name": "www-gavinmogan-com",
+  "name": "blog-gavinmogan-com",
   "private": true,
   "description": "My Website powered by gatsby",
   "version": "0.0.0",
   "author": "Gavin Mogan <npm@gavinmogan.com> (https://www.gavinmogan.com/)",
+  "engines": {
+    "node": ">= 18.0.0"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/halkeye/www-gavinmogan-com.git"
+    "url": "git+https://github.com/halkeye/blog-gavinmogan-com.git"
   },
   "bugs": {
-    "url": "https://github.com/halkeye/www-gavinmogan-com/issues"
+    "url": "https://github.com/halkeye/blog-gavinmogan-com/issues"
   },
-  "homepage": "https://www.gavinmogan.com",
+  "homepage": "https://blog.gavinmogan.com",
   "dependencies": {
     "@fortawesome/fontawesome-free-brands": "^5.0.13",
     "@fortawesome/fontawesome-free-solid": "^5.0.13",
