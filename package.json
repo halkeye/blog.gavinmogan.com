@@ -5,7 +5,7 @@
   "version": "0.0.0",
   "author": "Gavin Mogan <npm@gavinmogan.com> (https://www.gavinmogan.com/)",
   "engines": {
-    "node": ">=18.0.0"
+    "node": "18.x"
   },
   "repository": {
     "type": "git",
