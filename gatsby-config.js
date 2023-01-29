@@ -14,7 +14,6 @@ module.exports = {
     siteUrl: config.siteUrl + pathPrefix,
     siteDescription: config.siteDescription,
     pathPrefix: config.pathPrefix,
-    siteLogo: config.siteLogo,
     siteTitleAlt: config.siteTitleAlt,
     userTwitter: config.userTwitter,
     userDescription: config.userDescription,

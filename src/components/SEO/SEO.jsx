@@ -1,11 +1,17 @@
 import React from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
 import { Helmet } from 'react-helmet';
+import { getSrc } from "gatsby-plugin-image"
 import trimStart from 'lodash/trimStart';
 
 function SEO ({ postNode, postPath, type, tags, categories }) {
-  const defaultData = useStaticQuery(graphql`
+  const data = useStaticQuery(graphql`
     query SEO {
+      logo: file(name: {eq: "Gavin-December-1989"}) {
+        childImageSharp {
+          gatsbyImageData(layout: FIXED, height: 1024, width: 1024)
+        }
+      }
       site {
         siteMetadata {
           title
@@ -13,17 +19,17 @@ function SEO ({ postNode, postPath, type, tags, categories }) {
           siteUrl
           siteDescription
           pathPrefix
-          siteLogo
           siteTitleAlt
           userTwitter
         }
       }
     }
-  `).site.siteMetadata;
+  `)
+  const defaultData = data.site.siteMetadata;
 
   let title = defaultData.title;
   let description = defaultData.siteDescription;
-  let image = defaultData.siteLogo;
+  let image = getSrc(data.logo.childImageSharp)
   let date;
   let postURL;
   if (postNode) {
