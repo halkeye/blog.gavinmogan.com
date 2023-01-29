@@ -4,6 +4,9 @@
   "description": "My Website powered by gatsby",
   "version": "0.0.0",
   "author": "Gavin Mogan <npm@gavinmogan.com> (https://www.gavinmogan.com/)",
+  "engines": {
+    "node": "18.x"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/halkeye/blog-gavinmogan-com.git"
