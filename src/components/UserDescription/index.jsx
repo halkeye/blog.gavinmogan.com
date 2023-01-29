@@ -12,9 +12,9 @@ function UserDescription () {
   }`);
   const parts = (data?.site?.siteMetadata?.userDescription || '').split('.');
   return (
-    <p>
+    <>
       {parts.map((elm, idx) => <p key={idx}>{elm}{`${idx !== parts.length - 1 ? '.' : ''}`}</p>)}
-    </p>
+    </>
   );
 }
 

@@ -47,7 +47,9 @@ const PostTemplate = ({ pageContext: { next, previous }, data: { markdownRemark:
             />}
           </div>
           <div className="date">
-            <time datetime={post.fields.date}>{new Intl.DateTimeFormat('en-CA', { dateStyle: 'full', timeStyle: 'long'}).format(Date.parse(post.fields.date))}</time>
+            <time dateTime={post.fields.date}>{
+              new Intl.DateTimeFormat('en-CA', { dateStyle: 'full', timeStyle: 'long'}).format(Date.parse(post.fields.date))
+            }</time>
           </div>
           <h2 className="title"><Link to={post.fields.slug}>{post.frontmatter.title}</Link></h2>
           <div dangerouslySetInnerHTML={{ __html: post.html }} />
@@ -70,6 +72,7 @@ export const pageQuery = graphql`
       fields {
         tags
         date
+        slug
       }
       frontmatter {
         title

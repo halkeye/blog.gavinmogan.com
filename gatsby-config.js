@@ -1,4 +1,5 @@
 const config = require('./data/SiteConfig');
+const {getSrc} = require("gatsby-plugin-image")
 const {toPostInfo} = require('./src/postUtils.js');
 
 const pathPrefix = config.pathPrefix === '/' ? '' : config.pathPrefix;
@@ -134,10 +135,8 @@ module.exports = {
                 }
               }
             ) {
-              edges {
-                node {
-                  path
-                }
+              nodes {
+                path
               }
             }
         }`
@@ -150,14 +149,18 @@ module.exports = {
           const ret = ref.query.site.siteMetadata.rssMetadata;
           ret.image_url = [
             config.siteUrl,
-            'img/Gavin-December-1989-a2ce6e58e297f8bdabe2dcbf01e49e3d-0e94d.png'
+            getSrc(ref.query.file.childImageSharp)
           ].join('/');
-          ret.allFile = ref.query.allFile;
-          ret.generator = 'GatsbyJS Material Starter';
+          ret.allMarkdownRemark = ref.query.allMarkdownRemark;
           return ret;
         },
         query: `
         {
+          file(name: {eq: "Gavin-December-1989"}) {
+            childImageSharp {
+              gatsbyImageData(layout: FIXED, height: 32, width: 32)
+            }
+          }
           site {
             siteMetadata {
               rssMetadata {
@@ -179,7 +182,7 @@ module.exports = {
             serialize(ctx) {
               const {rssMetadata} = ctx.query.site.siteMetadata;
               return ctx.query.allMarkdownRemark.edges.map(edge => {
-                const postInfo = toPostInfo(edge.childMarkdownRemark);
+                const postInfo = toPostInfo(edge.node);
                 return {
                   categories: postInfo.categories.map(c => c.slug),
                   date: postInfo.date,
@@ -194,25 +197,23 @@ module.exports = {
             },
             query: `
             {
-              allFile(
-                sort: {childrenMarkdownRemark: {fields: {date: DESC}}}
-                filter: {sourceInstanceName: {eq: "blog"}}
+              allMarkdownRemark(
+                filter: {fields: {sourceInstanceName: {eq: "blog"}}}
+                sort: {fields: {date: DESC}}
                 limit: 1000
               ) {
                 edges {
                   node {
-                    childMarkdownRemark {
-                      id
-                      html
-                      excerpt
-                      fields {
-                        slug
-                        date
-                        tags
-                      }
-                      frontmatter {
-                        title
-                      }
+                    id
+                    html
+                    excerpt
+                    fields {
+                      slug
+                      date
+                      tags
+                    }
+                    frontmatter {
+                      title
                     }
                   }
                 }

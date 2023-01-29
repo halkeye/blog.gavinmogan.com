@@ -12,10 +12,7 @@ const TagTemplate = ({ pageContext, data }) => {
         <Helmet>
           <title>{`Posts tagged as "${pageContext.tag}"`}</title>
         </Helmet>
-        <PostListing
-          postEdges={data.allFile.edges}
-          pageInfo={data.allFile.pageInfo}
-        />
+        <PostListing postEdges={data.allMarkdownRemark.edges} />
       </div>
     </Layout>
   );
@@ -26,9 +23,9 @@ export default TagTemplate;
 /* eslint no-undef: "off" */
 export const pageQuery = graphql`
   query TagPage($tag: String) {
-    allFile(
-      sort: {childrenMarkdownRemark: {fields: {date: DESC}}}
-      filter: {sourceInstanceName: {eq: "blog"}, childMarkdownRemark: {fields: {tags: {in: [$tag]}}}}
+    allMarkdownRemark(
+      filter: {fields: {sourceInstanceName: {eq: "blog"}, tags: {in: [$tag]}}}
+      sort: {fields: {date: DESC}}
       limit: 1000
     ) {
       pageInfo {
@@ -42,21 +39,19 @@ export const pageQuery = graphql`
       }
       edges {
         node {
-          childMarkdownRemark {
-            fields {
-              slug
-              tags
-            }
-            id
-            excerpt
-            timeToRead
-            frontmatter {
-              title
-              date
-              cover {
-                childImageSharp {
-                  gatsbyImageData(width: 800)
-                }
+          fields {
+            slug
+            tags
+          }
+          id
+          excerpt
+          timeToRead
+          frontmatter {
+            title
+            date
+            cover {
+              childImageSharp {
+                gatsbyImageData(width: 800)
               }
             }
           }

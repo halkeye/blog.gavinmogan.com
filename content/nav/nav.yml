@@ -1,6 +1,6 @@
 - label: Home
   to: /
 - label: Projects
-  to: /projects/
-- label: Presentations
-  to: /presentations/
+  to: https://apps.gavinmogan.com/
+#- label: Presentations
+#  to: https://presentations.gavinmogan.com/

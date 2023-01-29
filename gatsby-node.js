@@ -1,9 +1,7 @@
+const {paginate} = require('gatsby-awesome-pagination');
 const path = require('path');
 const kebabCase = require('lodash.kebabcase');
-const {basename} = require('path');
 const {urlDatePrefix, getDateFromNode} = require('./src/postUtils.js');
-
-const ucFirst = (s) => s.charAt(0).toUpperCase() + s.slice(1);
 
 function getSlugFromNode(node, fileNode) {
   if (Object.prototype.hasOwnProperty.call(node, 'frontmatter')) {
@@ -33,25 +31,12 @@ exports.onCreateNode = ({node, actions, getNode}) => {
 
   if (node.internal.type === 'MarkdownRemark' || node.internal.type === 'Mdx') {
     const fileNode = getNode(node.parent);
-    /*
-    if (node.frontmatter.cover) {
-      node.frontmatter.cover = fileNode[node.frontmatter.cover] || node.frontmatter.cover;
-    }
-    if (node.frontmatter.attachments && Array.isArray(node.frontmatter.attachments)) {
-      node.frontmatter.attachments = node.frontmatter.attachments.map(a => {
-        return fileNode[basename(a)] || a;
-      });
-    }
-    if (node.frontmatter.links) {
-      node.frontmatter.links = node.frontmatter.links.map(a => {
-        return {
-          ...a,
-          url: fileNode[basename(a.url)] || a.url
-        };
-      });
-    }
-    */
 
+    createNodeField({
+      name: 'sourceInstanceName',
+      node,
+      value: fileNode.sourceInstanceName
+    });
     createNodeField({
       node,
       name: 'slug',
@@ -67,177 +52,92 @@ exports.onCreateNode = ({node, actions, getNode}) => {
       name: 'tags',
       value: [node.frontmatter.category].concat(node.frontmatter.tags || []).filter(Boolean).map(tag => tag.toLowerCase())
     });
-    // if (fileNode.sourceInstanceName === 'blog') {
-    //  postNodes.push(node);
-    // }
   }
 };
 
-const redirects = {
-  '/volunteering': '/about',
-  '/project': '/projects',
-  '/project/ur': '/projects/unknown-regions',
-  '/project/MTLJPost': '/projects/MTLJPost/',
-  '/project/darkwarriors': '/projects/dark-warriors',
-  '/project/kodefotobackup': '/projects/kode_foto_backup',
-  '/project/drupal modules': '/projects'
-};
-
 exports.createPages = async ({graphql, actions}) => {
-  const {createPage, createRedirect} = actions;
-
-  Object.entries(redirects).forEach(([fromPath, toPath]) =>
-    createRedirect({fromPath, toPath, isPermanent: true})
-  );
+  const {createPage} = actions;
 
   const indexPage = path.resolve('src/templates/index.jsx');
   const postPage = path.resolve('src/templates/post.jsx');
   const tagPage = path.resolve('src/templates/tag.jsx');
 
-  await Promise.all(
-    ['presentation', 'project'].map(async sourceName => {
-      const result = await graphql(`
-        {
-          allFile(
-            sort: {childrenMarkdownRemark: {fields: {date: DESC}}}
-            filter: {sourceInstanceName: {eq: "${sourceName}"}}
-          ) {
-            edges {
-              node {
-                childMarkdownRemark {
-                  fields {
-                    slug
-                  }
-                }
-              }
-            }
-          }
-        }
-      `);
-      if (result.errors) {
-        console.log(result.errors);
-        throw result.errors;
-      }
-      result.data.allFile.edges.forEach(edge => {
-        createRedirect({
-          fromPath: `/${sourceName}s${edge.node.childMarkdownRemark.fields.slug}`,
-          toPath: `/${sourceName}s/`,
-          isPermanent: true
-        })
-      });
-    })
-  );
-
-  await graphql(`{
-      allFile(
-        sort: {childrenMarkdownRemark: {fields: {date: DESC}}}
-        filter: {sourceInstanceName: {eq: "blog"}}
-      ) {
+  const result = await graphql(`{
+    allMarkdownRemark(
+      filter: {fields: {sourceInstanceName: {eq: "blog"}}}
+      sort: {fields: {date: DESC}}
+    ) {
       edges {
         node {
-          childMarkdownRemark {
-            fields {
-              slug
-              tags
-            }
-            frontmatter {
-              title
-            }
+          fields {
+            slug
+            tags
+          }
+          frontmatter {
+            title
           }
         }
         next {
-          childMarkdownRemark {
-            frontmatter {
-              title
-            }
-            fields {
-              slug
-            }
+          frontmatter {
+            title
+          }
+          fields {
+            slug
           }
         }
         previous {
-          childMarkdownRemark {
-            frontmatter {
-              title
-            }
-            fields {
-              slug
-            }
+          frontmatter {
+            title
+          }
+          fields {
+            slug
           }
         }
       }
     }
-  }`).then(result => {
-    if (result.errors) {
-      console.log(result.errors);
-      throw result.errors;
+  }`);
+  if (result.errors) {
+    console.error(result.errors);
+    throw result.errors;
+  }
+
+  paginate({
+    createPage,
+    items: result.data.allMarkdownRemark.edges,
+    itemsPerPage: 10,
+    pathPrefix: '/',
+    component: indexPage,
+  });
+
+  const tagSet = new Set();
+  result.data.allMarkdownRemark.edges.forEach((edge) => {
+    if (!edge?.node?.fields?.slug) {
+      return
     }
 
-    const paginationPath = (uri, page, totalPages) => {
-      if (page === 0) {
-        return uri;
-      } else if (page < 0 || page >= totalPages) {
-        return '';
+    if (edge?.node?.fields?.tags) {
+      edge?.node?.fields?.tags?.forEach(tag => tagSet.add(tag));
+    }
+    createPage({
+      path: edge.node.fields.slug,
+      component: postPage,
+      context: {
+        slug: edge.node.fields.slug,
+        next: edge.next,
+        previous: edge.previous,
       }
-      return path.join(uri, (page + 1).toString());
-    };
-
-    const blogPosts = result.data.allFile.edges;
-    // How many posts per paginated page?
-    const blogPostsPerPaginatedPage = 10;
-    // How many paginated pages do we need?
-    const paginatedPagesCount = Math.ceil(
-      blogPosts.length / blogPostsPerPaginatedPage
-    );
-
-    // Create each paginated page
-    for (let index = 0; index < paginatedPagesCount; index++) {
-      createPage({
-        path: paginationPath('/', index, paginatedPagesCount),
-        // Set the component as normal
-        component: indexPage,
-        // Pass the following context to the component
-        context: {
-          index,
-          // Skip this number of posts from the beginning
-          skip: index * blogPostsPerPaginatedPage,
-          // How many posts to show on this paginated page
-          limit: blogPostsPerPaginatedPage,
-          // How many paginated pages there are in total
-          paginatedPagesCount
-        }
-      });
-    };
-    const tagSet = new Set();
-    result.data.allFile.edges.forEach((edge) => {
-      if (!edge?.node?.childMarkdownRemark?.fields?.slug) {
-        return
-      }
-
-      if (edge?.node?.childMarkdownRemark?.fields?.tags) {
-        edge?.node?.childMarkdownRemark?.fields?.tags?.forEach(tag => tagSet.add(tag));
-      }
-      createPage({
-        path: edge.node.childMarkdownRemark.fields.slug,
-        component: postPage,
-        context: {
-          slug: edge.node.childMarkdownRemark.fields.slug,
-          next: edge.next?.childMarkdownRemark,
-          previous: edge.previous?.childMarkdownRemark,
-        }
-      });
     });
+  });
 
-    const tagList = Array.from(tagSet);
-    tagList.forEach(tag => {
-      createPage({
-        path: `/tags/${kebabCase(tag)}/`,
-        component: tagPage,
-        context: {
-          tag,
-          slug: `/tags/${kebabCase(tag)}/`
-        }
-      });
+  const tagList = Array.from(tagSet);
+  tagList.forEach(tag => {
+    createPage({
+      path: `/tags/${kebabCase(tag)}/`,
+      component: tagPage,
+      context: {
+        tag,
+        slug: `/tags/${kebabCase(tag)}/`
+      }
     });
   });
 };

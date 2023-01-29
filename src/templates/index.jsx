@@ -4,59 +4,55 @@ import { graphql } from 'gatsby';
 import PostListing from '../components/PostListing/PostListing.jsx';
 import Layout from '../components/Layout.jsx';
 import SEO from '../components/SEO/SEO.jsx';
+import Pagination from '../components/Pagination/Pagination.jsx';
 
 const IndexPage = ({data, pageContext}) => {
-    return (
-      <Layout>
-        <SEO />
-        <PostListing
-          postEdges={data.allFile.edges}
-          pageInfo={data.allFile.pageInfo}
+  return (
+    <Layout>
+      <SEO />
+      <PostListing postEdges={data.allMarkdownRemark.edges} />
+      <section id="pagination">
+        <Pagination
+          hasNextPage={!!pageContext.nextPagePath}
+          hasPreviousPage={!!pageContext.previousPagePath}
+          perPage={pageContext.limit}
+          currentPage={pageContext.humanPageNumber}
+          pageCount={pageContext.numberOfPages}
         />
-      </Layout>
-    );
-  }
+      </section>
+    </Layout>
+  );
+}
 
 export default IndexPage;
 
 /* eslint no-undef: "off" */
 export const pageQuery = graphql`
   query IndexQuery($skip: Int!, $limit: Int!) {
-    allFile(
-      filter: {sourceInstanceName: {eq: "blog"}}
+    allMarkdownRemark(
+      filter: {fields: {sourceInstanceName: {eq: "blog"}}}
+      sort: {fields: {date: DESC}}
       limit: $limit
       skip: $skip
-      sort: {childrenMarkdownRemark: {fields: {date: DESC}}}
     ) {
       edges {
         node {
-          childMarkdownRemark {
-            id
-            excerpt
-            timeToRead
-            fields {
-              slug
-            }
-            frontmatter {
-              title
-              cover {
-                childImageSharp {
-                  gatsbyImageData(height: 200, width: 312)
-                }
+          id
+          excerpt
+          timeToRead
+          fields {
+            slug
+          }
+          frontmatter {
+            title
+            cover {
+              childImageSharp {
+                gatsbyImageData(height: 200, width: 312)
               }
-              date
             }
+            date
           }
         }
-      }
-      pageInfo {
-        itemCount
-        totalCount
-        pageCount
-        hasNextPage
-        currentPage
-        hasPreviousPage
-        perPage
       }
     }
   }
