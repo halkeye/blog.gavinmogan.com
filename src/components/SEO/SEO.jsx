@@ -9,7 +9,7 @@ function SEO ({ postNode, postPath, type, tags, categories }) {
     query SEO {
       logo: file(name: {eq: "Gavin-December-1989"}) {
         childImageSharp {
-          gatsbyImageData(layout: FIXED, height: 1024, width: 1024)
+          gatsbyImageData(layout: FIXED, height: 630, width: 1200)
         }
       }
       site {
