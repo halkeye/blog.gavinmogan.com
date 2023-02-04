@@ -40,7 +40,7 @@ Edit: I wrote this in dec 2022, expecting my website to just work, and then foun
   so thats delayed again)
 * With therapists's nudging, went back on hinge to try and meet new people,
   especially in a post covid world. (Well tried tinder at the start of the year,
-  but that was aweful), Managed to have good conversations with 5 or 6 people,
+  but that was awful), Managed to have good conversations with 5 or 6 people,
   met 1, didn't really work out hinge way, but made a new friend.
 * Reconnected with a couple friends I hadn't talked to in years, and very happy
   I did so. I think its always the right choice to say hi to people you
@@ -53,10 +53,10 @@ Edit: I wrote this in dec 2022, expecting my website to just work, and then foun
   people treat you with a cane, even when you are barely using it.
 * Got some new furniture (tv stand, dresser) and got rid of a bunch of
   old stuff that didn't fit / was just keeping in storage
-* Continued to donate blood. I'm just shy of my 10th time. I could definately
+* Continued to donate blood. I'm just shy of my 10th time. I could definitely
   do more, but I like waiting for the mobile unit to come next door, so I only
   do it once every 4 months.
-* Went to [capilano suspention bridge](https://photos.app.goo.gl/TX2wLD2HY6bbpt4VA)...
+* Went to [capilano suspension bridge](https://photos.app.goo.gl/TX2wLD2HY6bbpt4VA)...
   Well not first time ever, but I don't ever remember going in the past.
   We planned on returning for the christmas lights, but knee kinda screwed that
   plan up.
@@ -120,6 +120,6 @@ Edit: I wrote this in dec 2022, expecting my website to just work, and then foun
   even if it wasn't).
 * Got re-orged in january (again), new structure wasn't really healthy and good
   for me, managed to find a new team and projects I liked in august.
-* Got re-strucutred again in november, I'm actually excited about the new
+* Got re-structured again in november, I'm actually excited about the new
   upcoming team and management. 🤞🤞
 
