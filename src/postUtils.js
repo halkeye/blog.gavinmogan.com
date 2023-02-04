@@ -16,17 +16,11 @@ function toPostInfo(node) {
   const ret = {
     id: node.id,
     author: node.frontmatter.author,
-    categories: [node.frontmatter.category].filter(Boolean).map(cat => {
-      return {
-        slug: cat,
-        title: cat
-      };
-    }),
     excerpt: node.excerpt,
     html: node.html,
     htmlAst: node.htmlAst,
     slug: node.fields.slug,
-    tags: node.frontmatter.tags || node.fields.tags,
+    tags: node.fields.tags,
     timeToRead: node.timeToRead,
     title: node.frontmatter.title,
     links: node.frontmatter.links,

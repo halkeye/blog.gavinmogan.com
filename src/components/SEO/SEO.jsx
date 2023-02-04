@@ -130,7 +130,6 @@ function SEO ({ postNode, postPath, type, tags, categories }) {
         />
       )}
       {tags && tags.map(tag => <meta name="article:tag" content={tag} key={tag} />)}
-      {categories && categories.map(category => <meta name="article:section" content={category.title} key={category.slug} />)}
       <meta
         name="article:author"
         content="https://www.gavinmogan.com/about/"
@@ -143,7 +142,6 @@ SEO.defaultProps = {
   postNode: null,
   type: 'website',
   tags: [],
-  categories: []
 };
 
 export default SEO;
