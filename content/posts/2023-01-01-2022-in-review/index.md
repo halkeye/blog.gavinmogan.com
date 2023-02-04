@@ -1,7 +1,7 @@
 ---
 title: 2022 In Review
 date: 2023-02-04T11:28:06-08:00
-cover:
+cover: ./jenkins_award_photo.jpg
 tags:
   - year-in-review
   - nigel
@@ -20,7 +20,11 @@ Edit: I wrote this in dec 2022, expecting my website to just work, and then foun
     have a place to share projects, and finding I can't get it updating anymore.
   * So after like a month of delays and procrastinating, a minimal version is
     live again (Edit: as you can see)
-* Got a [new ultra wide monitor](./new_monitor.jpg). A [Samsung Neo G9](https://www.samsung.com/us/computing/monitors/gaming/49--odyssey-g95na-gaming-dqhd-led-monitor-ls49ag952nnxza/).
+* ![new ultra wide monitor](new_monitor.jpg)
+
+  ![stardew valley](./stardew.jpg)
+
+  Got a [new ultra wide monitor](new_monitor.jpg). A [Samsung Neo G9](https://www.samsung.com/us/computing/monitors/gaming/49--odyssey-g95na-gaming-dqhd-led-monitor-ls49ag952nnxza/).
   Its a little overwhelming for some games, being too wide and too much info, but
   other games, like [stardew valley](./stardew.jpg), being able to see so much of
   the world.
@@ -82,10 +86,12 @@ Edit: I wrote this in dec 2022, expecting my website to just work, and then foun
   good to finally be comfortable enough to goto someone to get it taken care of.
 * Started reading again, not a lot, but one maybe two books a month on average
   (weighed heavily to the later part of the year)
-* Got a magnetic [knife block for my kitchen](https://photos.app.goo.gl/qwMoDnQn1ARWEnmi9).
+* [Knife Block](./knife_block.jpg)
+
+  Got a magnetic [knife block for my kitchen](https://photos.app.goo.gl/qwMoDnQn1ARWEnmi9).
   I absolutely love it. I can't say why other than it was so easy to grab what I
   want without thinking about it. No more guessing without seeing the blade.
-  [Pic 2](./knife_block.jpg)
+
 * Been using modo car share so much this year, its helped me feel way less
   trapped, especially since while I am using the skytrain as
   necessary, i'm not using the bus at all. I suspect strongly I'll buy my own car
@@ -94,11 +100,13 @@ Edit: I wrote this in dec 2022, expecting my website to just work, and then foun
   synology, and the homeasisstant pi. Bought shelves and lots of
   containers for things, with labels, so I don't have messy piles
   (gotta get rid of so many hdmi cables now).
-* Containers for everything. Been buying banker boxes and
+* ![containers on shelves](./containers_front_door.jpg)
+
+  ![containers and rest of maker workspace](./desk_clean_containers.jpg)
+
+  Containers for everything. Been buying banker boxes and
   "6-Quart Clearview Latch Box" so I can organize cables, hobby supplies, batteries,
   and so much more.
-  [Pic 1](./containers_front_door.jpg)
-  [Pic 2](./desk_clean_containers.jpg)
 * [Nigel](/tags/nigel) and I braved the risk of covid, and went and saw the
   East Van Panto this year. It was based on the little mermaid. I really enjoyed
   everything about it, even though again this year I didn't recognize many
@@ -108,9 +116,12 @@ Edit: I wrote this in dec 2022, expecting my website to just work, and then foun
 ## Jenkins
 
 * Stepped down from board after 2 year term was complete.
+
 * Learned about, and rolled out [web components](https://github.com/jenkins-infra/jenkins-io-components/)
   for the various jenkins.io sites (currently mostly just nav and footer)
-* Won [most valuable contributor award](./jenkins_award_photo.jpg)
+
+* ![award photo](./jenkins_award_photo.jpg) Won most valuable contributor award.
+
 * Converted an old 3rd party user stories site to structured and static
   <https://stories.jenkins.io> so we could save on hosting costs.
 

@@ -75,7 +75,8 @@ module.exports = {
           {
             resolve: 'gatsby-remark-images',
             options: {
-              maxWidth: 800
+              maxWidth: 200,
+              wrapperStyle: fluidResult => `flex:${Math.round(fluidResult.aspectRatio, 2)};`,
             }
           },
           {
@@ -88,7 +89,12 @@ module.exports = {
 
           'gatsby-remark-autolink-headers',
           'gatsby-remark-prismjs',
-          'gatsby-remark-copy-linked-files',
+          {
+            resolve: 'gatsby-remark-copy-linked-files',
+            options: {
+              ignoreFileExtensions: []
+            }
+          },
           'gatsby-remark-emoji'
         ]
       }

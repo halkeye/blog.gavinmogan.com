@@ -280,3 +280,31 @@ header .nav {
 .pagination .active {
     background-color: var(--active-link-color);
 }
+
+#page .post-card {
+    color: #4a5568;
+    font-family: lato,Roboto,Open Sans,sans-serif;
+    font-size: 1rem;
+    line-height: 1.5
+}
+
+#page .post-card h1, #page .post-card h2, #page .post-card h3, #page .post-card h4, #page .post-card h5, #page .post-card h6 {
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: .5rem;
+  margin-top: 0;
+}
+
+#page .post-card h1 {
+    font-size: 2.25rem;
+    margin-bottom: 1rem;
+}
+
+#page .post-card h2 {
+    font-size: 2rem;
+}
+
+#page .post-card .gatsby-resp-image-wrapper {
+    width: 200px !important;
+    display: inline-block !important;
+}
