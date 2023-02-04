@@ -22,7 +22,6 @@ module.exports = {
       feed_url: config.siteUrl + pathPrefix + config.siteRss,
       title: config.siteTitle,
       description: config.siteDescription,
-      author: config.userName,
       copyright: config.copyright
     }
   },
@@ -40,20 +39,6 @@ module.exports = {
       options: {
         name: 'assets',
         path: `${__dirname}/static/assets`
-      }
-    },
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        name: 'project',
-        path: `${__dirname}/content/projects`
-      }
-    },
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        name: 'presentation',
-        path: `${__dirname}/content/presentations`
       }
     },
     {
@@ -168,7 +153,6 @@ module.exports = {
                 feed_url
                 title
                 description
-                author
                 copyright
               }
             }
@@ -183,11 +167,9 @@ module.exports = {
               return ctx.query.allMarkdownRemark.edges.map(edge => {
                 const postInfo = toPostInfo(edge.node);
                 return {
-                  categories: postInfo.categories.map(c => c.slug),
                   date: postInfo.date,
                   title: postInfo.title,
                   description: postInfo.excerpt,
-                  author: rssMetadata.author,
                   url: rssMetadata.site_url + postInfo.slug,
                   guid: rssMetadata.site_url + postInfo.slug,
                   custom_elements: [{'content:encoded': postInfo.html}]
