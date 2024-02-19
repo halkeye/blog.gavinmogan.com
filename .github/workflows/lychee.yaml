@@ -30,7 +30,7 @@ jobs:
         id: lychee
         with:
           token: "${{ secrets.GITHUB_TOKEN }}"
-          args: --verbose --no-progress --exclude-mail './**/*.md'
+          args: --verbose --no-progress 'content/**/*.md' 'content/**/*.mdx' 'README.md'
           output: "${{ env.LYCHEE_OUTPUT }}"
           debug: true
 
