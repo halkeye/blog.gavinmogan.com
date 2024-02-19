@@ -1,5 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json", // up to date schema with all supported properties
+  "timezone": "America/Vancouver",
   "extends": [
     "config:js-app",       // base on the recommended config for JS applications
     "schedule:monthly",    // can be schedule:weekly, schedule:weekends, etc
@@ -7,7 +8,7 @@
     ":approveMajorUpdates",// require explicit update approval on the dashboard before opening PR
     ":maintainLockFilesWeekly" // regenerates lock file to update all indirect deps
   ],
-  "transitiveRemediation": true, // apply security updates for indirect (transitive) NPM dependencies 
+  "transitiveRemediation": true, // apply security updates for indirect (transitive) NPM dependencies
   "packageRules": [
     {
       "matchPackagePatterns": ["^gatsby"],
