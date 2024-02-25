@@ -8,7 +8,7 @@ status: publish
 tags:
   - people
 datetime: 2008-03-29T00:46:07+0800
-permalink: /2008/03/28/snow_skytrain/index.html
+permalink: /2008/03/29/snow_skytrain/index.html
 ---
 
 ![](https://farm4.static.flickr.com/3202/2370771978_aa6707554b_m.jpg)

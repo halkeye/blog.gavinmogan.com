@@ -12,7 +12,7 @@ tags:
   - terraria
   - tshock
 datetime: 2017-02-12T10:17:09+0800
-permalink: /2017/02/11/systemd-tshock-docker/index.html
+permalink: /2017/02/12/systemd-tshock-docker/index.html
 ---
 
 I've been diving pretty head long into running services with docker. I've ported someone's mineos and patched it to run in docker with a custom set of users. I have factorio server running. Even openhab running my meager home automation setup. Its the easiest way to run an application and not worry about system depaendancies.

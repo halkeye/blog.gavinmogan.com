@@ -8,7 +8,7 @@ status: publish
 tags:
   - general
 datetime: 2016-09-20T09:41:33+0800
-permalink: /2016/09/19/my-second-fringe-show-how-to-adult/index.html
+permalink: /2016/09/20/my-second-fringe-show-how-to-adult/index.html
 ---
 
 I'm not sure what to say about this one.

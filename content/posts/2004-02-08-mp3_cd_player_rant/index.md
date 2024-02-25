@@ -8,7 +8,7 @@ status: publish
 tags:
   - music
 datetime: 2004-02-08T13:36:59+0800
-permalink: /2004/02/07/mp3_cd_player_rant/index.html
+permalink: /2004/02/08/mp3_cd_player_rant/index.html
 ---
 
 Remember old games.. Like Mechwarrior 2? How they used to come with the game on track one, then music on the rest of the tracks?

@@ -8,16 +8,16 @@ status: publish
 tags:
   - general
 datetime: 2005-04-12T03:53:44+0800
-permalink: /2005/04/11/playing_my_new_camera/index.html
+permalink: /2005/04/12/playing_my_new_camera/index.html
 ---
 
-Just recieved a second hand nikon camera this week.  
+Just recieved a second hand nikon camera this week.
 
 Man I'm having so much fun with it.
 
-![](4200444579_6a8a271ae1.jpg)  
+![](4200444579_6a8a271ae1.jpg)
 
----  
+---
 
 ![](4201198294_64272acbca.jpg)
 

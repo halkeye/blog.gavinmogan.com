@@ -8,7 +8,7 @@ status: publish
 tags:
   - linux
 datetime: 2004-01-20T00:36:40+0800
-permalink: /2004/01/19/sucks_be_me/index.html
+permalink: /2004/01/20/sucks_be_me/index.html
 ---
 
 I've found out that hotmail and other servers (such as AOL) are now blocking any email hosts that fall into the dynamic ip / Cable / DSL Host range. Unfortuatly, for me, that means I am now unable to email hotmail :(

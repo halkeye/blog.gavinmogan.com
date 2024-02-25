@@ -8,7 +8,7 @@ status: publish
 tags:
   - people
 datetime: 2004-04-30T13:58:15+0800
-permalink: /2004/04/29/dating/index.html
+permalink: /2004/04/30/dating/index.html
 ---
 
 What ever happened to giving people phone numbers?  

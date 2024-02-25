@@ -10,13 +10,13 @@ post_name: docker-registry-g4v-dev
 author: halkeye
 datetime: 2020-04-20T00:52:59.999Z
 banner: ./differences-between-a-dockerfile-docker-image-and-docker-container-001320c81dd8d2989df10d0bec36341fd6a94b043f6f9de1c26ee79eaf16e566.jpg
-permalink: /2020/04/19/docker-registry-g4v-dev/index.html
+permalink: /2020/04/20/docker-registry-g4v-dev/index.html
 ---
 I am somewhat addicted to making [helm charts](https://github.com/halkeye-helm-charts/) with 57 charts and counting now. And as such, I often find myself building or tweaking docker images to see how they work, or make it easier to deploy.
 
 I'll admit, the effort to go through making a new repo on docker hub, with all that clicking, just to be able to deploy an image to test on my Kubernetes cluster is well.... Okay like 5 clicks, but now I don't have to!
 
-I've always been envious of [@jessfraz](https://twitter.com/jessfraz)'s [docker registry](https://r.j3ss.co/), apparently originally setup when docker hub was super slow, so I've wanted to setup my own for fun. 
+I've always been envious of [@jessfraz](https://twitter.com/jessfraz)'s [docker registry](https://r.j3ss.co/), apparently originally setup when docker hub was super slow, so I've wanted to setup my own for fun.
 
 🎉🎉🎉🎉 So I'm now introducing [https://r.g4v.dev](https://r.g4v.dev) 🎉🎉🎉🎉
 

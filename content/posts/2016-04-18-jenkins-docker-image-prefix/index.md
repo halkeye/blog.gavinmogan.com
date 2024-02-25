@@ -8,7 +8,7 @@ status: publish
 tags:
   - general
 datetime: 2016-04-18T12:06:44+0800
-permalink: /2016/04/17/jenkins-docker-image-prefix/index.html
+permalink: /2016/04/18/jenkins-docker-image-prefix/index.html
 ---
 
 I'm probably going to need this again sometime.

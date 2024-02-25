@@ -8,7 +8,7 @@ status: publish
 tags:
   - web
 datetime: 2007-01-14T13:17:55+0800
-permalink: /2007/01/13/upgrade_galore/index.html
+permalink: /2007/01/14/upgrade_galore/index.html
 ---
 
 Yay! Spent the day on the server.

@@ -8,7 +8,7 @@ status: publish
 tags:
   - humor
 datetime: 2003-08-13T10:32:54+0800
-permalink: /2003/08/12/the_story_of_th/index.html
+permalink: /2003/08/13/the_story_of_th/index.html
 ---
 
 lets tell a story...

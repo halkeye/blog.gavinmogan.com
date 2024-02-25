@@ -8,7 +8,7 @@ status: publish
 tags:
   - anime
 datetime: 2005-03-13T13:22:14+0800
-permalink: /2005/03/12/macross_plus/index.html
+permalink: /2005/03/13/macross_plus/index.html
 ---
 
 Macross Plus has to be one of the few animes that I like better dubbed than subbed. Sonic X would be another, but it was pretty crappy to start with.

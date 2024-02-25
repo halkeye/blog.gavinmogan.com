@@ -8,7 +8,7 @@ status: publish
 tags:
   - internet
 datetime: 2004-07-20T13:24:55+0800
-permalink: /2004/07/19/firefox_shortcut_domain_names/index.html
+permalink: /2004/07/20/firefox_shortcut_domain_names/index.html
 ---
 
 If you are like me, and just like going to common sites quickly.

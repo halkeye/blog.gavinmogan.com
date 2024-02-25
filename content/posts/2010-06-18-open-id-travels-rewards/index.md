@@ -13,7 +13,7 @@ tags:
   - perl
   - php
 datetime: 2010-06-18T00:54:45+0800
-permalink: /2010/06/17/open-id-travels-rewards/index.html
+permalink: /2010/06/18/open-id-travels-rewards/index.html
 ---
 
 So the last couple of weeks I've been playing with openid again trying to get the google federated logins working. I thought it would be a sweet setup for some of my little tools that I have to have logins for, but am too lazy to deal with user management.

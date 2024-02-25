@@ -8,7 +8,7 @@ status: publish
 tags:
   - linux
 datetime: 2003-07-21T01:30:52+0800
-permalink: /2003/07/20/gentoo/index.html
+permalink: /2003/07/21/gentoo/index.html
 ---
 
 I just doubled my respect for [gentoo](https://www.gentoo.org) tonight.

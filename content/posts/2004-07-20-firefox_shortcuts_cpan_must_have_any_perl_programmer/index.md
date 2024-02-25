@@ -8,22 +8,22 @@ status: publish
 tags:
   - internet
 datetime: 2004-07-20T13:19:43+0800
-permalink: /2004/07/19/firefox_shortcuts_cpan_must_have_any_perl_programmer/index.html
+permalink: /2004/07/20/firefox_shortcuts_cpan_must_have_any_perl_programmer/index.html
 ---
 
-![](bookmarks1.jpg)  
-if you goto manage bookmarks, then new bookmark  
-you can set keywords for bookmarks  
+![](bookmarks1.jpg)
+if you goto manage bookmarks, then new bookmark
+you can set keywords for bookmarks
 then if you put a %s in, you can do  string
 
-![](bookmarks2.jpg)  
-https://search.cpan.org/search?query=%s&mode;=all  
-keyword: cpan  
+![](bookmarks2.jpg)
+https://search.cpan.org/search?query=%s&mode;=all
+keyword: cpan
 "cpan Module::name"
-And Voila!!!  
+And Voila!!!
 
-![](bookmarks3.jpg)  
+![](bookmarks3.jpg)
 Nice and simple cpan searching
-  
+
 
 (Tip was originally mention to me by [Jordan](https://j0rd.ath.cx))

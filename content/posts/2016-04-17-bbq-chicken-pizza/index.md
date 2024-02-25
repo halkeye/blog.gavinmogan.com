@@ -8,7 +8,7 @@ status: publish
 tags:
   - general
 datetime: 2016-04-17T10:02:00+0800
-permalink: /2016/04/16/bbq-chicken-pizza/index.html
+permalink: /2016/04/17/bbq-chicken-pizza/index.html
 ---
 
 I've been really enjoying the pizza experiements I've been doing lately. Last night's pizza was left over bbq sauce, pulled chicken, mushrooms and onions. Also tried out throwing in garlic and italian herbs into the crust.

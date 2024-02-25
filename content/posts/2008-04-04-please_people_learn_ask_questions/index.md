@@ -8,7 +8,7 @@ status: publish
 tags:
   - internet
 datetime: 2008-04-04T00:06:53+0800
-permalink: /2008/04/03/please_people_learn_ask_questions/index.html
+permalink: /2008/04/04/please_people_learn_ask_questions/index.html
 ---
 
 I've been playing around with some new [jquery](https://www.jquery.com)/javascript this week.. All has been going well, i've been learning just how bad [UI](https://ui.jquery.com) is lately.. I wish [interface](https://interface.eyecon.ro/) worked still in the latest versions, [UI](https://ui.jquery.com) is extremely slow, plus the documentation currently does not fully match the code (well actually they might, but we are using an older version of UI due to the fact that the new ones are less functional).
@@ -20,8 +20,8 @@ Examples of bad people:
 
 (i'm surprised i can't find more in my recent logs)
 
-or my fav, and i can't find an example from my current logs  
-* &lt;someone&gt; Can I ask a question?  
+or my fav, and i can't find an example from my current logs
+* &lt;someone&gt; Can I ask a question?
 * &lt;someone&gt; I have a question (in which the reply is no, thats a statement)
 
 Between those and the people who know next to nothing about javascript, css and html, expecting that jquery will be really easy and needing to be hand held through every little step is really frustrating.

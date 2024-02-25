@@ -8,7 +8,7 @@ status: publish
 tags:
   - linux
 datetime: 2005-02-09T12:07:25+0800
-permalink: /2005/02/08/dovecot_and_squirrelmail/index.html
+permalink: /2005/02/09/dovecot_and_squirrelmail/index.html
 ---
 
 Man, [dovecot](https://www.dovecot.org/) is more my favorite email imap server software.

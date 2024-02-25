@@ -8,7 +8,7 @@ status: publish
 tags:
   - coding
 datetime: 2004-01-24T12:55:49+0800
-permalink: /2004/01/23/gui_design/index.html
+permalink: /2004/01/24/gui_design/index.html
 ---
 
 Man, I realized how much I just suck at/hate doing GUI design. Well MFC applications in particular... As much as I love doing work like that.. I've finally realized just how annoying MFC actually is.

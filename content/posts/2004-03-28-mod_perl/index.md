@@ -8,7 +8,7 @@ status: publish
 tags:
   - coding
 datetime: 2004-03-28T01:17:07+0800
-permalink: /2004/03/27/mod_perl/index.html
+permalink: /2004/03/28/mod_perl/index.html
 ---
 
 Yea. Really lacking in interesting content lately, mainly due to working hard to complete projects and just.. working.

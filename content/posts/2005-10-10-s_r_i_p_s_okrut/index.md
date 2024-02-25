@@ -8,7 +8,7 @@ status: publish
 tags:
   - geek
 datetime: 2005-10-10T10:58:43+0800
-permalink: /2005/10/09/s_r_i_p_s_okrut/index.html
+permalink: /2005/10/10/s_r_i_p_s_okrut/index.html
 ---
 
 <s>R.I.P [OKRUT](https://www.okrut.com).</s>  

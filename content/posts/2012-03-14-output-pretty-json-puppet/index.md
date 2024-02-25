@@ -8,7 +8,7 @@ status: publish
 tags:
   - linux
 datetime: 2012-03-14T11:12:00+0800
-permalink: /2012/03/13/output-pretty-json-puppet/index.html
+permalink: /2012/03/14/output-pretty-json-puppet/index.html
 ---
 
 It kept seeming like it should be straight forward. Various attempts by myself (mostly because I don't know ruby) seemed to fail. I'm just leaving it here now that I figured out how to get it working so I can find it again (and hopefully help others).

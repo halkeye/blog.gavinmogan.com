@@ -8,7 +8,7 @@ status: publish
 tags:
   - coding
 datetime: 2004-01-30T13:18:11+0800
-permalink: /2004/01/29/mtljpost_new_version/index.html
+permalink: /2004/01/30/mtljpost_new_version/index.html
 ---
 
 1.0.1 Released

@@ -8,7 +8,7 @@ status: publish
 tags:
   - people
 datetime: 2004-05-07T09:29:29+0800
-permalink: /2004/05/06/may_fun_month/index.html
+permalink: /2004/05/07/may_fun_month/index.html
 ---
 
 today is no pants day!  

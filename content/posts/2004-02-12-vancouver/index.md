@@ -8,7 +8,7 @@ status: publish
 tags:
   - general
 datetime: 2004-02-12T00:51:23+0800
-permalink: /2004/02/11/vancouver/index.html
+permalink: /2004/02/12/vancouver/index.html
 ---
 
 ![](4201503540_90927b8c13.jpg)

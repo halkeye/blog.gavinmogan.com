@@ -8,7 +8,7 @@ status: publish
 tags:
   - movies
 datetime: 2004-04-04T01:51:44+0800
-permalink: /2004/04/03/dawn_dead/index.html
+permalink: /2004/04/04/dawn_dead/index.html
 ---
 
 Went and saw [Dawn of the Dead](https://www.dawnofthedeadmovie.net/) with a bunch of old classmates. It was good to hang out with evan again, and I havn't seen Malcom or Baastian or Patrica (who was so different this time, it was weird) in like a LONG time. So it was really cool. Went to Japanese resteraunt, tried japanese food for the first time, since it was all you can eat, I like that kind of food, I've finally had the chance, so it was good.

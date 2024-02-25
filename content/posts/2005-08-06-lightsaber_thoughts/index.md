@@ -8,7 +8,7 @@ status: publish
 tags:
   - geek
 datetime: 2005-08-06T03:55:24+0800
-permalink: /2005/08/05/lightsaber_thoughts/index.html
+permalink: /2005/08/06/lightsaber_thoughts/index.html
 ---
 
 I mean what self respecting geek doesn't have thoughts about building a real lightsaber one day? But man, why in the middle of the night? Okay I figured out some stuff a while back, I think at work, and just getting around to posting now.

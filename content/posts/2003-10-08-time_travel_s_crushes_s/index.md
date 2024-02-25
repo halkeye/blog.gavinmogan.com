@@ -8,7 +8,7 @@ status: publish
 tags:
   - movies
 datetime: 2003-10-08T10:47:53+0800
-permalink: /2003/10/07/time_travel_s_crushes_s/index.html
+permalink: /2003/10/08/time_travel_s_crushes_s/index.html
 ---
 
 As much as I know about time travel, a good old fashion show about it, still peaks my interest. Last year I had a teacher who in dept explained to us the true concept of time, and the theories used to time travel.. How impossible it would be, etc, but did tell us that it is scientificly possible to predict the future, it was highly Unlikely..

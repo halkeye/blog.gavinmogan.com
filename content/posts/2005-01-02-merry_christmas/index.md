@@ -8,7 +8,7 @@ status: publish
 tags:
   - general
 datetime: 2005-01-02T15:52:06+0800
-permalink: /2005/01/01/merry_christmas/index.html
+permalink: /2005/01/02/merry_christmas/index.html
 ---
 
 ```

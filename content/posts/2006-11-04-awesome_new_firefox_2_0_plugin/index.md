@@ -8,7 +8,7 @@ status: publish
 tags:
   - web
 datetime: 2006-11-04T13:34:55+0800
-permalink: /2006/11/03/awesome_new_firefox_2_0_plugin/index.html
+permalink: /2006/11/04/awesome_new_firefox_2_0_plugin/index.html
 ---
 
 Oh my.. [del.icio.us Bookmarks](https://addons.mozilla.org/firefox/3615/) has to be one of the coolest new firefox (2.0) plugins.. Just like [flock](https://www.flock.com) did.

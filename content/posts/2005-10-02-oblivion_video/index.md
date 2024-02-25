@@ -8,7 +8,7 @@ status: publish
 tags:
   - gaming
 datetime: 2005-10-02T00:55:16+0800
-permalink: /2005/10/01/oblivion_video/index.html
+permalink: /2005/10/02/oblivion_video/index.html
 ---
 
 Whoaaa

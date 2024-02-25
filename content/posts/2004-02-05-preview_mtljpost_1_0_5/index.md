@@ -8,7 +8,7 @@ status: publish
 tags:
   - coding
 datetime: 2004-02-05T01:01:57+0800
-permalink: /2004/02/04/preview_mtljpost_1_0_5/index.html
+permalink: /2004/02/05/preview_mtljpost_1_0_5/index.html
 ---
 
 ![](clp83.png)

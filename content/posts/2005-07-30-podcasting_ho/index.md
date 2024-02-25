@@ -8,7 +8,7 @@ status: publish
 tags:
   - coding
 datetime: 2005-07-30T01:30:30+0800
-permalink: /2005/07/29/podcasting_ho/index.html
+permalink: /2005/07/30/podcasting_ho/index.html
 ---
 
 I'm still trying to work out a new MT plugin to do podcasts cleanly for [HiSciFi](https://www.hiscifi.com/archives/2005/07/shows_are_up_1.html) (and smile like a donut).  

@@ -8,7 +8,7 @@ status: publish
 tags:
   - linux
 datetime: 2015-07-03T01:28:19+0800
-permalink: /2015/07/02/587/index.html
+permalink: /2015/07/03/587/index.html
 ---
 
 I can't imagine me ever needing this again, but it does highlight bash's ability to strip extensions.

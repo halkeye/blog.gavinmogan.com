@@ -8,7 +8,7 @@ status: publish
 tags:
   - web
 datetime: 2007-01-20T10:59:45+0800
-permalink: /2007/01/19/bash_org/index.html
+permalink: /2007/01/20/bash_org/index.html
 ---
 
 If the word 'rofl' appears in a bash.org quote, be concerned.

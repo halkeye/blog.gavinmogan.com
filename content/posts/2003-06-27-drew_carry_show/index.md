@@ -8,7 +8,7 @@ status: publish
 tags:
   - movies
 datetime: 2003-06-27T00:25:22+0800
-permalink: /2003/06/26/drew_carry_show/index.html
+permalink: /2003/06/27/drew_carry_show/index.html
 ---
 
 Watched some of the new episodes about half a week ago. What the hell happened? He's in some dot com company job. Mimi looks worse than ever, and about 60 years old.. and Kate is gone..

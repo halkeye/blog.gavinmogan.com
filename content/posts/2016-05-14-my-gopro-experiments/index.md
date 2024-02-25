@@ -8,7 +8,7 @@ status: publish
 tags:
   - general
 datetime: 2016-05-14T07:22:19+0800
-permalink: /2016/05/13/my-gopro-experiments/index.html
+permalink: /2016/05/14/my-gopro-experiments/index.html
 ---
 
 My mom got me a GoPro last year for my birthday, and as the weather has gotten a lot nicer, I've been using it for various projects.

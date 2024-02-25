@@ -8,7 +8,7 @@ status: publish
 tags:
   - people
 datetime: 2005-09-15T03:00:10+0800
-permalink: /2005/09/14/hookers_r_us/index.html
+permalink: /2005/09/15/hookers_r_us/index.html
 ---
 
 Such a lovely neighbourhood I live in.  

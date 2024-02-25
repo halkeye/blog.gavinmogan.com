@@ -8,7 +8,7 @@ status: publish
 tags:
   - people
 datetime: 2003-10-11T11:46:34+0800
-permalink: /2003/10/10/klingon/index.html
+permalink: /2003/10/11/klingon/index.html
 ---
 
 [CNN.com - Qapla'! Hospital seeks Klingon speaker - May. 10, 2003](https://www.cnn.com/2003/US/West/05/10/offbeat.klingon.interpreter/)

@@ -8,10 +8,10 @@ status: publish
 tags:
   - people
 datetime: 2003-10-08T11:08:27+0800
-permalink: /2003/10/07/crushes_does_not_belong_posts/index.html
+permalink: /2003/10/08/crushes_does_not_belong_posts/index.html
 ---
 
-After reading Richard's ([Just a Gwai Lo](https://www.justagwailo.com)) post on [ Crushes](https://www.justagwailo.com/filter/2003/10/07/crushes), I started to think even more about my , um, extremly easy abilty to crush on people.. When I meet people for the first time (those exclude those i know online first), I usually get a huge crush on them.. It is about 99% of the time girls, but I have had a slight crush on a guy before.
+After reading Richard's ([Just a Gwai Lo](https://www.justagwailo.com)) post on [Crushes](https://www.justagwailo.com/filter/2003/10/07/crushes), I started to think even more about my , um, extremly easy abilty to crush on people.. When I meet people for the first time (those exclude those i know online first), I usually get a huge crush on them.. It is about 99% of the time girls, but I have had a slight crush on a guy before.
 
 But it did more or less, remind me how I feel about crushes.. When they do have a boyfriend, while the crush does seem to pass quicker, part of me is torn apart. But even worse than that, is when you belive you have a chance, then quickly notice signs to say something else... Not only that, but the crush tuns into more like an obsession, saying what if I did this, or if I said that instead... Constantly thinking about that person, because you belive it still has a chance to change...
 

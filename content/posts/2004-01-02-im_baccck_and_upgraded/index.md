@@ -8,7 +8,7 @@ status: publish
 tags:
   - applications
 datetime: 2004-01-02T00:01:13+0800
-permalink: /2004/01/01/im_baccck_and_upgraded/index.html
+permalink: /2004/01/02/im_baccck_and_upgraded/index.html
 ---
 
 Yea. Its been a long time since I've actually updated this site. I just havn't been exactly in the writing mood. But I'm back, with some cool information.

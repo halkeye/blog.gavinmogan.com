@@ -8,7 +8,7 @@ status: publish
 tags:
   - humor
 datetime: 2005-11-22T08:41:53+0800
-permalink: /2005/11/21/scott_adams_genius/index.html
+permalink: /2005/11/22/scott_adams_genius/index.html
 ---
 
 [Scott Adams is an absolute genius](https://dilbertblog.typepad.com/the_dilbert_blog/2005/11/results_of_why_.html).

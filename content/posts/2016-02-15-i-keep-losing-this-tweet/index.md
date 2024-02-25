@@ -11,7 +11,7 @@ tags:
   - twitter
   - victoria
 datetime: 2016-02-15T10:06:33+0800
-permalink: /2016/02/14/i-keep-losing-this-tweet/index.html
+permalink: /2016/02/15/i-keep-losing-this-tweet/index.html
 ---
 
 I use the favorites/love feature on twitter to come back to things later.

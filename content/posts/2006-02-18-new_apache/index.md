@@ -10,7 +10,7 @@ tags:
   - apache
   - server
 datetime: 2006-02-18T11:58:27+0800
-permalink: /2006/02/17/new_apache/index.html
+permalink: /2006/02/18/new_apache/index.html
 ---
 
 Okay, Yesterday I finally got php and apache to play nice again and upgraded both installations.

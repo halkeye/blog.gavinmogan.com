@@ -8,7 +8,7 @@ status: publish
 tags:
   - general
 datetime: 2004-02-05T04:40:14+0800
-permalink: /2004/02/04/maaaaaa/index.html
+permalink: /2004/02/05/maaaaaa/index.html
 ---
 
 But MAAAAA, I tried to sleep! I really did!

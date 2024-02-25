@@ -12,7 +12,7 @@ tags:
   - open source
   - sauce labs
 datetime: 2016-10-26T13:17:32+0800
-permalink: /2016/10/25/sauce-labs-hipchat-service-and-open-source/index.html
+permalink: /2016/10/26/sauce-labs-hipchat-service-and-open-source/index.html
 ---
 
 I am absolutely ecstatic to announce the new Sauce Labs and HipChat integration being not only released to the public, but open source as well. Its been officially out for a month now, but we just went ahead and open sourced it.

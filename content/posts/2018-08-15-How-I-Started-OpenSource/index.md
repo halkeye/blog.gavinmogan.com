@@ -8,7 +8,7 @@ tags:
   - open source
 datetime: 2018-08-15T21:09:24.790-0700
 banner: ./john-schnobrich-520023-unsplash.jpg
-permalink: /2018/08/15/open-source-and-me/index.html
+permalink: /2018/08/16/open-source-and-me/index.html
 ---
 
 Got a tiny little [pull request](https://github.com/halkeye/hubot-brain-redis-hash/pull/33) on a old hubot module I created a while ago, and it reminded me I was going to talk about open source.

@@ -8,7 +8,7 @@ status: publish
 tags:
   - people
 datetime: 2016-09-16T10:26:50+0800
-permalink: /2016/09/15/grounded/index.html
+permalink: /2016/09/16/grounded/index.html
 ---
 
 ![Groundedpromophotolutalicatheatre-768x768.jpg](Groundedpromophotolutalicatheatre-768x768.jpg)Only a week later. I’m getting way better at this.

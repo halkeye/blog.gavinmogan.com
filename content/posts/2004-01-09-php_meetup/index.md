@@ -8,7 +8,7 @@ status: publish
 tags:
   - people
 datetime: 2004-01-09T12:02:35+0800
-permalink: /2004/01/08/php_meetup/index.html
+permalink: /2004/01/09/php_meetup/index.html
 ---
 
 Last night, [Jordan](https://j0rd.ath.cx) and I went to the [PHP Meetup](https://php.meetup.com). I have to say, it was pretty, non php-ness. Jordan and I spent most of the reminising about our crappy times at BCIT, and how screwed up Computer Resources was, etc...

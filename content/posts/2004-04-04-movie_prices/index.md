@@ -8,7 +8,7 @@ status: publish
 tags:
   - movies
 datetime: 2004-04-04T11:05:22+0800
-permalink: /2004/04/03/movie_prices/index.html
+permalink: /2004/04/04/movie_prices/index.html
 ---
 
 I can't belive what we heard last night.

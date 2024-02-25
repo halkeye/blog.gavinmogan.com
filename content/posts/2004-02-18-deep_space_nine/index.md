@@ -8,7 +8,7 @@ status: publish
 tags:
   - movies
 datetime: 2004-02-18T03:02:44+0800
-permalink: /2004/02/17/deep_space_nine/index.html
+permalink: /2004/02/18/deep_space_nine/index.html
 ---
 
 I can't belive the coisidence..

@@ -8,7 +8,7 @@ status: publish
 tags:
   - web
 datetime: 2007-04-01T07:21:07+0800
-permalink: /2007/03/31/halkeye_net/index.html
+permalink: /2007/04/01/halkeye_net/index.html
 ---
 
 Sweet. All upgraded to drupal 5..0 now.

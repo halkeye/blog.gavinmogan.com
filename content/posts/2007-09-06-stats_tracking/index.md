@@ -8,7 +8,7 @@ status: publish
 tags:
   - hosting
 datetime: 2007-09-06T08:35:46+0800
-permalink: /2007/09/05/stats_tracking/index.html
+permalink: /2007/09/06/stats_tracking/index.html
 ---
 
 I've recently been preparing sites to move to [drupal 5](https://www.drupal.org) for the new awesome server I got. I mean I could set the thing up using php4 and make all the old sites work and such.

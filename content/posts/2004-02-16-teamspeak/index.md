@@ -8,7 +8,7 @@ status: publish
 tags:
   - general
 datetime: 2004-02-16T15:58:06+0800
-permalink: /2004/02/15/teamspeak/index.html
+permalink: /2004/02/16/teamspeak/index.html
 ---
 
 I really like this new program called TeamSpeak, which is alot like roger wilco, but it seems to be cleaner and such. Unfortuatly thier site barely works, so you can [Download the Client](https://files.halkeye.net/ts2_client_rc2_2032.exe) from my website.

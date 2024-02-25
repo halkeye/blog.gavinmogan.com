@@ -8,7 +8,7 @@ status: publish
 tags:
   - general
 datetime: 2004-12-16T01:35:01+0800
-permalink: /2004/12/15/meow/index.html
+permalink: /2004/12/16/meow/index.html
 ---
 
 Not so much as dead, as more like, busy.

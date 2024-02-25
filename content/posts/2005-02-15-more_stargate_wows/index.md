@@ -8,7 +8,7 @@ status: publish
 tags:
   - movies
 datetime: 2005-02-15T12:17:19+0800
-permalink: /2005/02/14/more_stargate_wows/index.html
+permalink: /2005/02/15/more_stargate_wows/index.html
 ---
 
 Was watching that _From Stargate To Atlantis: A Sci-Fi Lowdown_ special that was aired on the sci-fi channel way back when Atlantis was first aired.

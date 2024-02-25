@@ -10,11 +10,11 @@ post_name: winter-diorama-christmas-present
 author: halkeye
 datetime: 2020-01-03T02:11:59.846Z
 banner: ./img_20191222_211651.jpg
-permalink: /2020/01/02/winter-diorama-christmas-present/index.html
+permalink: /2020/01/03/winter-diorama-christmas-present/index.html
 ---
 So things started with this random [post on /r/3dprinting](https://www.reddit.com/r/3Dprinting/comments/e4mbax/my_first_self_designed_useful_printnot_much_and_i/) where I saw this really cool diorama. I, as most people do in that sub, asked OP if they were up for sharing the designs.
 
-I got really excited cause I think it could make a fun simple gift. The Prusa MK3s was big enough to do the parts in 2 batches. 
+I got really excited cause I think it could make a fun simple gift. The Prusa MK3s was big enough to do the parts in 2 batches.
 
 First was just the trees
 

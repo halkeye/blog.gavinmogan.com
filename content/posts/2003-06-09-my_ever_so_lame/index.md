@@ -8,7 +8,7 @@ status: publish
 tags:
   - general
 datetime: 2003-06-09T09:23:19+0800
-permalink: /2003/06/08/my_ever_so_lame/index.html
+permalink: /2003/06/09/my_ever_so_lame/index.html
 ---
 
 I've noticed lately how a lot of music is mainly popular, or more noticably not popular due to how an artist acts or looks or whatever.

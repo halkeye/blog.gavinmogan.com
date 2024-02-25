@@ -11,7 +11,7 @@ tags:
   - linux
   - prompt
 datetime: 2014-03-19T13:35:51+0800
-permalink: /2014/03/18/bash-prompt-linewrap-colors-issues/index.html
+permalink: /2014/03/19/bash-prompt-linewrap-colors-issues/index.html
 ---
 
 So I've been fighting with trying to make a custom color prompt for a while now.
@@ -22,7 +22,7 @@ I've recently found out about tput to output color codes. That combined with loc
   local BG_RED=$(tput setab 1)
 ```
 
-We started to create a custom prompt here for the team. Had all the info needed at a quick glance. Everything was good except long lines didn't wrap properly. Ctrl+r would just get nutty. 
+We started to create a custom prompt here for the team. Had all the info needed at a quick glance. Everything was good except long lines didn't wrap properly. Ctrl+r would just get nutty.
 
 So, after a lot of research and reading various forum posts, I found out that color codes should be wrapped in "`\\[...\\]`". So example:
 

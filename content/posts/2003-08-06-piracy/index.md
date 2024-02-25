@@ -8,7 +8,7 @@ status: publish
 tags:
   - people
 datetime: 2003-08-06T00:23:53+0800
-permalink: /2003/08/05/piracy/index.html
+permalink: /2003/08/06/piracy/index.html
 ---
 
 Interesting thing society has turned into, piracy, theif, murder, all becomeing so common, people just don't seem to blink much anymore.

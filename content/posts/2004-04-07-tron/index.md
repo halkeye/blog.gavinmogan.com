@@ -8,7 +8,7 @@ status: publish
 tags:
   - movies
 datetime: 2004-04-07T13:09:48+0800
-permalink: /2004/04/06/tron/index.html
+permalink: /2004/04/07/tron/index.html
 ---
 
 HAHA!

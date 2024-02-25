@@ -8,7 +8,7 @@ status: publish
 tags:
   - web
 datetime: 2005-09-27T12:43:41+0800
-permalink: /2005/09/26/im_so_much_love_google_video/index.html
+permalink: /2005/09/27/im_so_much_love_google_video/index.html
 ---
 
 I've been searching around alot with google video. Its amazing all the videos out there.

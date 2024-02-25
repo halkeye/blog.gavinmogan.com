@@ -8,7 +8,7 @@ status: publish
 tags:
   - linux
 datetime: 2015-03-31T10:44:32+0800
-permalink: /2015/03/30/nginx-cloudflare-ssl/index.html
+permalink: /2015/03/31/nginx-cloudflare-ssl/index.html
 ---
 
 Now that cloudflare will support ssl on every domain you host with them, I wanted to get some of my domains setup to use it.

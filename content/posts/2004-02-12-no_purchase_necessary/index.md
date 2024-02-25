@@ -8,7 +8,7 @@ status: publish
 tags:
   - general
 datetime: 2004-02-12T15:38:38+0800
-permalink: /2004/02/11/no_purchase_necessary/index.html
+permalink: /2004/02/12/no_purchase_necessary/index.html
 ---
 
 I've always wondered why contests always say "No Purchase Necessary" except you need to buy a product to get the information to enter the contest.

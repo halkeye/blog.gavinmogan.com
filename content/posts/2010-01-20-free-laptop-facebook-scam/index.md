@@ -8,7 +8,7 @@ status: publish
 tags:
   - internet
 datetime: 2010-01-20T00:11:52+0800
-permalink: /2010/01/19/free-laptop-facebook-scam/index.html
+permalink: /2010/01/20/free-laptop-facebook-scam/index.html
 ---
 
 Ah, the things that people believe on the internet. I'd like to believe its not work that is making me paranoid, but it mostly is. Plus I get paid to help try to find the flaws in things before the time is spent developing them.

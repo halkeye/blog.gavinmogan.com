@@ -8,7 +8,7 @@ status: publish
 tags:
   - people
 datetime: 2004-02-14T01:01:01+0800
-permalink: /2004/02/13/bah_celebration_st_valentines/index.html
+permalink: /2004/02/14/bah_celebration_st_valentines/index.html
 ---
 
 Not that I'm really bitter about being alone again for this Valentines day (Alone being alone, not without girlfriend, thats not that big of deal), but the big deal that everyone else makes of it.

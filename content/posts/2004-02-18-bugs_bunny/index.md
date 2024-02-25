@@ -8,7 +8,7 @@ status: publish
 tags:
   - movies
 datetime: 2004-02-18T00:17:13+0800
-permalink: /2004/02/17/bugs_bunny/index.html
+permalink: /2004/02/18/bugs_bunny/index.html
 ---
 
 I &lt;3 bugs bunny.
