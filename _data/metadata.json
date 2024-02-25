@@ -1,11 +1,15 @@
 {
-	"title": "Eleventy Base Blog v8",
-	"url": "https://example.com/",
+	"title": "The Nameless Site",
+	"url": "https://blog.gavinmogan.com/",
 	"language": "en",
-	"description": "I am writing about my experiences as a naval navel-gazer.",
+	"description": "Meow Meow Meow Meow Neow?",
+	"copyright": "Copyright © 2003. Gavin Mogan",
 	"author": {
-		"name": "Your Name Here",
-		"email": "youremailaddress@example.com",
-		"url": "https://example.com/about-me/"
+		"name": "Gavin Mogan",
+		"email": "blog@gavinmogan.com",
+		"url": "https://gavinmogan.com/",
+		"location": "Burnaby, BC, Canada",
+		"avatar": "https://s.gravatar.com/avatar/498c5ac6ca28f18f1e118c7081255793.png",
+		"description": "I'm Gavin. I'm a tinker, maker, and software developer. At home I code, game, hang out, all the cool non robot things to do.\nHeavily involved with Jenkins open source, and will often submit PRs to random other projects.  I also play games, both board and video games and love to read.\nYou can usually find me on various services as halkeye.\n#notarobot\n"
 	}
 }

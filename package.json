@@ -38,6 +38,10 @@
 		"@11ty/eleventy-plugin-rss": "^1.2.0",
 		"@11ty/eleventy-plugin-syntaxhighlight": "^4.2.0",
 		"luxon": "^3.2.1",
-		"markdown-it-anchor": "^8.6.6"
+		"markdown-it-anchor": "^8.6.6",
+		"markdown-it-eleventy-img": "^0.10.1"
+	},
+	"dependencies": {
+		"yaml": "^2.4.0"
 	}
 }

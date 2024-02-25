@@ -1,12 +1,14 @@
-const { DateTime } = require("luxon");
+const {DateTime} = require("luxon");
+const path = require('path');
 const markdownItAnchor = require("markdown-it-anchor");
+const markdownItImage = require("markdown-it-eleventy-img");
 
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginNavigation = require("@11ty/eleventy-navigation");
-const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
+const {EleventyHtmlBasePlugin} = require("@11ty/eleventy");
 
-module.exports = function(eleventyConfig) {
+module.exports = function (eleventyConfig) {
 	// Copy the contents of the `public` folder to the output folder
 	// For example, `./public/css/` ends up in `_site/css/`
 	eleventyConfig.addPassthroughCopy({
@@ -27,7 +29,7 @@ module.exports = function(eleventyConfig) {
 	// Official plugins
 	eleventyConfig.addPlugin(pluginRss);
 	eleventyConfig.addPlugin(pluginSyntaxHighlight, {
-		preAttributes: { tabindex: 0 }
+		preAttributes: {tabindex: 0}
 	});
 	eleventyConfig.addPlugin(pluginNavigation);
 	eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
@@ -35,7 +37,7 @@ module.exports = function(eleventyConfig) {
 	// Filters
 	eleventyConfig.addFilter("readableDate", (dateObj, format, zone) => {
 		// Formatting tokens for Luxon: https://moment.github.io/luxon/#/formatting?id=table-of-tokens
-		return DateTime.fromJSDate(dateObj, { zone: zone || "utc" }).toFormat(format || "dd LLLL yyyy");
+		return DateTime.fromJSDate(dateObj, {zone: zone || "utc"}).toFormat(format || "dd LLLL yyyy");
 	});
 
 	eleventyConfig.addFilter('htmlDateString', (dateObj) => {
@@ -45,10 +47,10 @@ module.exports = function(eleventyConfig) {
 
 	// Get the first `n` elements of a collection.
 	eleventyConfig.addFilter("head", (array, n) => {
-		if(!Array.isArray(array) || array.length === 0) {
+		if (!Array.isArray(array) || array.length === 0) {
 			return [];
 		}
-		if( n < 0 ) {
+		if (n < 0) {
 			return array.slice(n);
 		}
 
@@ -63,7 +65,7 @@ module.exports = function(eleventyConfig) {
 	// Return all the tags used in a collection
 	eleventyConfig.addFilter("getAllTags", collection => {
 		let tagSet = new Set();
-		for(let item of collection) {
+		for (let item of collection) {
 			(item.data.tags || []).forEach(tag => tagSet.add(tag));
 		}
 		return Array.from(tagSet);
@@ -82,8 +84,24 @@ module.exports = function(eleventyConfig) {
 				symbol: "#",
 				ariaHidden: false,
 			}),
-			level: [1,2,3,4],
+			level: [1, 2, 3, 4],
 			slugify: eleventyConfig.getFilter("slugify")
+		});
+		mdLib.use(markdownItImage, {
+			resolvePath: (filepath, env) => path.join(path.dirname(env.page.inputPath), filepath),
+			imgOptions: {
+				widths: [800, 500, 300],
+				urlPath: "/images/",
+				outputDir: path.join("_site", "images"),
+				formats: ["avif", "webp", "jpeg"]
+			},
+			globalAttributes: {
+				class: "markdown-image",
+				decoding: "async",
+				// If you use multiple widths,
+				// don't forget to add a `sizes` attribute.
+				sizes: "100vw"
+			}
 		});
 	});
 
@@ -106,7 +124,7 @@ module.exports = function(eleventyConfig) {
 		],
 
 		// Pre-process *.md files with: (default: `liquid`)
-		markdownTemplateEngine: "njk",
+		markdownTemplateEngine: false,
 
 		// Pre-process *.html files with: (default: `liquid`)
 		htmlTemplateEngine: "njk",
