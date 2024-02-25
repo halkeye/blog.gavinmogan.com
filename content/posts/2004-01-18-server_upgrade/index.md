@@ -7,8 +7,8 @@ post_name: server_upgrade
 status: publish
 tags:
   - linux
-slug: /2004/01/17/server_upgrade
 datetime: 2004-01-18T03:05:08+0800
+permalink: /2004/01/17/server_upgrade/index.html
 ---
 
 Way to tired to really post about this... Server has been upgraded.. I had that machine to spare, but the graphics card is dead-ish, so i couldn't use it for anything else. So now the webserver/devserver/etc is now:

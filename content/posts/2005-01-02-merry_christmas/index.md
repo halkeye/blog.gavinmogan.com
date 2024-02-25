@@ -7,8 +7,8 @@ post_name: merry_christmas
 status: publish
 tags:
   - general
-slug: /2005/01/01/merry_christmas
 datetime: 2005-01-02T15:52:06+0800
+permalink: /2005/01/01/merry_christmas/index.html
 ---
 
 ```

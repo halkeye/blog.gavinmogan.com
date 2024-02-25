@@ -7,8 +7,8 @@ post_name: meow
 status: publish
 tags:
   - general
-slug: /2004/12/15/meow
 datetime: 2004-12-16T01:35:01+0800
+permalink: /2004/12/15/meow/index.html
 ---
 
 Not so much as dead, as more like, busy.

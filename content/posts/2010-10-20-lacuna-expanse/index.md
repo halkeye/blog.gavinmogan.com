@@ -7,8 +7,8 @@ post_name: lacuna-expanse
 status: publish
 tags:
   - gaming
-slug: /2010/10/19/lacuna-expanse
 datetime: 2010-10-20T13:08:55+0800
+permalink: /2010/10/19/lacuna-expanse/index.html
 ---
 
 With all the new recent games that have come out, across all systems, I keep finding it surprising that I'm playing a browser based (originally) mmo.

@@ -7,8 +7,8 @@ post_name: trying_post_more_things
 status: publish
 tags:
   - general
-slug: /2003/09/30/trying_post_more_things
 datetime: 2003-10-01T10:43:19+0800
+permalink: /2003/09/30/trying_post_more_things/index.html
 ---
 
 ![](4201473317_c3197a9d6c.jpg)Wow, busses, specially richmond busses are like, such in a state of disrepair... Some of them have those cords for signaling stops disconnected because they broke off on one end or the other and nobody has tried to fix them yet.. Others have thier seats like splitting and repaired with duct tape....

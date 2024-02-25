@@ -7,8 +7,8 @@ post_name: boooks
 status: publish
 tags:
   - books
-slug: /2004/03/03/boooks
 datetime: 2004-03-03T22:47:59+0800
+permalink: /2004/03/03/boooks/index.html
 ---
 
 Went to half priced book with [Alex](https://www.fustiar.org/). Halfpriced Books was doing this sale. Whatever you can fit in this box, you get for $20..  

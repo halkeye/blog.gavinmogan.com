@@ -7,8 +7,8 @@ post_name: us_going_canadian
 status: publish
 tags:
   - people
-slug: /2003/10/09/us_going_canadian
 datetime: 2003-10-09T22:33:54+0800
+permalink: /2003/10/09/us_going_canadian/index.html
 ---
 
 Yea, so I can't exactly find any online proof, But I saw a commercial today...

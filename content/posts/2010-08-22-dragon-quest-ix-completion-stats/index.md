@@ -7,8 +7,8 @@ post_name: dragon-quest-ix-completion-stats
 status: publish
 tags:
   - gaming
-slug: /2010/08/22/dragon-quest-ix-completion-stats
 datetime: 2010-08-22T22:42:09+0800
+permalink: /2010/08/22/dragon-quest-ix-completion-stats/index.html
 ---
 
 Finally finished the game (DQIX) tonight @ 10:25pm...

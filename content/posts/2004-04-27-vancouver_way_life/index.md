@@ -7,8 +7,8 @@ post_name: vancouver_way_life
 status: publish
 tags:
   - people
-slug: /2004/04/27/vancouver_way_life
 datetime: 2004-04-27T22:10:35+0800
+permalink: /2004/04/27/vancouver_way_life/index.html
 ---
 
 22:08 &lt; halkeye&gt; give a man a fish, you feed him for a day  

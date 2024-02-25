@@ -7,8 +7,8 @@ post_name: first_post
 status: publish
 tags:
   - general
-slug: /2003/04/17/first_post
 datetime: 2003-04-17T22:04:39+0800
+permalink: /2003/04/17/first_post/index.html
 ---
 
 Trying to see how this works as a journal..

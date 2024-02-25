@@ -7,8 +7,8 @@ post_name: featuring_website
 status: publish
 tags:
   - coding
-slug: /2005/05/06/featuring_website
 datetime: 2005-05-06T16:06:58+0800
+permalink: /2005/05/06/featuring_website/index.html
 ---
 
 I can never remember what version of website it is, doesn't actually matter, just that I now am using kodepost, which is my new web site software which is only for "blogging". Doesn't have all the other pages like halkpost attempted to, or anything like that, just is straight forward, has templates, comments, and trackbacks.

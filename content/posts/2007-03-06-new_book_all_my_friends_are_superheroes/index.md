@@ -7,8 +7,8 @@ post_name: new_book_all_my_friends_are_superheroes
 status: publish
 tags:
   - books
-slug: /2007/03/05/new_book_all_my_friends_are_superheroes
 datetime: 2007-03-06T09:38:08+0800
+permalink: /2007/03/05/new_book_all_my_friends_are_superheroes/index.html
 ---
 
 This weekend [Nigel](https://www.flickr.com/photos/spatulus/) loaned me this short book called _All my friends are superheroes_. So far its been pretty awesome, but there's just one superhero description I have to share.

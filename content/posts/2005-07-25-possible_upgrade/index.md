@@ -7,8 +7,8 @@ post_name: possible_upgrade
 status: publish
 tags:
   - linux
-slug: /2005/07/24/possible_upgrade
 datetime: 2005-07-25T02:37:32+0800
+permalink: /2005/07/24/possible_upgrade/index.html
 ---
 
 After a couple of emails about MTLJPost and working with MT for [HiSciFi](https://www.hiscifi.com), I think I might go back to using MT.

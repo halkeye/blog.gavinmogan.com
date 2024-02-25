@@ -7,8 +7,8 @@ post_name: post_secret_love
 status: publish
 tags:
   - web
-slug: /2006/03/11/post_secret_love
 datetime: 2006-03-12T15:21:41+0800
+permalink: /2006/03/11/post_secret_love/index.html
 ---
 
 I love [postsecret](https://postsecret.blogspot.com/)

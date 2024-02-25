@@ -7,8 +7,8 @@ post_name: "587"
 status: publish
 tags:
   - linux
-slug: /2015/07/02/587
 datetime: 2015-07-03T01:28:19+0800
+permalink: /2015/07/02/587/index.html
 ---
 
 I can't imagine me ever needing this again, but it does highlight bash's ability to strip extensions.

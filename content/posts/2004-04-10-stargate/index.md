@@ -7,8 +7,8 @@ post_name: stargate
 status: publish
 tags:
   - movies
-slug: /2004/04/09/stargate
 datetime: 2004-04-10T13:51:24+0800
+permalink: /2004/04/09/stargate/index.html
 ---
 
 So mom like found me a copy of stargate season 6 cheaper than normal this week.

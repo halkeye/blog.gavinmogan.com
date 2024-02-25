@@ -19,10 +19,6 @@ module.exports = {
 			// If there is no slug, just use the slugify filter on the title
 			const slug = data.slug ?? this.slugify(data.title);
 
-			if (slug.includes('/')) {
-				return `${slug}/index.html`;
-			}
-
 			// Combine it all for your new, consistent permalink
 			return `/${urlDatePrefix(data.date)}/${slug}/index.html`;
 		}

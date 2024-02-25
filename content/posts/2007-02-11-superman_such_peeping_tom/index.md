@@ -7,8 +7,8 @@ post_name: superman_such_peeping_tom
 status: publish
 tags:
   - movies
-slug: /2007/02/10/superman_such_peeping_tom
 datetime: 2007-02-11T13:46:29+0800
+permalink: /2007/02/10/superman_such_peeping_tom/index.html
 ---
 
 Watching superman returns (don't ask why)..

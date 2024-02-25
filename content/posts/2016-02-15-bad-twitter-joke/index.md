@@ -11,8 +11,8 @@ tags:
   - justin
   - telegram
   - twitter
-slug: /2016/02/14/bad-twitter-joke
 datetime: 2016-02-15T10:13:30+0800
+permalink: /2016/02/14/bad-twitter-joke/index.html
 ---
 
 Oh man. I used to post some really horrible jokes I found around the internet.

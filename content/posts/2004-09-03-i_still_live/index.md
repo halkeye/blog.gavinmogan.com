@@ -7,8 +7,8 @@ post_name: i_still_live
 status: publish
 tags:
   - general
-slug: /2004/09/02/i_still_live
 datetime: 2004-09-03T11:23:50+0800
+permalink: /2004/09/02/i_still_live/index.html
 ---
 
 Working hard at [River Styx Internet](https://www.riverstyx.net).  

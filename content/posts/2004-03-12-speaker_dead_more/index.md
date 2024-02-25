@@ -7,8 +7,8 @@ post_name: speaker_dead_more
 status: publish
 tags:
   - books
-slug: /2004/03/12/speaker_dead_more
 datetime: 2004-03-12T20:10:44+0800
+permalink: /2004/03/12/speaker_dead_more/index.html
 ---
 
 After reading as much of speaker for the dead as I have. I want Andrew Wiggin to be a speaker at my death  

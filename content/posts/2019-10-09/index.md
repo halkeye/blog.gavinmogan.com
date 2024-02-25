@@ -8,9 +8,9 @@ tags:
   - rpgs
 post_name: new-tabletop-rpg-tokens
 author: halkeye
-slug: /2019/10/09/new-tabletop-rpg-tokens
 datetime: 2019-10-10T03:20:00.790Z
 banner: ./img_20191008_213035.jpg
+permalink: /2019/10/09/new-tabletop-rpg-tokens/index.html
 ---
 This is my first post since setting up netlifycms, which is also why I haven't posted in a while, since it was harder than i wanted to add new content. So :fingerscrossed: 🤞
 

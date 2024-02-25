@@ -10,8 +10,8 @@ tags:
   - dating
   - personal
   - single
-slug: /2014/01/31/feb-1st-2014-unique-milestone
 datetime: 2014-02-01T00:35:49+0800
+permalink: /2014/01/31/feb-1st-2014-unique-milestone/index.html
 ---
 
 This will be one of my rare non tech posts on this blog (I think).

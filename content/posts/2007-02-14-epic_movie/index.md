@@ -7,8 +7,8 @@ post_name: epic_movie
 status: publish
 tags:
   - movies
-slug: /2007/02/14/epic_movie
 datetime: 2007-02-14T23:33:35+0800
+permalink: /2007/02/14/epic_movie/index.html
 ---
 
 "It was legen-wait for it-dairy." - Barney

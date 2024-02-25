@@ -11,8 +11,8 @@ tags:
   - direnv
   - linux
   - tools i use
-slug: /2014/04/12/direnv-coolest-tools
 datetime: 2014-04-12T18:47:57+0800
+permalink: /2014/04/12/direnv-coolest-tools/index.html
 ---
 
 I've always loved the idea of self contained environments but coming from doing perl and c/c++ a long time ago, I've never been able to really pull it off. It wasn't until I encountered virtualenv for python that I finally got this working properly. I had encountered rvm's gemsets before that, but they always seemed finicky at best.

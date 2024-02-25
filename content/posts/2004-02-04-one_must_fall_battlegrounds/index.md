@@ -7,8 +7,8 @@ post_name: one_must_fall_battlegrounds
 status: publish
 tags:
   - gaming
-slug: /2004/02/03/one_must_fall_battlegrounds
 datetime: 2004-02-04T03:34:12+0800
+permalink: /2004/02/03/one_must_fall_battlegrounds/index.html
 ---
 
 ![](clp82.png) How to put this kindly....

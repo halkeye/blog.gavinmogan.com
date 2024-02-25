@@ -11,8 +11,8 @@ tags:
   - ssh
   - ssh+svn
   - svn
-slug: /2010/07/08/debugging-sshsvn
 datetime: 2010-07-09T08:31:46+0800
+permalink: /2010/07/08/debugging-sshsvn/index.html
 ---
 
 Posting here in case anyone else needs to know.

@@ -7,8 +7,8 @@ post_name: sorry
 status: publish
 tags:
   - work
-slug: /2004/04/28/sorry
 datetime: 2004-04-28T20:01:52+0800
+permalink: /2004/04/28/sorry/index.html
 ---
 
 Sorry to anyone who has emailed me about MTLJPost (I don't think any of those read this) recently.. its just been one of those weeks at work, and I have gotten home totally exausted (both mentally and phyiscally) and such.

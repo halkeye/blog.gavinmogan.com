@@ -7,8 +7,8 @@ post_name: amazon_com
 status: publish
 tags:
   - general
-slug: /2004/03/23/amazon_com
 datetime: 2004-03-23T22:19:05+0800
+permalink: /2004/03/23/amazon_com/index.html
 ---
 
 Whoa, amazon.com now seems to have prority information on thier [wishlist.](https://www.amazon.com/exec/obidos/wishlist/1B5Y9DCHJ489H/107-8946767-3520531)  

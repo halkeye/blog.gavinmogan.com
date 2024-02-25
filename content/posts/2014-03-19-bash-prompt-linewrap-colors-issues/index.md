@@ -10,8 +10,8 @@ tags:
   - bash
   - linux
   - prompt
-slug: /2014/03/18/bash-prompt-linewrap-colors-issues
 datetime: 2014-03-19T13:35:51+0800
+permalink: /2014/03/18/bash-prompt-linewrap-colors-issues/index.html
 ---
 
 So I've been fighting with trying to make a custom color prompt for a while now.

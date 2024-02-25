@@ -7,8 +7,8 @@ post_name: pick_pocketing
 status: publish
 tags:
   - people
-slug: /2004/04/15/pick_pocketing
 datetime: 2004-04-15T15:44:56+0800
+permalink: /2004/04/15/pick_pocketing/index.html
 ---
 
 I think the next skill I should learn is pick pocketing  

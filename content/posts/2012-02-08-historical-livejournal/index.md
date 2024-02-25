@@ -8,8 +8,8 @@ status: publish
 tags:
   - general
   - livejournal
-slug: /2012/02/07/historical-livejournal
 datetime: 2012-02-08T14:54:20+0800
+permalink: /2012/02/07/historical-livejournal/index.html
 ---
 
 LJ Was mentioned a few times today, but mostly because one of the accounts I was holding got a delete notification. I started to search for some historical posts:

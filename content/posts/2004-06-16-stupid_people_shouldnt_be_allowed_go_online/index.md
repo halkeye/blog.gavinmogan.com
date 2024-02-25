@@ -7,8 +7,8 @@ post_name: stupid_people_shouldnt_be_allowed_go_online
 status: publish
 tags:
   - people
-slug: /2004/06/15/stupid_people_shouldnt_be_allowed_go_online
 datetime: 2004-06-16T09:35:04+0800
+permalink: /2004/06/15/stupid_people_shouldnt_be_allowed_go_online/index.html
 ---
 
 [23:26] GreenMarshinz&gt; is c source code the same code structure in linux? header files and include etc.  

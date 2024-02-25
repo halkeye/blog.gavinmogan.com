@@ -12,8 +12,8 @@ tags:
   - jira
   - open source
   - sauce labs
-slug: /2017/07/29/new-position-open-source-and-more
 datetime: 2017-07-29T20:16:19+0800
+permalink: /2017/07/29/new-position-open-source-and-more/index.html
 ---
 
 I recently switched teams at Sauce Labs. I used to be the sole person on the Integrations team, and after more than a year feeling pretty isolated, my mental state was slipping pretty hard, so when an opportunity came up to switch departments, I took it.

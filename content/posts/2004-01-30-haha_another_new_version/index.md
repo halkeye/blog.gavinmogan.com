@@ -7,8 +7,8 @@ post_name: haha_another_new_version
 status: publish
 tags:
   - coding
-slug: /2004/01/30/haha_another_new_version
 datetime: 2004-01-30T18:08:56+0800
+permalink: /2004/01/30/haha_another_new_version/index.html
 ---
 
 1.0.2 Released

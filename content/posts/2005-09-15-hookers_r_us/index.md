@@ -7,8 +7,8 @@ post_name: hookers_r_us
 status: publish
 tags:
   - people
-slug: /2005/09/14/hookers_r_us
 datetime: 2005-09-15T03:00:10+0800
+permalink: /2005/09/14/hookers_r_us/index.html
 ---
 
 Such a lovely neighbourhood I live in.  

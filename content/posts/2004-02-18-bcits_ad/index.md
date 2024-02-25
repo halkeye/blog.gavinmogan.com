@@ -7,8 +7,8 @@ post_name: bcits_ad
 status: publish
 tags:
   - people
-slug: /2004/02/18/bcits_ad
 datetime: 2004-02-18T23:18:03+0800
+permalink: /2004/02/18/bcits_ad/index.html
 ---
 
 I find BCIT's ad a bit ironic.

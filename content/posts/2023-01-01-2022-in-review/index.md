@@ -7,8 +7,8 @@ tags:
   - nigel
 post_name: 2022-in-review
 author: halkeye
-slug: /2023/02/03/2022-in-review
 datetime: 2023-02-04
+permalink: /2023/02/03/2022-in-review/index.html
 ---
 I'm bad at this, and january 2022 feels so far away
 

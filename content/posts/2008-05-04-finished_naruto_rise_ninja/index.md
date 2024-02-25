@@ -7,8 +7,8 @@ post_name: finished_naruto_rise_ninja
 status: publish
 tags:
   - xbox360
-slug: /2008/05/04/finished_naruto_rise_ninja
 datetime: 2008-05-04T23:16:24+0800
+permalink: /2008/05/04/finished_naruto_rise_ninja/index.html
 ---
 
 I have to say, I'm totally surprised at this game. I was told before hand it was a pretty decent game, and it did keep me entertained for the week I rented it.

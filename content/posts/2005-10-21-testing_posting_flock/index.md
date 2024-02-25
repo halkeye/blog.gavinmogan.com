@@ -7,8 +7,8 @@ post_name: testing_posting_flock
 status: publish
 tags:
   - web
-slug: /2005/10/20/testing_posting_flock
 datetime: 2005-10-21T14:33:35+0800
+permalink: /2005/10/20/testing_posting_flock/index.html
 ---
 
 New buzz browser just came out.  

@@ -7,8 +7,8 @@ post_name: speaker_dead
 status: publish
 tags:
   - books
-slug: /2004/03/10/speaker_dead
 datetime: 2004-03-11T12:51:14+0800
+permalink: /2004/03/10/speaker_dead/index.html
 ---
 
 Chapter In and Chapter Out, I just keep liking this book more and more..

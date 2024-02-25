@@ -7,8 +7,8 @@ post_name: ut2004
 status: publish
 tags:
   - gaming
-slug: /2004/02/14/ut2004
 datetime: 2004-02-14T20:10:07+0800
+permalink: /2004/02/14/ut2004/index.html
 ---
 
 OnSlaught Rules!!! I just love that mode.  

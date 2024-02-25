@@ -9,8 +9,8 @@ tags:
   - anime
   - hiscifi
   - cjsf
-slug: /2006/02/17/cjsfs_archive
 datetime: 2006-02-18T12:07:25+0800
+permalink: /2006/02/17/cjsfs_archive/index.html
 ---
 
 Finally got my script that downloads hiscifi (and jevon's future show if he ever gets a new one)

@@ -7,8 +7,8 @@ post_name: blogger
 status: publish
 tags:
   - people
-slug: /2004/04/30/blogger
 datetime: 2004-05-01T12:21:46+0800
+permalink: /2004/04/30/blogger/index.html
 ---
 
 While I was walking around at lunch yesterday I saw someone with a blogger t-shirt.

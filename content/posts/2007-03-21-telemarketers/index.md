@@ -7,8 +7,8 @@ post_name: telemarketers
 status: publish
 tags:
   - people
-slug: /2007/03/21/telemarketers
 datetime: 2007-03-21T20:24:10+0800
+permalink: /2007/03/21/telemarketers/index.html
 ---
 
 Nothing is better to me than screwing up telemarketers.

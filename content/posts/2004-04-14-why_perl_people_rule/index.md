@@ -7,8 +7,8 @@ post_name: why_perl_people_rule
 status: publish
 tags:
   - coding
-slug: /2004/04/13/why_perl_people_rule
 datetime: 2004-04-14T09:04:03+0800
+permalink: /2004/04/13/why_perl_people_rule/index.html
 ---
 
 On Tue, Apr 13, 2004 at 09:20:06PM -0700, Gavin Mogan wrote:  

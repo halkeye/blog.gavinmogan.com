@@ -7,8 +7,8 @@ post_name: maaaaaa
 status: publish
 tags:
   - general
-slug: /2004/02/04/maaaaaa
 datetime: 2004-02-05T04:40:14+0800
+permalink: /2004/02/04/maaaaaa/index.html
 ---
 
 But MAAAAA, I tried to sleep! I really did!

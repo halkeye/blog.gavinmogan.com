@@ -7,8 +7,8 @@ post_name: 2_6_x
 status: publish
 tags:
   - linux
-slug: /2004/04/16/2_6_x
 datetime: 2004-04-16T21:31:20+0800
+permalink: /2004/04/16/2_6_x/index.html
 ---
 
 Man this kernel is so much of an improvement over 2.4.x  

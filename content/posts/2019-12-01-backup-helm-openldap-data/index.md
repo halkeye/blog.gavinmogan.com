@@ -8,9 +8,9 @@ tags:
   - helm
 post_name: backup-helm-openldap-data
 author: halkeye
-slug: /2019/12/01/backup-helm-openldap-data
 datetime: 2019-12-01T22:15:04.207Z
 banner: ./sergio-souza-luiyb9pj9dk-unsplash.jpg
+permalink: /2019/12/01/backup-helm-openldap-data/index.html
 ---
 This has been on my todo list since August, and I accdently wiped out my install this week, so its super motivated me to get something in place.
 

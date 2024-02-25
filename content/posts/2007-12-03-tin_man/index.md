@@ -7,8 +7,8 @@ post_name: tin_man
 status: publish
 tags:
   - tv
-slug: /2007/12/03/tin_man
 datetime: 2007-12-03T21:13:44+0800
+permalink: /2007/12/03/tin_man/index.html
 ---
 
 Wow, [Tin Man](https://www.scifi.com/tinman/) is... well it has zooey...

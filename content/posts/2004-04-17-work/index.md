@@ -7,8 +7,8 @@ post_name: work
 status: publish
 tags:
   - work
-slug: /2004/04/17/work
 datetime: 2004-04-17T17:57:16+0800
+permalink: /2004/04/17/work/index.html
 ---
 
 Is it sad I miss work?  

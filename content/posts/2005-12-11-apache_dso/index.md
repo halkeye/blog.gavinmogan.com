@@ -7,8 +7,8 @@ post_name: apache_dso
 status: publish
 tags:
   - web
-slug: /2005/12/11/apache_dso
 datetime: 2005-12-11T23:17:34+0800
+permalink: /2005/12/11/apache_dso/index.html
 ---
 
 Man, been working on trying to setup my webserver cleaner, more importantly get php setup better..

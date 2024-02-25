@@ -7,8 +7,8 @@ post_name: movie_prices
 status: publish
 tags:
   - movies
-slug: /2004/04/03/movie_prices
 datetime: 2004-04-04T11:05:22+0800
+permalink: /2004/04/03/movie_prices/index.html
 ---
 
 I can't belive what we heard last night.

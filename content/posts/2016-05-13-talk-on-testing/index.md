@@ -12,8 +12,8 @@ tags:
   - talks
   - testing
   - vancouver
-slug: /2016/05/12/talk-on-testing
 datetime: 2016-05-13T08:09:15+0800
+permalink: /2016/05/12/talk-on-testing/index.html
 ---
 
 One of my personal goals for this year is to start getting more comfortable sharing knowledge and talking infront of large crowds. As such, I volunteered to give a quick talk on testing, as its always been something I love doing, and ion the new job I thought it would be pretty appropriate.

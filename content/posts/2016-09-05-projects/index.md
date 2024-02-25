@@ -7,8 +7,8 @@ post_name: projects
 status: publish
 tags:
   - internet
-slug: /2016/09/05/projects
 datetime: 2016-09-05T16:15:29+0800
+permalink: /2016/09/05/projects/index.html
 ---
 
 I really need to remember to post here more often. What have I been up lately? A bunch of traveling for work.

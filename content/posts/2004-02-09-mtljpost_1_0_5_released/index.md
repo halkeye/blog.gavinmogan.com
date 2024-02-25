@@ -7,8 +7,8 @@ post_name: mtljpost_1_0_5_released
 status: publish
 tags:
   - coding
-slug: /2004/02/09/mtljpost_1_0_5_released
 datetime: 2004-02-09T23:02:46+0800
+permalink: /2004/02/09/mtljpost_1_0_5_released/index.html
 ---
 
 This update is a pretty update. I love the new web interface.

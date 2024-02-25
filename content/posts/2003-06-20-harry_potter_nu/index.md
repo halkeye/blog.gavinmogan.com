@@ -7,8 +7,8 @@ post_name: harry_potter_nu
 status: publish
 tags:
   - books
-slug: /2003/06/20/harry_potter_nu
 datetime: 2003-06-20T22:16:28+0800
+permalink: /2003/06/20/harry_potter_nu/index.html
 ---
 
 This has to be one of the saddest days in long time for news

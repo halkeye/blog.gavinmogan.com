@@ -7,8 +7,8 @@ post_name: mod_perl
 status: publish
 tags:
   - coding
-slug: /2004/03/27/mod_perl
 datetime: 2004-03-28T01:17:07+0800
+permalink: /2004/03/27/mod_perl/index.html
 ---
 
 Yea. Really lacking in interesting content lately, mainly due to working hard to complete projects and just.. working.

@@ -7,8 +7,8 @@ post_name: preview_mtljpost_1_0_5
 status: publish
 tags:
   - coding
-slug: /2004/02/04/preview_mtljpost_1_0_5
 datetime: 2004-02-05T01:01:57+0800
+permalink: /2004/02/04/preview_mtljpost_1_0_5/index.html
 ---
 
 ![](clp83.png)

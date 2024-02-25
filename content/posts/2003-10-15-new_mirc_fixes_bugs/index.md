@@ -7,8 +7,8 @@ post_name: new_mirc_fixes_bugs
 status: publish
 tags:
   - applications
-slug: /2003/10/15/new_mirc_fixes_bugs
 datetime: 2003-10-15T19:35:29+0800
+permalink: /2003/10/15/new_mirc_fixes_bugs/index.html
 ---
 
 [mIRC 6.12 has been released!](https://www.mirc.com/)

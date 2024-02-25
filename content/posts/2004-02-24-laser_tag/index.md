@@ -7,8 +7,8 @@ post_name: laser_tag
 status: publish
 tags:
   - people
-slug: /2004/02/23/laser_tag
 datetime: 2004-02-24T00:37:17+0800
+permalink: /2004/02/23/laser_tag/index.html
 ---
 
 Laser Tag in the dark is alot of fun  

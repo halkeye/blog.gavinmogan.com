@@ -7,8 +7,8 @@ post_name: i_think_i_found_client_i_love
 status: publish
 tags:
   - anime
-slug: /2007/03/31/i_think_i_found_client_i_love
 datetime: 2007-03-31T22:30:48+0800
+permalink: /2007/03/31/i_think_i_found_client_i_love/index.html
 ---
 
 Playing with ecto and blogjet today.

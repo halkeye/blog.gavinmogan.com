@@ -7,8 +7,8 @@ post_name: local-indie-production
 status: publish
 tags:
   - general
-slug: /2014/08/24/local-indie-production
 datetime: 2014-08-24T15:33:12+0800
+permalink: /2014/08/24/local-indie-production/index.html
 ---
 
 Hey peoples out there in the grand land of the internet,

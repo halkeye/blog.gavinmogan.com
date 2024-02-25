@@ -7,8 +7,8 @@ post_name: site_update
 status: publish
 tags:
   - general
-slug: /2003/06/14/site_update
 datetime: 2003-06-14T22:46:14+0800
+permalink: /2003/06/14/site_update/index.html
 ---
 
 Finished my [computers](/computers/) page about 30 minutes ago, been tweaking things, trimming the sidebar a bit.

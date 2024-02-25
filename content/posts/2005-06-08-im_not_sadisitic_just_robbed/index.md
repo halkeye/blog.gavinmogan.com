@@ -7,8 +7,8 @@ post_name: im_not_sadisitic_just_robbed
 status: publish
 tags:
   - people
-slug: /2005/06/08/im_not_sadisitic_just_robbed
 datetime: 2005-06-08T19:50:03+0800
+permalink: /2005/06/08/im_not_sadisitic_just_robbed/index.html
 ---
 
 Man, yet another screech without a crash.

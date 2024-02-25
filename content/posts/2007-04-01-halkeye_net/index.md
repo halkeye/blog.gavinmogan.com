@@ -7,8 +7,8 @@ post_name: halkeye_net
 status: publish
 tags:
   - web
-slug: /2007/03/31/halkeye_net
 datetime: 2007-04-01T07:21:07+0800
+permalink: /2007/03/31/halkeye_net/index.html
 ---
 
 Sweet. All upgraded to drupal 5..0 now.

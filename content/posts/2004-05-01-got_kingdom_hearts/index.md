@@ -7,8 +7,8 @@ post_name: got_kingdom_hearts
 status: publish
 tags:
   - gaming
-slug: /2004/05/01/got_kingdom_hearts
 datetime: 2004-05-01T15:51:38+0800
+permalink: /2004/05/01/got_kingdom_hearts/index.html
 ---
 
 15:47 &lt; halkeye&gt; hahah  

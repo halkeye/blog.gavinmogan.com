@@ -7,8 +7,8 @@ post_name: interesting_idea
 status: publish
 tags:
   - gaming
-slug: /2004/03/25/interesting_idea
 datetime: 2004-03-25T18:12:18+0800
+permalink: /2004/03/25/interesting_idea/index.html
 ---
 
 [18:01] halkeye&gt; you think a web based icq or aim program like squirrelmail is would be useful at all?  

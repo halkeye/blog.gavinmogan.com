@@ -7,8 +7,8 @@ post_name: jenkins-docker-image-prefix
 status: publish
 tags:
   - general
-slug: /2016/04/17/jenkins-docker-image-prefix
 datetime: 2016-04-18T12:06:44+0800
+permalink: /2016/04/17/jenkins-docker-image-prefix/index.html
 ---
 
 I'm probably going to need this again sometime.

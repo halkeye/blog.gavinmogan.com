@@ -7,8 +7,8 @@ post_name: episode_16
 status: publish
 tags:
   - anime
-slug: /2004/02/16/episode_16
 datetime: 2004-02-16T21:40:30+0800
+permalink: /2004/02/16/episode_16/index.html
 ---
 
 Holy Shit [Fullmetal Alchemist](https://www.animenfo.com/animetitle,1265,mybywf,fullmetal_alche.html) has become interesting again.

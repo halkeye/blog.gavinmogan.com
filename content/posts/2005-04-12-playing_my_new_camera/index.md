@@ -7,8 +7,8 @@ post_name: playing_my_new_camera
 status: publish
 tags:
   - general
-slug: /2005/04/11/playing_my_new_camera
 datetime: 2005-04-12T03:53:44+0800
+permalink: /2005/04/11/playing_my_new_camera/index.html
 ---
 
 Just recieved a second hand nikon camera this week.  

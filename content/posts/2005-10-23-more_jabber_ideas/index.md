@@ -7,8 +7,8 @@ post_name: more_jabber_ideas
 status: publish
 tags:
   - hosting
-slug: /2005/10/23/more_jabber_ideas
 datetime: 2005-10-23T22:13:34+0800
+permalink: /2005/10/23/more_jabber_ideas/index.html
 ---
 
 HRM...

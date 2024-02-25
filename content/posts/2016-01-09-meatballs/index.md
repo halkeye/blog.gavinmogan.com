@@ -7,8 +7,8 @@ post_name: meatballs
 status: publish
 tags:
   - general
-slug: /2016/01/09/meatballs
 datetime: 2016-01-09T23:45:21+0800
+permalink: /2016/01/09/meatballs/index.html
 ---
 
 So this year my mom decided I should have a KitchenAid Mix Master for christmas. So far I'm loving it.

@@ -7,8 +7,8 @@ post_name: utter_crap
 status: publish
 tags:
   - people
-slug: /2006/02/18/utter_crap
 datetime: 2006-02-18T21:02:35+0800
+permalink: /2006/02/18/utter_crap/index.html
 ---
 
 Went to futureshop (yea, i know, first mistake) to grab a new mouse ('cause mine suddenly started to die today) and Children of Dune to complete our dune night next week.

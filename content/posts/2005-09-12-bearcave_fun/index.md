@@ -7,8 +7,8 @@ post_name: bearcave_fun
 status: publish
 tags:
   - people
-slug: /2005/09/11/bearcave_fun
 datetime: 2005-09-12T00:18:56+0800
+permalink: /2005/09/11/bearcave_fun/index.html
 ---
 
 I had alot of fun, but apparently i was tricked into this channel on efnet called #bearcave. I randomly chatted for a bit, and then got booted out by paranoid bots. Got a message from someone a few minutes later.

@@ -7,8 +7,8 @@ post_name: yay_used_books
 status: publish
 tags:
   - books
-slug: /2004/02/24/yay_used_books
 datetime: 2004-02-24T19:58:07+0800
+permalink: /2004/02/24/yay_used_books/index.html
 ---
 
 Went to the used book store with mom today..

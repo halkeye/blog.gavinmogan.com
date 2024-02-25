@@ -7,8 +7,8 @@ post_name: emails
 status: publish
 tags:
   - people
-slug: /2003/10/17/emails
 datetime: 2003-10-18T12:26:24+0800
+permalink: /2003/10/17/emails/index.html
 ---
 
 Muhahahah. Been playing with Outlook 2003 as I now have a legal key from school (no more fighting with open office to read school crap).

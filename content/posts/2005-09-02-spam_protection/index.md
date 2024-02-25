@@ -7,8 +7,8 @@ post_name: spam_protection
 status: publish
 tags:
   - general
-slug: /2005/09/02/spam_protection
 datetime: 2005-09-02T15:09:23+0800
+permalink: /2005/09/02/spam_protection/index.html
 ---
 
 I can't belive I had to install spam protection, so many spammers talking about hurricane katrina, or google.

@@ -7,8 +7,8 @@ post_name: gentoo
 status: publish
 tags:
   - linux
-slug: /2003/07/20/gentoo
 datetime: 2003-07-21T01:30:52+0800
+permalink: /2003/07/20/gentoo/index.html
 ---
 
 I just doubled my respect for [gentoo](https://www.gentoo.org) tonight.

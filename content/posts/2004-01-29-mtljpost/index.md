@@ -7,8 +7,8 @@ post_name: mtljpost
 status: publish
 tags:
   - coding
-slug: /2004/01/29/mtljpost
 datetime: 2004-01-29T23:00:27+0800
+permalink: /2004/01/29/mtljpost/index.html
 ---
 
 I have now finished version 1.0 of MTLJPost.

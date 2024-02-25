@@ -7,8 +7,8 @@ post_name: test
 status: publish
 tags:
   - general
-slug: /2004/04/02/test
 datetime: 2004-04-02T23:12:30+0800
+permalink: /2004/04/02/test/index.html
 ---
 
 This is a test of the <s>emergancy broadcasting service</s> thing.  

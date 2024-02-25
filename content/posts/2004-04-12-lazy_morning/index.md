@@ -7,8 +7,8 @@ post_name: lazy_morning
 status: publish
 tags:
   - movies
-slug: /2004/04/11/lazy_morning
 datetime: 2004-04-12T09:30:16+0800
+permalink: /2004/04/11/lazy_morning/index.html
 ---
 
 So yea, Havn't watched any TV since I reinstalled linux on this machine, except for yesterday morning while I was eating breakfast, and this morning.

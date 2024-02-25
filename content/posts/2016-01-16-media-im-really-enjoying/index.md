@@ -7,8 +7,8 @@ post_name: media-im-really-enjoying
 status: publish
 tags:
   - general
-slug: /2016/01/15/media-im-really-enjoying
 datetime: 2016-01-16T12:43:11+0800
+permalink: /2016/01/15/media-im-really-enjoying/index.html
 ---
 
 So I've had conversations with people recently about re-reading books and re-watching shows/movies. Now that its so easy to get new content through app stores, or e-book readers, the number of times I re-read has gone drastically down, but here are some of my lists of content I'll rewatch many times, or re-read, etc.

@@ -7,8 +7,8 @@ post_name: spears
 status: publish
 tags:
   - music
-slug: /2004/05/05/spears
 datetime: 2004-05-05T23:02:08+0800
+permalink: /2004/05/05/spears/index.html
 ---
 
 ...what happened to brittany spears producing music?

@@ -7,9 +7,9 @@ post_name: test-allthethings-at-jenkins-world-2016
 status: publish
 tags:
   - general
-slug: /2016/09/20/test-allthethings-at-jenkins-world-2016
 datetime: 2016-09-20T21:37:36+0800
 banner: ./PANO_20160914_072416.jpg
+permalink: /2016/09/20/test-allthethings-at-jenkins-world-2016/index.html
 ---
 ![CsXFwi9UMAA-2vI](CsXFwi9UMAA-2vI.jpg)
 

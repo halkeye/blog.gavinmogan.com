@@ -7,8 +7,8 @@ post_name: any_issues
 status: publish
 tags:
   - hosting
-slug: /2006/03/11/any_issues
 datetime: 2006-03-11T20:48:46+0800
+permalink: /2006/03/11/any_issues/index.html
 ---
 
 Switched my hosting to lighttpd due to the smaller memory footprint and such.

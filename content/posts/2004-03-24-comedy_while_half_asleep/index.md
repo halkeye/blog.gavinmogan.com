@@ -7,8 +7,8 @@ post_name: comedy_while_half_asleep
 status: publish
 tags:
   - people
-slug: /2004/03/23/comedy_while_half_asleep
 datetime: 2004-03-24T02:40:58+0800
+permalink: /2004/03/23/comedy_while_half_asleep/index.html
 ---
 
 This weeks who's line is it anyways is so awesome.

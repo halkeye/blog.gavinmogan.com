@@ -7,8 +7,8 @@ post_name: yay
 status: publish
 tags:
   - geek
-slug: /2006/01/17/yay
 datetime: 2006-01-17T22:26:16+0800
+permalink: /2006/01/17/yay/index.html
 ---
 
 yay!

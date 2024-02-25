@@ -7,8 +7,8 @@ post_name: multi_theft_auto
 status: publish
 tags:
   - gaming
-slug: /2003/09/20/multi_theft_auto
 datetime: 2003-09-20T19:38:00+0800
+permalink: /2003/09/20/multi_theft_auto/index.html
 ---
 
 Review of [Multi Theft Auto](https://web.archive.org/web/20180307003844/https://mtavc.com/)

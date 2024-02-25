@@ -7,8 +7,8 @@ post_name: oceans_11
 status: publish
 tags:
   - movies
-slug: /2004/02/17/oceans_11
 datetime: 2004-02-17T19:57:55+0800
+permalink: /2004/02/17/oceans_11/index.html
 ---
 
 galimon: i wish julia roberts was not in oceans 11  

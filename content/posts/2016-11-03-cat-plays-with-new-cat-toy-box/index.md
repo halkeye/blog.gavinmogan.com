@@ -7,8 +7,8 @@ post_name: cat-plays-with-new-cat-toy-box
 status: publish
 tags:
   - general
-slug: /2016/11/02/cat-plays-with-new-cat-toy-box
 datetime: 2016-11-03T00:03:48+0800
+permalink: /2016/11/02/cat-plays-with-new-cat-toy-box/index.html
 ---
 
 I never know how to start these :)

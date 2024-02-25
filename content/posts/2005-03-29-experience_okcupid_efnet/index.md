@@ -7,8 +7,8 @@ post_name: experience_okcupid_efnet
 status: publish
 tags:
   - people
-slug: /2005/03/29/experience_okcupid_efnet
 datetime: 2005-03-29T21:22:34+0800
+permalink: /2005/03/29/experience_okcupid_efnet/index.html
 ---
 
 Okay, noticed that there was an #okcupid IRC channel on efnet from one of the pages okcupid.com has on thier site.

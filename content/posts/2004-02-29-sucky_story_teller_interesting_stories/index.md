@@ -7,8 +7,8 @@ post_name: sucky_story_teller_interesting_stories
 status: publish
 tags:
   - people
-slug: /2004/02/28/sucky_story_teller_interesting_stories
 datetime: 2004-02-29T01:59:34+0800
+permalink: /2004/02/28/sucky_story_teller_interesting_stories/index.html
 ---
 
 Oh yea... interesting bus stories (short 'cause i'm tired)

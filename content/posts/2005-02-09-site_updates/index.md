@@ -7,8 +7,8 @@ post_name: site_updates
 status: publish
 tags:
   - general
-slug: /2005/02/08/site_updates
 datetime: 2005-02-09T00:54:40+0800
+permalink: /2005/02/08/site_updates/index.html
 ---
 
 Apparently during the move to [ev1servers](https://ev1servers.net), alot of things broke.

@@ -7,8 +7,8 @@ post_name: man_its_been_while
 status: publish
 tags:
   - work
-slug: /2005/02/08/man_its_been_while
 datetime: 2005-02-09T00:40:45+0800
+permalink: /2005/02/08/man_its_been_while/index.html
 ---
 
 Okay, my Last 2-3 posts here looked like they had something to do with work.

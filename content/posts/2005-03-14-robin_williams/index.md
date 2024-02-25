@@ -7,8 +7,8 @@ post_name: robin_williams
 status: publish
 tags:
   - anime
-slug: /2005/03/13/robin_williams
 datetime: 2005-03-14T00:34:23+0800
+permalink: /2005/03/13/robin_williams/index.html
 ---
 
 In a recent interview with USA Today, Robin Williams informed them that he collects a lot of anime and is looking forward to seing Steamboy. He comments, "The Japanese are very aware that animation isn't just for kids to the point of making pornography. They make deeply dark movies, science-fiction movies."  \- Source [Anime News Network](https://www.animenewsnetwork.com/article.php?id=6332)

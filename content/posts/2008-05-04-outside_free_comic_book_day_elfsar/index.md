@@ -7,8 +7,8 @@ post_name: outside_free_comic_book_day_elfsar
 status: publish
 tags:
   - people
-slug: /2008/05/03/outside_free_comic_book_day_elfsar
 datetime: 2008-05-04T12:52:39+0800
+permalink: /2008/05/03/outside_free_comic_book_day_elfsar/index.html
 ---
 
 ![](https://farm3.static.flickr.com/2184/2462993639_ff05c2548e_m.jpg)

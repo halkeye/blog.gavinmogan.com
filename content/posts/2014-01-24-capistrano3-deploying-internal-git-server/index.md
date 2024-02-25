@@ -11,8 +11,8 @@ tags:
   - capistrano
   - programming
   - ruby
-slug: /2014/01/24/capistrano3-deploying-internal-git-server
 datetime: 2014-01-24T16:09:33+0800
+permalink: /2014/01/24/capistrano3-deploying-internal-git-server/index.html
 ---
 
 **Edit:** I updated my ["hack"](/2014/06/06/update-capistrano-hack/) to work with newer versions of capistrano/sshkit

@@ -7,8 +7,8 @@ post_name: apache_modifications
 status: publish
 tags:
   - work
-slug: /2004/04/13/apache_modifications
 datetime: 2004-04-13T21:47:01+0800
+permalink: /2004/04/13/apache_modifications/index.html
 ---
 
 To.. well sometime soom I get to hack mod_mysql_auth (or mod_auth_mysql.. or whatever)

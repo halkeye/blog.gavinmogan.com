@@ -7,8 +7,8 @@ post_name: updating-wordpress-plugins-helper
 status: publish
 tags:
   - web
-slug: /2013/08/20/updating-wordpress-plugins-helper
 datetime: 2013-08-20T16:13:36+0800
+permalink: /2013/08/20/updating-wordpress-plugins-helper/index.html
 ---
 
 Note, I've recently found [WP Cli](https://wp-cli.org/) which makes all of this moot because i can now just do "wp plugin upgrade --all" or "wp plugin install blah"

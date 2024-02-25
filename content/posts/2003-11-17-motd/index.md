@@ -7,8 +7,8 @@ post_name: motd
 status: publish
 tags:
   - humor
-slug: /2003/11/17/motd
 datetime: 2003-11-17T19:59:34+0800
+permalink: /2003/11/17/motd/index.html
 ---
 
 Duude, irc.desync.com has the absolute best motd I've seen in a long time.

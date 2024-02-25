@@ -7,8 +7,8 @@ post_name: site_updates_dont_forget_about_stacys_mom_cause_she_has_it_going
 status: publish
 tags:
   - linux
-slug: /2003/11/10/site_updates_dont_forget_about_stacys_mom_cause_she_has_it_going
 datetime: 2003-11-11T01:56:02+0800
+permalink: /2003/11/10/site_updates_dont_forget_about_stacys_mom_cause_she_has_it_going/index.html
 ---
 
 I think, After exams are over (yes, I have ***another*** dose of midterms this week.. well one..), I might have to do a site update. The font sizes and other such items help to make my writing look very... unprofessional (so does the ... I use all the time).

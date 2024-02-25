@@ -7,8 +7,8 @@ post_name: con_not_report
 status: publish
 tags:
   - anime
-slug: /2003/07/29/con_not_report
 datetime: 2003-07-29T16:44:00+0800
+permalink: /2003/07/29/con_not_report/index.html
 ---
 
 (Yes Yes, transcribed directly from my lj, so its not really that good, but its been 2 days now, and i havn't felt like writing something better yet)

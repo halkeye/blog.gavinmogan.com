@@ -7,8 +7,8 @@ post_name: lego_starwars_0
 status: publish
 tags:
   - linux
-slug: /2005/03/13/lego_starwars_0
 datetime: 2005-03-13T17:20:41+0800
+permalink: /2005/03/13/lego_starwars_0/index.html
 ---
 
 ![](legostarwars.png)

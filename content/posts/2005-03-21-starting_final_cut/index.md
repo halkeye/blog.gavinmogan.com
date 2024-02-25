@@ -7,8 +7,8 @@ post_name: starting_final_cut
 status: publish
 tags:
   - general
-slug: /2005/03/21/starting_final_cut
 datetime: 2005-03-21T16:36:04+0800
+permalink: /2005/03/21/starting_final_cut/index.html
 ---
 
 The starting of Final Cut reminds me ALOT of the book Speaker For the Dead.

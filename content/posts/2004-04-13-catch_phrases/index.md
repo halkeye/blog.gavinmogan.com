@@ -7,8 +7,8 @@ post_name: catch_phrases
 status: publish
 tags:
   - people
-slug: /2004/04/13/catch_phrases
 datetime: 2004-04-13T22:45:58+0800
+permalink: /2004/04/13/catch_phrases/index.html
 ---
 
 Ever wonder how they get started? Or if you are the one who started it?  

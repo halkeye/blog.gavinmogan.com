@@ -7,8 +7,8 @@ post_name: strange_urge
 status: publish
 tags:
   - people
-slug: /2004/04/25/strange_urge
 datetime: 2004-04-25T22:17:59+0800
+permalink: /2004/04/25/strange_urge/index.html
 ---
 
 I have an urge to whip condoms at all the <s>cute</s> couples downtown--------------  

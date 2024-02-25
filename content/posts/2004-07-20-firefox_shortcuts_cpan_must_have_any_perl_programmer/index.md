@@ -7,8 +7,8 @@ post_name: firefox_shortcuts_cpan_must_have_any_perl_programmer
 status: publish
 tags:
   - internet
-slug: /2004/07/19/firefox_shortcuts_cpan_must_have_any_perl_programmer
 datetime: 2004-07-20T13:19:43+0800
+permalink: /2004/07/19/firefox_shortcuts_cpan_must_have_any_perl_programmer/index.html
 ---
 
 ![](bookmarks1.jpg)  

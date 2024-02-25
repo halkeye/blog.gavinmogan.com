@@ -7,9 +7,9 @@ tags:
   - gatsby
   - react
 date: 2018-05-15
-slug: /2018/05/15/new-website
 datetime: 2018-05-15T20:00:00+0800
 banner: ./branko-stancevic-417172-unsplash.jpg
+permalink: /2018/05/15/new-website/index.html
 ---
 
 If you are seeing this, then the brand new website is fully functional and deployed. Exciting isn't it?

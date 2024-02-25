@@ -7,8 +7,8 @@ post_name: mail_server_upgrades
 status: publish
 tags:
   - linux
-slug: /2003/09/08/mail_server_upgrades
 datetime: 2003-09-08T23:52:24+0800
+permalink: /2003/09/08/mail_server_upgrades/index.html
 ---
 
 Sweet, now anyone who has an account can use my server wherever they go.

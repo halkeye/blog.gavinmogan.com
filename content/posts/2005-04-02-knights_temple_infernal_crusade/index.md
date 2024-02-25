@@ -7,8 +7,8 @@ post_name: knights_temple_infernal_crusade
 status: publish
 tags:
   - gaming
-slug: /2005/04/02/knights_temple_infernal_crusade
 datetime: 2005-04-02T22:44:21+0800
+permalink: /2005/04/02/knights_temple_infernal_crusade/index.html
 ---
 
 Okay, I've been sitting staring at this window for a bit now, Unable to quite get my thoughts on this game typed out properly. That is, Until I actually started to look through the screenshots, I was just going to cite this [example InGame screen](https://www.gamespot.com/xbox/adventure/knightsofthetemple/screenindex.html). Its a pretty decent example of all the ingame activity so I didn't even try to bother to find one closer back to the point in the game I was.

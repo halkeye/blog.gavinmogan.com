@@ -7,8 +7,8 @@ post_name: busy-week
 status: publish
 tags:
   - work
-slug: /2012/04/06/busy-week
 datetime: 2012-04-06T16:46:08+0800
+permalink: /2012/04/06/busy-week/index.html
 ---
 
 Got lots of things committed this week.

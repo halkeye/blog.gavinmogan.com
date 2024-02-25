@@ -7,8 +7,8 @@ post_name: syndication
 status: publish
 tags:
   - coding
-slug: /2004/01/29/syndication
 datetime: 2004-01-29T23:36:45+0800
+permalink: /2004/01/29/syndication/index.html
 ---
 
 Yes! Since I'm now using my MTLJPost plugin, I figured I'd work on LJ Tag a bit more.

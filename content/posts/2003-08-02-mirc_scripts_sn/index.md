@@ -7,8 +7,8 @@ post_name: mirc_scripts_sn
 status: publish
 tags:
   - coding
-slug: /2003/08/02/mirc_scripts_sn
 datetime: 2003-08-02T21:54:31+0800
+permalink: /2003/08/02/mirc_scripts_sn/index.html
 ---
 
 For those like myself, who use multiple servers and like to keep their nick name synchronized (IE /nick gali|work will set it to all servers)

@@ -7,8 +7,8 @@ post_name: my_k-pax_review
 status: publish
 tags:
   - movies
-slug: /2003/07/14/my_k-pax_review
 datetime: 2003-07-14T16:59:45+0800
+permalink: /2003/07/14/my_k-pax_review/index.html
 ---
 
 I've had the chance to see [K-Pax](https://us.imdb.com/Title?0272152) about a week ago. I really do not know what the problem everyone else seems to have with that movie. I really enjoyed it. The entire movie left me guessing to the fact of whether or not the **Prot** was really from K-Pax.

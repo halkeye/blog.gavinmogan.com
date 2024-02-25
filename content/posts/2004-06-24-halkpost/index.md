@@ -7,8 +7,8 @@ post_name: halkpost
 status: publish
 tags:
   - coding
-slug: /2004/06/24/halkpost
 datetime: 2004-06-24T22:52:31+0800
+permalink: /2004/06/24/halkpost/index.html
 ---
 
 Starting to work on this code again. Slowly working on migrating my entire site over to the new codebase.

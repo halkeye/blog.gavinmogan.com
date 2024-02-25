@@ -7,8 +7,8 @@ post_name: jedi_academy
 status: publish
 tags:
   - gaming
-slug: /2003/10/29/jedi_academy
 datetime: 2003-10-30T12:55:58+0800
+permalink: /2003/10/29/jedi_academy/index.html
 ---
 
 Just finished _Jedi Academy_. I didn't enjoy it nearly as much as I did _Jedi Outcast_ Although I never did finish playing that one through.

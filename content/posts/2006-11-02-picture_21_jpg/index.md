@@ -7,8 +7,8 @@ post_name: picture_21_jpg
 status: publish
 tags:
   - work
-slug: /2006/11/01/picture_21_jpg
 datetime: 2006-11-02T15:35:42+0800
+permalink: /2006/11/01/picture_21_jpg/index.html
 ---
 
 ![](https://static.flickr.com/105/287204397_fe2098cbea_m.jpg)

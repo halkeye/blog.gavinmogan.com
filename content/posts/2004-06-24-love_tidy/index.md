@@ -7,8 +7,8 @@ post_name: love_tidy
 status: publish
 tags:
   - people
-slug: /2004/06/24/love_tidy
 datetime: 2004-06-24T22:30:08+0800
+permalink: /2004/06/24/love_tidy/index.html
 ---
 
 I've fallen in love with [tidy-proxy](https://tidy-proxy.freesources.org/). Its a simple little program that sits in front of you and the internet, and checks every incoming site for valid html and such..

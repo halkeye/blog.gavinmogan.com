@@ -7,8 +7,8 @@ post_name: slightly_new_color_scheme
 status: publish
 tags:
   - general
-slug: /2004/01/31/slightly_new_color_scheme
 datetime: 2004-02-01T02:23:37+0800
+permalink: /2004/01/31/slightly_new_color_scheme/index.html
 ---
 
 Decided I'm actually too lazy right now to actually make a new layout. I've just messed with the colors a bit to a different one I liked.

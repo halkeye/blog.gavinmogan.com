@@ -7,8 +7,8 @@ post_name: hoobastank
 status: publish
 tags:
   - music
-slug: /2004/04/06/hoobastank
 datetime: 2004-04-06T21:24:12+0800
+permalink: /2004/04/06/hoobastank/index.html
 ---
 
 I found the absolute perfect themesong for Ender. At least in the _Xenocide_ book.

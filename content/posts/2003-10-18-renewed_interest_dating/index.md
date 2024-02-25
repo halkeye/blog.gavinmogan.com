@@ -7,8 +7,8 @@ post_name: renewed_interest_dating
 status: publish
 tags:
   - people
-slug: /2003/10/17/renewed_interest_dating
 datetime: 2003-10-18T11:43:42+0800
+permalink: /2003/10/17/renewed_interest_dating/index.html
 ---
 
 [Modern Flirting (washingtonpost.com)](https://www.washingtonpost.com/ac2/wp-dyn/A32799-2003Oct15)

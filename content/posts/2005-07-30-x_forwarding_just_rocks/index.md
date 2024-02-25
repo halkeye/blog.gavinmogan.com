@@ -7,8 +7,8 @@ post_name: x_forwarding_just_rocks
 status: publish
 tags:
   - linux
-slug: /2005/07/30/x_forwarding_just_rocks
 datetime: 2005-07-30T23:24:25+0800
+permalink: /2005/07/30/x_forwarding_just_rocks/index.html
 ---
 
 I will be the first to admit that I hate cygwin, it works just enough that its nice, but breaks more often than not so its so frustrating.

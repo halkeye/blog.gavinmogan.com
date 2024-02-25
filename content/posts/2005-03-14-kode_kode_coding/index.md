@@ -7,8 +7,8 @@ post_name: kode_kode_coding
 status: publish
 tags:
   - geek
-slug: /2005/03/14/kode_kode_coding
 datetime: 2005-03-14T16:11:14+0800
+permalink: /2005/03/14/kode_kode_coding/index.html
 ---
 
 HAHA, this site is now RSS validated again.  

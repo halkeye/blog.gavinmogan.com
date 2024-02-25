@@ -8,9 +8,9 @@ tags:
   - helm
 post_name: docker-registry-g4v-dev
 author: halkeye
-slug: /2020/04/19/docker-registry-g4v-dev
 datetime: 2020-04-20T00:52:59.999Z
 banner: ./differences-between-a-dockerfile-docker-image-and-docker-container-001320c81dd8d2989df10d0bec36341fd6a94b043f6f9de1c26ee79eaf16e566.jpg
+permalink: /2020/04/19/docker-registry-g4v-dev/index.html
 ---
 I am somewhat addicted to making [helm charts](https://github.com/halkeye-helm-charts/) with 57 charts and counting now. And as such, I often find myself building or tweaking docker images to see how they work, or make it easier to deploy.
 

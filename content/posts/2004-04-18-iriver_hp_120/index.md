@@ -7,8 +7,8 @@ post_name: iriver_hp_120
 status: publish
 tags:
   - music
-slug: /2004/04/18/iriver_hp_120
 datetime: 2004-04-18T20:07:09+0800
+permalink: /2004/04/18/iriver_hp_120/index.html
 ---
 
 ![](iriver.jpg)

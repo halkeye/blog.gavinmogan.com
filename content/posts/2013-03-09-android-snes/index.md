@@ -11,8 +11,8 @@ tags:
   - gamepad
   - nexus 7
   - snes
-slug: /2013/03/09/android-snes
 datetime: 2013-03-09T21:49:29+0800
+permalink: /2013/03/09/android-snes/index.html
 ---
 
 So a while ago (Dec 2012, so only a couple months :D) I posted a little picture of a setup I got working with my nexus 7.

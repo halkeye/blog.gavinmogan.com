@@ -7,9 +7,9 @@ post_name: terraria
 status: publish
 tags:
   - pc
-slug: /2011/09/12/terraria
 datetime: 2011-09-13T12:39:33+0800
 banner: ./Screenshot-Terraria-RoomatesHouse-1024x480.png
+permalink: /2011/09/12/terraria/index.html
 ---
 
 Sometime during the last big steam sale (I think it was the summer sale) my roommate and I both picked up [Terraria](https://store.steampowered.com/app/105600/?snr=1_4_4__13) off of steam. I don't think either of us played it for months. It was always on the to play list, but I was busy with other games, he was busy with Minecraft. So we just put it off.

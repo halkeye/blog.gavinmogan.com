@@ -7,8 +7,8 @@ post_name: mtljpost_1_6_now_1_7_1
 status: publish
 tags:
   - coding
-slug: /2004/04/04/mtljpost_1_6_now_1_7_1
 datetime: 2004-04-04T20:55:19+0800
+permalink: /2004/04/04/mtljpost_1_6_now_1_7_1/index.html
 ---
 
 Yea Yea, if this works, then MTLJPost 1.6 Is ready to go.  

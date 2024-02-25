@@ -7,8 +7,8 @@ post_name: its_emails_make_it_all_worth_it
 status: publish
 tags:
   - coding
-slug: /2004/04/10/its_emails_make_it_all_worth_it
 datetime: 2004-04-10T15:25:34+0800
+permalink: /2004/04/10/its_emails_make_it_all_worth_it/index.html
 ---
 
 From: Lisa [lisa@lisa-jill.com]  

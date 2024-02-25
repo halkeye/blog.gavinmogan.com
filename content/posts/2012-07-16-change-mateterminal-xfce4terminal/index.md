@@ -7,8 +7,8 @@ post_name: change-mateterminal-xfce4terminal
 status: publish
 tags:
   - linux
-slug: /2012/07/15/change-mateterminal-xfce4terminal
 datetime: 2012-07-16T12:17:55+0800
+permalink: /2012/07/15/change-mateterminal-xfce4terminal/index.html
 ---
 
 Mostly for my own purposes

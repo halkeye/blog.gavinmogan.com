@@ -7,8 +7,8 @@ post_name: batman
 status: publish
 tags:
   - general
-slug: /2010/02/12/batman
 datetime: 2010-02-12T21:52:44+0800
+permalink: /2010/02/12/batman/index.html
 ---
 
 ![](https://farm5.static.flickr.com/4046/4353110560_5f06134f08.jpg)

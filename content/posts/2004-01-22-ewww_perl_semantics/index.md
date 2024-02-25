@@ -7,8 +7,8 @@ post_name: ewww_perl_semantics
 status: publish
 tags:
   - coding
-slug: /2004/01/21/ewww_perl_semantics
 datetime: 2004-01-22T13:47:02+0800
+permalink: /2004/01/21/ewww_perl_semantics/index.html
 ---
 
 ```perl

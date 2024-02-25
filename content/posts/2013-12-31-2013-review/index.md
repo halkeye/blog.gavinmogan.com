@@ -8,8 +8,8 @@ status: publish
 tags:
   - general
   - year-in-review
-slug: /2013/12/31/2013-review
 datetime: 2013-12-31T16:46:28+0800
+permalink: /2013/12/31/2013-review/index.html
 ---
 
 Everyone else has started to do this. I’ve been working on it for a week now for my own reasons. I apologize in advance. Overall I’d say 2013/30 has been an amazing year. (Posting it to the rarely used blog so I don't have to copy and paste all the text cross social networks.

@@ -7,8 +7,8 @@ post_name: wheee_mrtg
 status: publish
 tags:
   - linux
-slug: /2003/09/30/wheee_mrtg
 datetime: 2003-10-01T10:45:35+0800
+permalink: /2003/09/30/wheee_mrtg/index.html
 ---
 
 after reading about MRTG is [kasia's](https://www.unix-girl.com) [blog](https://www.unix-girl.com/blog/archives/001134.html), I had to start figuring out how to use it more and more..

@@ -10,8 +10,8 @@ tags:
   - node school
   - node bots
   - elgin
-slug: /2018/05/16/NodeSchool-NodeBots
 datetime: 2018-05-16T23:54:00+0800
+permalink: /2018/05/16/NodeSchool-NodeBots/index.html
 ---
 
 import Tweet from '../../../src/components/Tweet.jsx'

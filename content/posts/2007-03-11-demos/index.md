@@ -7,8 +7,8 @@ post_name: demos
 status: publish
 tags:
   - gaming
-slug: /2007/03/11/demos
 datetime: 2007-03-11T23:50:20+0800
+permalink: /2007/03/11/demos/index.html
 ---
 
 So far this weekend I got to try two really cool demos, and one really pathetic demo.

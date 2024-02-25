@@ -7,8 +7,8 @@ post_name: quake_4_has_zombies
 status: publish
 tags:
   - gaming
-slug: /2006/06/16/quake_4_has_zombies
 datetime: 2006-06-17T11:15:41+0800
+permalink: /2006/06/16/quake_4_has_zombies/index.html
 ---
 
 ![](screenshot.png)

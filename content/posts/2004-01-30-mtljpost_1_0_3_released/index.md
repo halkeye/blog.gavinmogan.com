@@ -7,8 +7,8 @@ post_name: mtljpost_1_0_3_released
 status: publish
 tags:
   - coding
-slug: /2004/01/30/mtljpost_1_0_3_released
 datetime: 2004-01-30T21:36:01+0800
+permalink: /2004/01/30/mtljpost_1_0_3_released/index.html
 ---
 
 ~1.0.3~ 1.0.4 Released

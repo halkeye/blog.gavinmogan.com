@@ -7,8 +7,8 @@ post_name: gavin-mental-health
 status: publish
 tags:
   - general
-slug: /2016/10/06/gavin-mental-health
 datetime: 2016-10-06T20:01:09+0800
+permalink: /2016/10/06/gavin-mental-health/index.html
 ---
 
 Since [@geekmentalhelp](https://geekmentalhelp.com/) is doing a week of articles talking about mental health, I've decided to nudge myself into doing something as well. This is even more scary now that some of my posts are getting tweeted/shared out by work so I'm actually having visitors.

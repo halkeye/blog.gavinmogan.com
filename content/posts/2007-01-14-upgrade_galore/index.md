@@ -7,8 +7,8 @@ post_name: upgrade_galore
 status: publish
 tags:
   - web
-slug: /2007/01/13/upgrade_galore
 datetime: 2007-01-14T13:17:55+0800
+permalink: /2007/01/13/upgrade_galore/index.html
 ---
 
 Yay! Spent the day on the server.

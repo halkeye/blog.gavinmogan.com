@@ -7,8 +7,8 @@ post_name: mt_blacklist
 status: publish
 tags:
   - coding
-slug: /2004/02/01/mt_blacklist
 datetime: 2004-02-02T01:11:50+0800
+permalink: /2004/02/01/mt_blacklist/index.html
 ---
 
 I actually think I might be able to make MT-Blacklist mod_perl compatible.

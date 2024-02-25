@@ -7,8 +7,8 @@ post_name: software_and_si
 status: publish
 tags:
   - general
-slug: /2003/06/26/software_and_si
 datetime: 2003-06-27T00:11:21+0800
+permalink: /2003/06/26/software_and_si/index.html
 ---
 
 It seems there is a new version of [Moveable Type](https://www.movabletype.org/news/2003_05.shtml#000842) out. And I know there was a new version of [gallery](https://gallery.sourceforge.net/) out, so i really have to start updating my software over the next few days.

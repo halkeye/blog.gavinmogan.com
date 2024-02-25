@@ -7,8 +7,8 @@ post_name: broken_sword_3
 status: publish
 tags:
   - gaming
-slug: /2004/02/04/broken_sword_3
 datetime: 2004-02-05T13:19:06+0800
+permalink: /2004/02/04/broken_sword_3/index.html
 ---
 
 -![](clip0005.png)Okay, so I finished Broken Sword 3 a few days ago. I really liked it, the dialog was awesome.

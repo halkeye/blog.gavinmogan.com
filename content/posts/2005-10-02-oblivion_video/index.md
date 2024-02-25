@@ -7,8 +7,8 @@ post_name: oblivion_video
 status: publish
 tags:
   - gaming
-slug: /2005/10/01/oblivion_video
 datetime: 2005-10-02T00:55:16+0800
+permalink: /2005/10/01/oblivion_video/index.html
 ---
 
 Whoaaa

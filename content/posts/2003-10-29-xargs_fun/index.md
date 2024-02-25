@@ -7,8 +7,8 @@ post_name: xargs_fun
 status: publish
 tags:
   - linux
-slug: /2003/10/29/xargs_fun
 datetime: 2003-10-29T22:00:45+0800
+permalink: /2003/10/29/xargs_fun/index.html
 ---
 
 I know I havn't been posting much recently, and its been a combo of being sick, being depressed, and .. well.. nothing of interest coming up. But i'm going to try and fix that with some interesting posts.

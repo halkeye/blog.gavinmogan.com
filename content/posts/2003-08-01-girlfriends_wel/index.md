@@ -7,8 +7,8 @@ post_name: girlfriends_wel
 status: publish
 tags:
   - people
-slug: /2003/07/31/girlfriends_wel
 datetime: 2003-08-01T09:59:47+0800
+permalink: /2003/07/31/girlfriends_wel/index.html
 ---
 
 Yea, its about time that I finally got to this rant, its been bugging me for a Long time now.

@@ -11,8 +11,8 @@ tags:
   - ecto
   - mythtv
   - kodekoan
-slug: /2006/10/16/wow_ecto_impressive
 datetime: 2006-10-16T23:27:36+0800
+permalink: /2006/10/16/wow_ecto_impressive/index.html
 ---
 
 I was about to complain about it being a trial version... but man, it looks cool.. 

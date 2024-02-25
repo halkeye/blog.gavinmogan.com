@@ -7,8 +7,8 @@ post_name: ininja
 status: publish
 tags:
   - gaming
-slug: /2004/01/30/ininja
 datetime: 2004-01-30T23:01:34+0800
+permalink: /2004/01/30/ininja/index.html
 ---
 
 ![](Composite_Jan_30_005.jpg)

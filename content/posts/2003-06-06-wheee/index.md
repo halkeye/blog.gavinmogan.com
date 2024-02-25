@@ -7,8 +7,8 @@ post_name: wheee
 status: publish
 tags:
   - general
-slug: /2003/06/06/wheee
 datetime: 2003-06-06T22:27:24+0800
+permalink: /2003/06/06/wheee/index.html
 ---
 
 My design is almost completly done. I'm going to be enabling the sidebar links as i finish (re)doing them. I still have a spot at the top of the page i'd like to put an image or something in. but i really can't think of what i want there. My designs always look SOOO square. I defanatly need some help from some more experienced people to learn to change that...

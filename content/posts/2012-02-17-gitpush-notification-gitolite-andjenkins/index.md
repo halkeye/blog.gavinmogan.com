@@ -10,8 +10,8 @@ tags:
   - git
   - gitolite
   - jenkins
-slug: /2012/02/17/gitpush-notification-gitolite-andjenkins
 datetime: 2012-02-17T18:24:06+0800
+permalink: /2012/02/17/gitpush-notification-gitolite-andjenkins/index.html
 ---
 
 Its so easy now to support [jenkins](https://jenkins-ci.org/)+git with [gitolite](https://github.com/sitaramc/gitolite). No more having git polling per project and slamming the git server with ssh requests.

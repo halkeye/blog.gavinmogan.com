@@ -7,8 +7,8 @@ post_name: xbox_server_farm
 status: publish
 tags:
   - geek
-slug: /2004/04/11/xbox_server_farm
 datetime: 2004-04-12T12:37:57+0800
+permalink: /2004/04/11/xbox_server_farm/index.html
 ---
 
 Is it wrong I have an urge to put together an XBOX Server farm?  
