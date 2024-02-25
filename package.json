@@ -1,55 +1,43 @@
 {
-  "name": "blog-gavinmogan-com",
-  "private": true,
-  "description": "My Website powered by gatsby",
-  "version": "0.0.0",
-  "author": "Gavin Mogan <npm@gavinmogan.com> (https://www.gavinmogan.com/)",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/halkeye/blog-gavinmogan-com.git"
-  },
-  "bugs": {
-    "url": "https://github.com/halkeye/blog-gavinmogan-com/issues"
-  },
-  "homepage": "https://blog.gavinmogan.com",
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "MIT",
-  "scripts": {
-    "develop": "gatsby develop -p 3000 -H 0.0.0.0",
-    "dev": "npm run develop",
-    "serve": "gatsby serve",
-    "build": "TZ=UTC gatsby build",
-    "clean": "gatsby clean",
-    "lint": "eslint . --ext js,jsx,md,mdx,ts,tsx",
-    "write-good": "write-good $(glob 'content/posts/**/*.md')"
-  },
-  "dependencies": {
-    "@lekoarts/gatsby-theme-minimal-blog": "6.2.3",
-    "gatsby": "5.13.3",
-    "gatsby-plugin-feed": "5.13.1",
-    "gatsby-plugin-manifest": "5.13.1",
-    "gatsby-plugin-mdx-embed": "1.1.3",
-    "gatsby-plugin-sitemap": "6.13.1",
-    "mdx-embed": "1.1.2",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
-  },
-  "devDependencies": {
-    "@babel/core": "7.23.9",
-    "@babel/eslint-parser": "7.23.10",
-    "@types/node": "18.19.17",
-    "@types/react": "18.2.56",
-    "@types/react-dom": "18.2.19",
-    "eslint": "8.56.0",
-    "eslint-config-react-app": "7.0.1",
-    "eslint-config-standard": "17.1.0",
-    "eslint-plugin-babel": "5.3.1",
-    "eslint-plugin-mdx": "2.3.4",
-    "eslint-plugin-n": "15.7.0",
-    "eslint-plugin-promise": "6.1.1",
-    "eslint-plugin-standard": "5.0.0",
-    "typescript": "4.9.5"
-  }
+	"name": "eleventy-base-blog",
+	"version": "8.0.0",
+	"description": "A starter repository for a blog web site using the Eleventy site generator.",
+	"scripts": {
+		"build": "npx @11ty/eleventy",
+		"build-ghpages": "npx @11ty/eleventy --pathprefix=/eleventy-base-blog/",
+		"start": "npx @11ty/eleventy --serve --quiet",
+		"debug": "DEBUG=Eleventy* npx @11ty/eleventy",
+		"debugstart": "DEBUG=Eleventy* npx @11ty/eleventy --serve --quiet",
+		"benchmark": "DEBUG=Eleventy:Benchmark* npx @11ty/eleventy"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/11ty/eleventy-base-blog.git"
+	},
+	"author": {
+		"name": "Zach Leatherman",
+		"email": "zachleatherman@gmail.com",
+		"url": "https://zachleat.com/"
+	},
+	"license": "MIT",
+	"engines": {
+		"node": ">=14"
+	},
+	"funding": {
+		"type": "opencollective",
+		"url": "https://opencollective.com/11ty"
+	},
+	"bugs": {
+		"url": "https://github.com/11ty/eleventy-base-blog/issues"
+	},
+	"homepage": "https://github.com/11ty/eleventy-base-blog#readme",
+	"devDependencies": {
+		"@11ty/eleventy": "2.0.0-beta.1",
+		"@11ty/eleventy-img": "^2.0.1",
+		"@11ty/eleventy-navigation": "^0.3.5",
+		"@11ty/eleventy-plugin-rss": "^1.2.0",
+		"@11ty/eleventy-plugin-syntaxhighlight": "^4.2.0",
+		"luxon": "^3.2.1",
+		"markdown-it-anchor": "^8.6.6"
+	}
 }
