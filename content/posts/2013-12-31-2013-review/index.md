@@ -7,7 +7,7 @@ post_name: 2013-review
 status: publish
 tags:
   - general
-  - year in review
+  - year-in-review
 slug: /2013/12/31/2013-review
 datetime: 2013-12-31T16:46:28+0800
 ---

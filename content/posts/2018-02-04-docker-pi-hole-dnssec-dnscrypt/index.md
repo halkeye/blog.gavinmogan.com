@@ -33,7 +33,11 @@ Hrm. Nope, wall again. Apparently my docker setup can't talk to anything but the
 
 After a bunch of reading online, I found out you create a docker network, and the various services can talk to eacho ther without needing to expose ports out to the rest of the network. That sounds perfect. Oh, wait, you need to resolve the addresses inside the containers, which totally won't work for dns because dns wants the ip so it can resolve. Close, I mean it would probably work because docker has its own dns proxy, but again you can't pass non ips to the pihole runtime configs. Okay whats next.
 
-Lastly I found a quick script using docker inspect. `docker inspect --format='{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' $container`
+Lastly I found a quick script using docker inspect. 
+
+```shell
+docker inspect --format='{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' $container
+```
 
 I really wasn't sure this would actually work because in theory ips could change every time it starts up, but it seems to allocate the same ip if possible, so kinda lucked out. So now I had Pi-hole talking to dnscrypt-proxy, which meant my lookups were encrypted. Yay!
 
