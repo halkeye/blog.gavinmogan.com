@@ -11,13 +11,15 @@ datetime: 2003-10-01T10:45:35+0800
 permalink: /2003/10/01/wheee_mrtg/index.html
 ---
 
-after reading about MRTG is [kasia's](https://www.unix-girl.com) [blog](https://www.unix-girl.com/blog/archives/001134.html), I had to start figuring out how to use it more and more..
+after reading about MRTG is [kasia's](https://web.archive.org/web/20120330161743/http://www.unix-girl.com/) [blog](https://web.archive.org/web/20080517125719/http://www.unix-girl.com/blog/archives/001134.html), I had to start figuring out how to use it more and more..
 
 ![](https://www.halkeye.net/mrtg/memory-day.png)
 
-I've been messing with it..--------------
+I've been messing with it..
 
-https://people.ee.ethz.ch/~oetiker/webtools/mrtg/reference.html had all the extra information i needed...
+--------------
+
+[https://people.ee.ethz.ch/~oetiker/webtools/mrtg/reference.html](https://web.archive.org/web/20030604155740/https://people.ee.ethz.ch/~oetiker/webtools/mrtg/reference.html) had all the extra information i needed...
 
 External Monitoring Scripts
 

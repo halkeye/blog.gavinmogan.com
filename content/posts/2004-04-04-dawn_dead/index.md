@@ -11,7 +11,7 @@ datetime: 2004-04-04T01:51:44+0800
 permalink: /2004/04/04/dawn_dead/index.html
 ---
 
-Went and saw [Dawn of the Dead](https://www.dawnofthedeadmovie.net/) with a bunch of old classmates. It was good to hang out with evan again, and I havn't seen Malcom or Baastian or Patrica (who was so different this time, it was weird) in like a LONG time. So it was really cool. Went to Japanese resteraunt, tried japanese food for the first time, since it was all you can eat, I like that kind of food, I've finally had the chance, so it was good.
+Went and saw [Dawn of the Dead](https://web.archive.org/web/20041001003345/https://www.dawnofthedeadmovie.net/) with a bunch of old classmates. It was good to hang out with evan again, and I havn't seen Malcom or Baastian or Patrica (who was so different this time, it was weird) in like a LONG time. So it was really cool. Went to Japanese resteraunt, tried japanese food for the first time, since it was all you can eat, I like that kind of food, I've finally had the chance, so it was good.
 
 The movie however, was not as expected.. about 10 minutes into the movie (30 min in :D silly commercials), I was like. what did I get myself into? But I have to say, even though it was totally predictable (Which evan and I think it was done that way to make it easier to watch), It was a good movie, not really my type, but good never the less.
 
