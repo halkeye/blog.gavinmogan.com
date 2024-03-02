@@ -16,14 +16,18 @@ I've been playing around with some new [jquery](https://web.archive.org/web/2008
 Anyways, lots of people pop in #jquery and ask questions.. which is good, 'cause i learn about new plugins or ideas, etc. But there are a lot of people who just can't figure out how to ask a question.
 
 Examples of bad people:
-* &lt;yoav&gt; guys i'm stuck tryin' to get an ajax form to work with jquery and codeigniter &lt;yoav&gt;stuck as in it's not working
+
+> &lt;yoav&gt; guys i'm stuck tryin' to get an ajax form to work with jquery and codeigniter  
+> &lt;yoav&gt;stuck as in it's not working
+
 
 (i'm surprised i can't find more in my recent logs)
 
 or my fav, and i can't find an example from my current logs
-* &lt;someone&gt; Can I ask a question?
-* &lt;someone&gt; I have a question (in which the reply is no, thats a statement)
+
+> &lt;someone&gt; Can I ask a question?  
+> &lt;someone&gt; I have a question (in which the reply is no, thats a statement)
 
 Between those and the people who know next to nothing about javascript, css and html, expecting that jquery will be really easy and needing to be hand held through every little step is really frustrating.
 
-I gotta setup some irssi aliases now to point to https://reactor-core.org/irc-help.html (which I just found)..
+I gotta setup some irssi aliases now to point to [https://reactor-core.org/irc-help.html](https://reactor-core.org/irc-help.html) (which I just found)..
