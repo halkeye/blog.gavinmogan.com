@@ -38,6 +38,6 @@ Ended up with this super nice gift for my mom.
 
 Sources:
 
-* Reddit Post - https://www.reddit.com/r/3Dprinting/comments/e4mbax/my_first_self_designed_useful_printnot_much_and_i/
-* Thingiverse Post - https://www.thingiverse.com/thing:4022656
-* My Remix thingiverse - https://www.thingiverse.com/thing:4081222
+* [Reddit Post](https://www.reddit.com/r/3Dprinting/comments/e4mbax/my_first_self_designed_useful_printnot_much_and_i/)
+* [Thingiverse Post](https://www.thingiverse.com/thing:4022656)
+* [My Remix thingiverse](https://www.thingiverse.com/thing:4081222)

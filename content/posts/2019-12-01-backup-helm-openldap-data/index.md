@@ -20,8 +20,9 @@ Is it insecure? Probably
 
 Does it work? yesssssss
 
-```
-cat openldap-backup-cronjob.yaml
+Here is my openldap-backup-cronjob.yaml:
+
+```yaml
 ---
 apiVersion: v1
 kind: PersistentVolumeClaim
