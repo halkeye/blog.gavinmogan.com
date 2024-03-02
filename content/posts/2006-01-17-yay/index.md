@@ -13,4 +13,4 @@ permalink: /2006/01/17/yay/index.html
 
 yay!
 
-[gtalk and jabber now talk to eachother](https://googletalk.blogspot.com/2006/01/xmpp-federation.html)
+[gtalk and jabber now talk to eachother](https://web.archive.org/web/20060202015711/http://googletalk.blogspot.com:80/2006/01/xmpp-federation.html)

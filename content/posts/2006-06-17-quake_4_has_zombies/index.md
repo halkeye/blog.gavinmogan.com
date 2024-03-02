@@ -16,4 +16,4 @@ permalink: /2006/06/17/quake_4_has_zombies/index.html
 that is all.
 
 
-(note, thanks to the #mysql guys, i have figured out a bunch of issues the server was having with mysql.. its all good now.. [stupid bugs](https://bugs.mysql.com/bug.php?id=7331))
+(note, thanks to the #mysql guys, i have figured out a bunch of issues the server was having with mysql.. its all good now.. [stupid bugs](https://web.archive.org/web/20050903084325/http://bugs.mysql.com:80/bug.php?id=7331))
