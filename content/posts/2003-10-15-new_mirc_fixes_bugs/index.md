@@ -11,7 +11,7 @@ datetime: 2003-10-15T19:35:29+0800
 permalink: /2003/10/15/new_mirc_fixes_bugs/index.html
 ---
 
-[mIRC 6.12 has been released!](https://www.mirc.com/)
+[mIRC 6.12 has been released!](https://web.archive.org/web/20031024024815/http://www.mirc.com:80/)
 
 mIRC v6.12 has been released to address a remote vulnerability found yesterday, capable of crashing your mIRC. The vulnerability affects versions of mIRC from v6.0 onwards, so it is highly recommended that you upgrade to mIRC v6.12. You can do so by downloading the new mIRC from the download page!
 

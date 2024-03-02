@@ -67,7 +67,7 @@ on 1:action:*:#:{ if ($highlight(. $+ $1-) != $null) { .window -g0lwz @highlight
 on 1:action:*:?:{ if ($highlight(. $+ $1-) != $null) { .window -g0lwz @highlight; aline @highlight $chr(91) $+ $nick $+ $chr(93) $timestamp < $+ $nick $+ > $1- } }
 ```
 
-thanks alot to [Chris](https://www.gushue.net/) for helping me out and giving me some of the tips today.
+thanks alot to [Chris](https://web.archive.org/web/20031002004534/http://gushue.net:80/) for helping me out and giving me some of the tips today.
 
 ## Comments
 

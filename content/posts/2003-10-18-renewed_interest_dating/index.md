@@ -24,6 +24,6 @@ I'm not entirely sure why, but I really like this article. I guess its the way I
 
 But once I got there, I found relationships and people nothing like TV told me it would be. This article so helped to explain so mucha bout life.
 
-I have to admit, I really like reading ['Just a Gwai Lo'](https://www.justagwailo.com/), not only is he an awsome writer, but I get to find out so many interesting things about life and such.
+I have to admit, I really like reading ['Just a Gwai Lo'](https://web.archive.org/web/20030423034413/http://justagwailo.com:80/), not only is he an awsome writer, but I get to find out so many interesting things about life and such.
 
 Its defanatly a good article. People should defanatly read it.

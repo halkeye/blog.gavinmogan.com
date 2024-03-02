@@ -24,6 +24,6 @@ I loved the auction at the end, I'm sure i was blushing alot when i was doing th
 
 But the auction was fun, loved all the VA's.. well most of them, they made it fun... I was hoping for alot more for the closing ceramony though.. Guess it wasn't really planned out.. Actually i was wishing for at least something.
 
-Anyways, gonna post some stuff on [halkeye.net](https://www.halkeye.net) as well as post links to the 50-75 pictures (As i got tired of trying to make the picture pages look like they fit with the rest of the website) I took during the weekend.. But as a sneak preview, some of my favorite
+Anyways, gonna post some stuff on [halkeye.net](https://web.archive.org/web/20030728224632/http://www.halkeye.net:80/) as well as post links to the 50-75 pictures (As i got tired of trying to make the picture pages look like they fit with the rest of the website) I took during the weekend.. But as a sneak preview, some of my favorite
 
 ![](https://gallery.halkeye.net/albums/2003-07-26/DCP_0435.thumb.jpg)![](https://gallery.halkeye.net/albums/2003-07-26/DCP_0440.thumb.jpg)![](https://gallery.halkeye.net/albums/2003-07-27/DCP_0450.thumb.jpg)![](https://gallery.halkeye.net/albums/2003-07-27/DCP_0464.thumb.jpg)

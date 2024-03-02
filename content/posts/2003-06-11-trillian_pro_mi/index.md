@@ -17,11 +17,11 @@ Its actually quite awoken.. way improved since the first version of Trillian I u
 
 Pro is a lot nicer than the Trillian (non pro) 1.0 I tried a long time ago, it doesn't seem to eat the same amount of memory, it has a bit more connection related options, and the best part, is the new plugin API feature.
 
-The only real issue I have with it is that it does weird things with sound on this computer. I've been having major issues with sound anyways, well at least until I found out I should disable ACPI, but Trillian has been the only program that has still had problems.. rest have some issues with my wintv card running at the same time, but whatever, the program had some cool things, it supports a lot more of the protocols than [miranda icq](https://miranda-icq.sourceforge.net) does, which I prefer, but doesn't support very much.
+The only real issue I have with it is that it does weird things with sound on this computer. I've been having major issues with sound anyways, well at least until I found out I should disable ACPI, but Trillian has been the only program that has still had problems.. rest have some issues with my wintv card running at the same time, but whatever, the program had some cool things, it supports a lot more of the protocols than [miranda icq](https://web.archive.org/web/20030410170909/http://miranda-icq.sourceforge.net:80/) does, which I prefer, but doesn't support very much.
 
 
 
-![](https://gallery.halkeye.net/albums/screenshots/untitled_001.thumb.jpg) [Gaim for windows](https://gaim.sourceforge.net/win32/) is now currently what i'm using, doesn't have the same number of plugins, but its all open source, and pretty easy to write a RSS plugin for that, at least I could do it for windows, pretty sure I could easily enough write a RSS plugin for it, I just don't want to try to get it to work for windows, but I think I could do it...
+![](https://gallery.halkeye.net/albums/screenshots/untitled_001.thumb.jpg) [Gaim for windows](https://web.archive.org/web/20030607003124/http://gaim.sourceforge.net:80/win32/) is now currently what i'm using, doesn't have the same number of plugins, but its all open source, and pretty easy to write a RSS plugin for that, at least I could do it for windows, pretty sure I could easily enough write a RSS plugin for it, I just don't want to try to get it to work for windows, but I think I could do it...
 
 (okay, does that make any sense?)
 
