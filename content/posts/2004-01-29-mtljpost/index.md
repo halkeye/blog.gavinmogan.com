@@ -13,7 +13,7 @@ permalink: /2004/01/29/mtljpost/index.html
 
 I have now finished version 1.0 of MTLJPost.
 
-Yea, this was after [Kristian](https://www.departmentk.com) told me how he did it, I figured I could simplified things. And I did.
+Yea, this was after [Kristian](https://web.archive.org/web/20031230042248/http://www.departmentk.com:80/) told me how he did it, I figured I could simplified things. And I did.
 
 [Download here](https://files.halkeye.net/MTLJPost.tgz)
 

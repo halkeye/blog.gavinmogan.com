@@ -11,7 +11,7 @@ datetime: 2004-02-16T21:40:30+0800
 permalink: /2004/02/16/episode_16/index.html
 ---
 
-Holy Shit [Fullmetal Alchemist](https://www.animenfo.com/animetitle,1265,mybywf,fullmetal_alche.html) has become interesting again.
+Holy Shit [Fullmetal Alchemist](https://web.archive.org/web/20031012010513/http://www.animenfo.com:80/animetitle,1265,mybywf,fullmetal_alche.html) has become interesting again.
 
 I'm just loving the characters and plot twists and such.
 
@@ -23,4 +23,4 @@ WHOA
 
   
 
-and to quote McDonalds and the [Jordan](https://j0rd.ath.cx)... **I'm loving it**
+and to quote McDonalds and the [Jordan](https://web.archive.org/web/20040128153918/http://j0rd.ath.cx:80/)... **I'm loving it**

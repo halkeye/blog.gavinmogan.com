@@ -17,4 +17,4 @@ I can't belive I never knew.. Then suddently I reconized Kate (dunno actress's n
 
 Its soo cool now :)
 
-And I just found out that Jeri Ryan was actually in _Who's the boss_, I since I was looking her up in [IMDB](https://www.imdb.com/), I found out she's done all kinds of other interesting things. Even the voices for the Elite Forces computer game.
+And I just found out that Jeri Ryan was actually in _Who's the boss_, I since I was looking her up in [IMDB](https://web.archive.org/web/20031227152255/http://www.imdb.com:80/), I found out she's done all kinds of other interesting things. Even the voices for the Elite Forces computer game.

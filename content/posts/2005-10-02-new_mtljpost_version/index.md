@@ -11,7 +11,7 @@ datetime: 2005-10-02T23:42:47+0800
 permalink: /2005/10/02/new_mtljpost_version/index.html
 ---
 
-[ New Version of MTLJPost 1.9.2](https://kodekoan.com/projects/mtplugins/MTLJPost/1.9.2/)
+[ New Version of MTLJPost 1.9.2](https://web.archive.org/web/20060110162130/http://kodekoan.com:80/projects/mtplugins/MTLJPost/1.9.2/)
 
 Apparently there is confusion all over, so here's an email from the mailing list:
 

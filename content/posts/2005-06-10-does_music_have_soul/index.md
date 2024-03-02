@@ -11,7 +11,7 @@ datetime: 2005-06-10T17:59:10+0800
 permalink: /2005/06/10/does_music_have_soul/index.html
 ---
 
-Watching some anime with the [group](https://www.sfuarc.com/), and just now watching a movie or two, I realize, even if the scene doesn't have sad stuff (or happy, narutos awesome about that), you can still very much feel really sad just by the music or sound effects at the time.
+Watching some anime with the [group](https://web.archive.org/web/20060511223523/http://www.sfuarc.com:80/), and just now watching a movie or two, I realize, even if the scene doesn't have sad stuff (or happy, narutos awesome about that), you can still very much feel really sad just by the music or sound effects at the time.
 
 Books can invoke a strong emotional response to, but it doesn't seem to work the same way.
 

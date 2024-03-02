@@ -11,7 +11,7 @@ datetime: 2005-07-25T02:37:32+0800
 permalink: /2005/07/25/possible_upgrade/index.html
 ---
 
-After a couple of emails about MTLJPost and working with MT for [HiSciFi](https://www.hiscifi.com), I think I might go back to using MT.
+After a couple of emails about MTLJPost and working with MT for [HiSciFi](https://web.archive.org/web/20060504020933/http://www.hiscifi.com:80/), I think I might go back to using MT.
 
 That way I can work on MTLJPost again neatly.
 

@@ -13,7 +13,7 @@ permalink: /2004/02/12/no_purchase_necessary/index.html
 
 I've always wondered why contests always say "No Purchase Necessary" except you need to buy a product to get the information to enter the contest.
 
-This especially came up when I saw the [KraftDinner](https://www.kraftcanada.com/) box recently where they had a crayola giveaway. You get a Unique code you have to enter on the [YTV](https://www.ytv.com) website to win. I was so confused as to how you could enter the contest without purchasing kraft dinner right? right?
+This especially came up when I saw the [KraftDinner](https://web.archive.org/web/20031229215548/http://kraftcanada.com:80/) box recently where they had a crayola giveaway. You get a Unique code you have to enter on the [YTV](https://web.archive.org/web/20040208165231/http://www.ytv.com:80/) website to win. I was so confused as to how you could enter the contest without purchasing kraft dinner right? right?
 
 Yea, so I kept reading, turns out you can write a letter/make a picture and send it to them, and they'll send you back a code.
 

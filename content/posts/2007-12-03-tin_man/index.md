@@ -11,7 +11,7 @@ datetime: 2007-12-03T21:13:44+0800
 permalink: /2007/12/03/tin_man/index.html
 ---
 
-Wow, [Tin Man](https://www.scifi.com/tinman/) is... well it has zooey...
+Wow, [Tin Man](https://web.archive.org/web/20071203015047/http://www.scifi.com:80/tinman/) is... well it has zooey...
 Well I have met all the characters, dorthy, tin man, guy without a brain, and I'm sure the heart guy too.
 
 It's really .. out there.

@@ -12,6 +12,6 @@ permalink: /2005/10/21/testing_posting_flock/index.html
 ---
 
 New buzz browser just came out.  
-[Flock](https://www.flock.com/)  
+[Flock](https://web.archive.org/web/20051023005035/http://www.flock.com:80/)  
 Built ontop of firefox/mozilla, but designed to be more a social browser, tagging, blogging, etc.  
 It looks clean and fast, but i like my firefox plugins.

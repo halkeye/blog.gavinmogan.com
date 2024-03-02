@@ -11,6 +11,6 @@ datetime: 2004-09-03T11:23:50+0800
 permalink: /2004/09/03/i_still_live/index.html
 ---
 
-Working hard at [River Styx Internet](https://www.riverstyx.net).  
+Working hard at [River Styx Internet](https://web.archive.org/web/20040831142220/http://riverstyx.net:80/).  
 
 Have some stuff I'll hopefully post about this weekend. Including some new firefox stuff I've found out.

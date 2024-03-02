@@ -26,4 +26,4 @@ And Voila!!!
 Nice and simple cpan searching
 
 
-(Tip was originally mention to me by [Jordan](https://j0rd.ath.cx))
+(Tip was originally mention to me by [Jordan](https://web.archive.org/web/20040610140557/http://j0rd.ath.cx:80/))

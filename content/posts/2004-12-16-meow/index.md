@@ -13,7 +13,7 @@ permalink: /2004/12/16/meow/index.html
 
 Not so much as dead, as more like, busy.
 
-I really have to get back to working on this site one of these days, as well as working on the [website](https://www.sfuarc.com/) and my [MTLJPost script](https://www.kodekoan.com/project/MTLJPost) and well, all kinds of other little projects i've ben pushing off.
+I really have to get back to working on this site one of these days, as well as working on the [website](https://web.archive.org/web/20060511223523/http://www.sfuarc.com:80/) and my [MTLJPost script](https://web.archive.org/web/20061224073602/http://www.kodekoan.com:80/project/MTLJPost) and well, all kinds of other little projects i've ben pushing off.
 
 I really like working, but I have to get back into the whole seperating work time and home time and get some fun projects done.
 

@@ -17,6 +17,6 @@ If you see this, it worked :)
 
 I promise a real post soon. Real Soon, hopefully in the morning.
 
-PS. [Motor](https://konst.org.ua/motor/) looks cool, in a msdos edit kind of way :) but interesting looking features.
+PS. [Motor](https://web.archive.org/web/20040401145142/http://konst.org.ua:80/motor) looks cool, in a msdos edit kind of way :) but interesting looking features.
 
 mooo

@@ -11,7 +11,7 @@ datetime: 2005-10-10T10:58:43+0800
 permalink: /2005/10/10/s_r_i_p_s_okrut/index.html
 ---
 
-<s>R.I.P [OKRUT](https://www.okrut.com).</s>
+<s>R.I.P [OKRUT](https://web.archive.org/web/20051023004304/http://www.okrut.com:80/).</s>
 
 [Lives long afterall](https://web.archive.org/web/20051211224953/http://www.orkut.com/GLogin.aspx?done=http://www.orkut.com/Default.aspx). I had a typo in the url :( silly google, apparently its a very common mistake.
 

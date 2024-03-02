@@ -24,4 +24,4 @@ I didn't know what format I actually had, something I used from the old MT insta
 
 ![\[Valid RSS\]](https://halkeye.net/img/valid-rss.png)
 
-I think all that is left is some validation in the xmlrpc interface, and then I'll start a cleaner version... KodePost or something. It'll go along nicely with my awesome [comic system](https://www.kodekomics.com) ([KodeKomic](https://www.kodekomics.com))
+I think all that is left is some validation in the xmlrpc interface, and then I'll start a cleaner version... KodePost or something. It'll go along nicely with my awesome [comic system](https://web.archive.org/web/20060220002926/http://www.kodekomics.com:80/) ([KodeKomic](https://web.archive.org/web/20060220002926/http://www.kodekomics.com:80/))

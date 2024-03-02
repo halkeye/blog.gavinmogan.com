@@ -13,7 +13,7 @@ permalink: /2004/01/02/im_baccck_and_upgraded/index.html
 
 Yea. Its been a long time since I've actually updated this site. I just havn't been exactly in the writing mood. But I'm back, with some cool information.
 
-Since my screenshots arn't exactly ready yet, I'm going to start with [Synergy](https://synergy2.sourceforge.net/). I'm not entirely sure if its still in active development, but as it stands, its still a very good program.
+Since my screenshots arn't exactly ready yet, I'm going to start with [Synergy](https://web.archive.org/web/20031222155200/http://synergy2.sourceforge.net:80/). I'm not entirely sure if its still in active development, but as it stands, its still a very good program.
 
 I used to use it alot when I had my laptop and desktop side by side. I'd only really want to use my full size keyboard and mouse, but taking advantage of all the school based application and data I had on my laptop.
 

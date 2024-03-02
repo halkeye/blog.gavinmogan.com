@@ -13,7 +13,7 @@ permalink: /2004/05/01/stargate_atlantis/index.html
 
 ![100.jpg](100.jpg)  
 
-It seems that [Stargate Atlantis](https://www.gateworld.net/atlantis/s1/101.shtml) is almost here. Infact the specs on the pilot episode are up and published.
+It seems that [Stargate Atlantis](https://web.archive.org/web/20040414065125/http://www.gateworld.net:80/atlantis/s1/101.shtml) is almost here. Infact the specs on the pilot episode are up and published.
 
 I really can not wait... WHEEEEEE!!!!!
 

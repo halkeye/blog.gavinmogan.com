@@ -46,11 +46,11 @@ Its just not how people naturally read instructions, you want them in order.
 
 Unfortuatly, I have a desire to start working on Livejournal again. I think purely for selfish reasons, because I love working on projects that people actually use..  
 
-And the [Livejournal Portal](https://www.livejournal.com/portal/) is so... overlooked.
+And the [Livejournal Portal](https://web.archive.org/web/20040610182105/http://www.livejournal.com:80/portal/) is so... overlooked.
 
 I just have no interest in the code politics..  
 
-I guess I'll have to find new projects, or at least finish the ones I've started... like [Dark Warriors](https://www.kodekoan.com/project/darkwarriors).
+I guess I'll have to find new projects, or at least finish the ones I've started... like [Dark Warriors](https://web.archive.org/web/20070210235828/http://www.kodekoan.com:80/project/darkwarriors).
 
 ## Comments
 

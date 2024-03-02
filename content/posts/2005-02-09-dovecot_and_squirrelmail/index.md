@@ -11,7 +11,7 @@ datetime: 2005-02-09T12:07:25+0800
 permalink: /2005/02/09/dovecot_and_squirrelmail/index.html
 ---
 
-Man, [dovecot](https://www.dovecot.org/) is more my favorite email imap server software.
+Man, [dovecot](https://web.archive.org/web/20050208090051/http://dovecot.org:80/) is more my favorite email imap server software.
 
 I just installed squirrelmail from scratch, and man, its so fast. with my old server, i was using courier and squirrelmail, both debian packages, and man, it'd time out half the time, break others, etc etc etc.
 

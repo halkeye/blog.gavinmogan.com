@@ -11,7 +11,7 @@ datetime: 2006-03-12T15:21:41+0800
 permalink: /2006/03/12/post_secret_love/index.html
 ---
 
-I love [postsecret](https://postsecret.blogspot.com/)
+I love [postsecret](https://web.archive.org/web/20060311193942/http://postsecret.blogspot.com/)
 
 Entries like the following touch me so :) Keeps making me wish I had something to send them..
 

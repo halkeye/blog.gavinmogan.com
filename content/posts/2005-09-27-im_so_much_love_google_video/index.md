@@ -19,4 +19,4 @@ For Example:
 
 [Young lightsaber duelests who did this well coreographed video (although the wordage sucks)](https://video.google.com/videoplay?docid=106590075339710943&q=lightsaber)
 
-Eveything from trailers, to home videos, to even full blown tv shows seem to be on here. Even looking up [Mike's Slurrey](https://www.slurrey.com) shows up alot of stuff, including a few of my party videos.
+Eveything from trailers, to home videos, to even full blown tv shows seem to be on here. Even looking up [Mike's Slurrey](https://web.archive.org/web/20061013103955/http://www.slurrey.com:80/) shows up alot of stuff, including a few of my party videos.

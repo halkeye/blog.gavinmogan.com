@@ -11,7 +11,7 @@ datetime: 2004-03-03T22:47:59+0800
 permalink: /2004/03/03/boooks/index.html
 ---
 
-Went to half priced book with [Alex](https://www.fustiar.org/). Halfpriced Books was doing this sale. Whatever you can fit in this box, you get for $20..  
+Went to half priced book with [Alex](https://web.archive.org/web/20040317064501/http://www.fustiar.org:80/). Halfpriced Books was doing this sale. Whatever you can fit in this box, you get for $20..  
 
 Got a good booklist..
 

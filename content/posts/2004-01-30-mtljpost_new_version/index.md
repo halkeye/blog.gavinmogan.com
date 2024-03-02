@@ -23,4 +23,4 @@ permalink: /2004/01/30/mtljpost_new_version/index.html
 # - Adding selecting of which blog you want.
 ```
 
-**Edit:** [Newer Version](https://www.kodekoan.com/project/MTLJPost)
+**Edit:** [Newer Version](https://web.archive.org/web/20061224073602/http://www.kodekoan.com:80/project/MTLJPost)

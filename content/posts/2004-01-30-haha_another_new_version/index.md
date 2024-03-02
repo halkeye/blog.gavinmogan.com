@@ -38,7 +38,7 @@ I just now want to see if I can't store extra information on a post, like what t
 
 That would actually be cool.
 
-**Edit:** [Newer Version](https://www.kodekoan.com/project/MTLJPost)
+**Edit:** [Newer Version](https://web.archive.org/web/20061224073602/http://www.kodekoan.com:80/project/MTLJPost)
 
 --------------
 
