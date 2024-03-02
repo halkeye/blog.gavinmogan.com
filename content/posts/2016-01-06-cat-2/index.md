@@ -13,7 +13,7 @@ permalink: /2016/01/06/cat-2/index.html
 
 I've been slowly trying out a couple random cat toys for the cat. So far mine has been mostly meh about them. These [cat springs](https://www.amazon.ca/gp/product/B000CMKHDG?) were highly recommended on amazon, so decided to check them out. The idea of cat playing with springs is very weird, but why not right?
 
-`youtube:https://www.youtube.com/embed/fYx_BgoMtKY`
+{% youtube "fYx_BgoMtKY" %}
 
 Okay, I think that might have been a huge success.
 

@@ -13,7 +13,7 @@ datetime: 2013-12-31T16:51:59+0800
 permalink: /2013/12/31/yaoirpg/index.html
 ---
 
-tl;dr - https://yaoirpg.halkeye.net is now live again
+tl;dr - [https://yaoirpg.halkeye.net](https://yaoirpg.halkeye.net) is now live again
 
 **Y**et **A**nother **O**nline **I**nteraction **R**ole **P**laying **G**ame was a project a group of us at BCIT put together. It was for some of internet studies course (Yea I'm that old / It hadn't been updated yet). Evan, the guy who named it, was also someone who spent a lot of time online and really enjoyed the idea of an acronym that people probably wouldn't get.
 
@@ -23,4 +23,4 @@ Anyways, it came up in conversation recently, mostly because I still tell the st
 
 I realized the code wasn't backed up, so I dug through some of my old hard drives, found the code and an old DB dump and this morning through a lot of trial and error (And actually minimal work) got it running in a recent version of php and mysql.
 
-https://yaoirpg.halkeye.net now lives on heroku where it should forever run. Backed up to bitbucket 'cause I'm pretty ashamed of the code :D
+[https://yaoirpg.halkeye.net](https://yaoirpg.halkeye.net) now lives on heroku where it should forever run. Backed up to bitbucket 'cause I'm pretty ashamed of the code :D

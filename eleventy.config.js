@@ -36,6 +36,16 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addPlugin(pluginNavigation);
 	eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
 
+	// Shortcodes
+
+	eleventyConfig.addShortcode("gist", (id) => `<div>Gist: <a href="https://gist.github.com/${id}" title="Github Gist ${id}">${id}</a></div><script src="https://gist.github.com/${id}.js"></script>`);
+	eleventyConfig.addShortcode("youtube", (id) => `<iframe width="560" height="315"
+		src="https://www.youtube-nocookie.com/embed/${id}"
+		title="YouTube video player"
+		frameborder="0"
+		allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+		allowfullscreen></iframe>`);
+
 	// Filters
 	eleventyConfig.addFilter("readableDate", (dateObj, format, zone) => {
 		// Formatting tokens for Luxon: https://moment.github.io/luxon/#/formatting?id=table-of-tokens
@@ -130,7 +140,7 @@ module.exports = function (eleventyConfig) {
 		],
 
 		// Pre-process *.md files with: (default: `liquid`)
-		markdownTemplateEngine: false,
+		// markdownTemplateEngine: false,
 
 		// Pre-process *.html files with: (default: `liquid`)
 		htmlTemplateEngine: "njk",

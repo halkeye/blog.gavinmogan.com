@@ -13,7 +13,12 @@ permalink: /2012/07/16/change-mateterminal-xfce4terminal/index.html
 
 Mostly for my own purposes
 
-`mateconftool-2 --set /desktop/mate/applications/terminal/exec --type string "xfce4-terminal"`
+```sh
+mateconftool-2 \
+	--set /desktop/mate/applications/terminal/exec \
+	--type string \
+	"xfce4-terminal"
+```
 
 I'm not a big fan of mate terminal, seems to hurt my eyes, like xfce better, so this still makes the "launch terminal" shortcut work, but launch a different terminal.
 

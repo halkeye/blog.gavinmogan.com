@@ -29,11 +29,11 @@ $config_data = { "foo" => "bar" }
 
 I found config_data.to_json wasn't going to work for me because it seemed to output things in different orders each run.
 
-(it was https://snippets.aktagon.com/snippets/412-How-to-pretty-print-JSON-data-with-Ruby that helped me figure this out)
+(it was [https://snippets.aktagon.com/snippets/412-How-to-pretty-print-JSON-data-with-Ruby](https://snippets.aktagon.com/snippets/412-How-to-pretty-print-JSON-data-with-Ruby) that helped me figure this out)
 
 **Edit:** While pretty, still doesn't sort so puppet can update the config file each run :( I will figure this out.
 </s>
 
-**Edit:** After much trial and error, I ended writing my own library. https://gist.github.com/2287885
+**Edit:** After much trial and error, I ended writing my own library. [https://gist.github.com/2287885](https://gist.github.com/2287885)
 
-<Gist gistLink="halkeye/2287885" />
+{% gist "halkeye/2287885" %}
