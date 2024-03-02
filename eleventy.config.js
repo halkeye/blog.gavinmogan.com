@@ -2,6 +2,7 @@ const {DateTime} = require("luxon");
 const path = require('path');
 const markdownItAnchor = require("markdown-it-anchor");
 const markdownItImage = require("markdown-it-eleventy-img");
+const markdownItFootnote = require('markdown-it-footnote');
 const {full: markdownItEmoji} = require("markdown-it-emoji");
 
 const pluginRss = require("@11ty/eleventy-plugin-rss");
@@ -79,6 +80,7 @@ module.exports = function (eleventyConfig) {
 	// Customize Markdown library settings:
 	eleventyConfig.amendLibrary("md", mdLib => {
 		mdLib.use(markdownItEmoji);
+		mdLib.use(markdownItFootnote);
 
 		mdLib.use(markdownItAnchor, {
 			permalink: markdownItAnchor.permalink.ariaHidden({
