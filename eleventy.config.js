@@ -2,6 +2,7 @@ const {DateTime} = require("luxon");
 const path = require('path');
 const markdownItAnchor = require("markdown-it-anchor");
 const markdownItImage = require("markdown-it-eleventy-img");
+const {full: markdownItEmoji} = require("markdown-it-emoji");
 
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
@@ -77,6 +78,8 @@ module.exports = function (eleventyConfig) {
 
 	// Customize Markdown library settings:
 	eleventyConfig.amendLibrary("md", mdLib => {
+		mdLib.use(markdownItEmoji);
+
 		mdLib.use(markdownItAnchor, {
 			permalink: markdownItAnchor.permalink.ariaHidden({
 				placement: "after",
@@ -87,6 +90,7 @@ module.exports = function (eleventyConfig) {
 			level: [1, 2, 3, 4],
 			slugify: eleventyConfig.getFilter("slugify")
 		});
+
 		mdLib.use(markdownItImage, {
 			resolvePath: (filepath, env) => path.join(path.dirname(env.page.inputPath), filepath),
 			imgOptions: {
