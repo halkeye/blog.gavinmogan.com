@@ -14,7 +14,7 @@ datetime: 2012-02-17T18:24:06+0800
 permalink: /2012/02/17/gitpush-notification-gitolite-andjenkins/index.html
 ---
 
-Its so easy now to support [jenkins](https://jenkins-ci.org/)+git with [gitolite](https://github.com/sitaramc/gitolite). No more having git polling per project and slamming the git server with ssh requests.
+Its so easy now to support [jenkins](https://web.archive.org/web/20120217082433/https://jenkins-ci.org/)+git with [gitolite](https://web.archive.org/web/20130730141602/https://github.com/sitaramc/gitolite). No more having git polling per project and slamming the git server with ssh requests.
 
 To install:
 Edit .gitolite/hooks/common/post-receive file [^1]

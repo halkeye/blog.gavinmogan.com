@@ -12,7 +12,7 @@ datetime: 2016-02-08T10:18:44+0800
 permalink: /2016/02/08/telltales-back-to-the-future/index.html
 ---
 
-The [Back to the Future Game](https://www.telltalegames.com/backtothefuture/) game created by Telltale came out in December 2010. As of yesterday (Feb 7th 2016) I finally got around to finishing the game. That's over 5 years for those who are doing math.
+The [Back to the Future Game](https://web.archive.org/web/20160210083156/https://www.telltalegames.com/backtothefuture/) game created by Telltale came out in December 2010. As of yesterday (Feb 7th 2016) I finally got around to finishing the game. That's over 5 years for those who are doing math.
 
 I'm not entirely sure why I picked it up again. I know I've been itching to get through the slew of games I've kickstarted over the last few years.
 

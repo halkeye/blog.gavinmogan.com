@@ -11,7 +11,7 @@ datetime: 2016-10-06T20:01:09+0800
 permalink: /2016/10/06/gavin-mental-health/index.html
 ---
 
-Since [@geekmentalhelp](https://geekmentalhelp.com/) is doing a week of articles talking about mental health, I've decided to nudge myself into doing something as well. This is even more scary now that some of my posts are getting tweeted/shared out by work so I'm actually having visitors.
+Since [@geekmentalhelp](https://web.archive.org/web/20161002163234/http://geekmentalhelp.com/) is doing a week of articles talking about mental health, I've decided to nudge myself into doing something as well. This is even more scary now that some of my posts are getting tweeted/shared out by work so I'm actually having visitors.
 
 I'm pretty open about my issues, at least the easy to digest versions. I've always in the back of my mind (and possibly a bit been told growing up) that I'll scare people away. Just act normal so people want to be around you. I know I've been trying pretty hard to find the right balance of things. I don't like hiding from me. I also very much like teaching and helping people learn things/grow.
 
@@ -32,9 +32,9 @@ I've been handling this, sometimes pretty silently, for a long time now, so I'm 
 
 So I keep saying over and over again. I don't want to be treated special. But what can you do, if not for me, but for others? Honestly I have no idea, everyone is different. For me, and probably many otehrs, just being patient, just being around, maybe even just being forgiving goes a long way. And with everything else, sometimes all that is needed is a nice distraction to get things going again. But don't feel like you have to fix things. Or find a solution. Especially don't try to "fix" things by telling me or others to just be happy, or think positive. Its much more complicated than that, but more than anything else, knowing someone is around makes all the difference.
 
-I think [https://imgur.com/a/uVIvv](https://imgur.com/a/uVIvv) does a way better job at explaining some of the things a lot better.
+I think [https://imgur.com/a/uVIvv](https://web.archive.org/web/20230516101355/https://imgur.com/a/uVIvv) does a way better job at explaining some of the things a lot better.
 
 Oh, totally wanted to mention. Every time I feel like someone praises how awesome, or smart I am, I want to curl up and hide. I am not that good. Stop compairing me to those. I didn't finish school. I'm alone a lot. I can't do math. Everyone knows more than me. But I get past it. I know the intention. I know I am actually good at what I do, because I try really hard, and I'm excited about it. I'm not better than anyone else. But I am good. I can do this.
 
-I'll end it off on a positive mental health poem. [A guy speaking about how his OCD is calmed by a love.](https://genius.com/Neil-hilborn-ocd-annotated) ([Video](https://www.youtube.com/watch?v=vnKZ4pdSU-s))
+I'll end it off on a positive mental health poem. [A guy speaking about how his OCD is calmed by a love.](https://web.archive.org/web/20161203115547/http://genius.com:80/Neil-hilborn-ocd-annotated) ([Video](https://www.youtube.com/watch?v=vnKZ4pdSU-s))
 

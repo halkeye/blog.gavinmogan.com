@@ -11,7 +11,7 @@ datetime: 2016-11-06T16:37:08+0800
 permalink: /2016/11/06/high-school-robotics-compeition/index.html
 ---
 
-So yesterday I ended up at helping judge a [high school robotics competition](https://www.robotevents.com/robot-competitions/vex-robotics-competition/RE-VRC-15-3684.html) organized by the [local robotics group](https://www.pyrs.ca/), but lets rewind a bit.
+So yesterday I ended up at helping judge a [high school robotics competition](https://web.archive.org/web/20151018082752/http://www.robotevents.com:80/robot-competitions/vex-robotics-competition/re-vrc-15-3684.html) organized by the [local robotics group](https://web.archive.org/web/20161025124435/http://www.pyrs.ca/), but lets rewind a bit.
 
 In september, my friend Daruvin contacted me. He in conjunction with [Penguin Robotics](https://penguinrobotics.ca/) was helping to put together workshops to help the high school students learn to program for the robotic systems.
 

@@ -15,7 +15,7 @@ permalink: /2016/09/20/test-allthethings-at-jenkins-world-2016/index.html
 
 I spent last week at Jenkins World 2016.
 
-This was my second time hanging out at the [Sauce Labs](https://saucelabs.com) booth, the first being Microsoft's /b/uild event.
+This was my second time hanging out at the [Sauce Labs](https://web.archive.org/web/20160916174538/http://saucelabs.com/) booth, the first being Microsoft's /b/uild event.
 
 I have to say I'm realy enjoying it. I don't think I could do it full time, but its so much fun to talk to people excited to use your product. There's that moment in thier eyes you can see when they realized its actually going to make their lives easier.
 
@@ -35,7 +35,7 @@ Thursday was a much shorter day, only going to 5pm. Less people came by, but we 
 
 ![IMG_20160914_085904.jpg](IMG_20160914_085904.jpg)
 
-Last but not least, Jenkins World had the team (I didn't know it was a team) behind [Commitstrip](https://www.commitstrip.com/en/?) come by from France. They were producing a mural just outside the main rooms. The plan was that the attendiees would be able to color it in, but they'd draw the thing.
+Last but not least, Jenkins World had the team (I didn't know it was a team) behind [Commitstrip](https://web.archive.org/web/20160917142540/http://www.commitstrip.com:80/en/?) come by from France. They were producing a mural just outside the main rooms. The plan was that the attendiees would be able to color it in, but they'd draw the thing.
 
 I walked by it a few times. I really wish I had snagged a picture of the colored in one, but it still looks great black and white.
 
