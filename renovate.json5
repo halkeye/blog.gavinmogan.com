@@ -11,8 +11,8 @@
   "transitiveRemediation": true, // apply security updates for indirect (transitive) NPM dependencies
   "packageRules": [
     {
-      "matchPackagePatterns": ["^gatsby"],
-      "groupName": "Gatsby packages"
+      "matchPackagePatterns": ["^@11ty"],
+      "groupName": "11ty packages"
     }
   ]
 }
