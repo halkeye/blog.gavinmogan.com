@@ -22,7 +22,7 @@
 	},
 	"license": "MIT",
 	"engines": {
-		"node": ">=18"
+		"node": ">=14"
 	},
 	"homepage": "https://blog.gavinmogan.com",
 	"devDependencies": {
