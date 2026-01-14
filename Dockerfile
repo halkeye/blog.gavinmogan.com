@@ -1,4 +1,4 @@
-FROM node:20.19.5
+FROM node:20.19.6
 
 COPY package*.json .
 RUN npm install
