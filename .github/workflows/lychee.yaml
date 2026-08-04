@@ -23,10 +23,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4.4.0
 
       - name: Setup Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v4.4.0
         with:
           node-version: "20.20.2"
           cache: npm
@@ -38,7 +38,7 @@ jobs:
         run: npm run build
 
       - name: Scan for broken links
-        uses: lycheeverse/lychee-action@v1
+        uses: lycheeverse/lychee-action@v1.10.0
         id: lychee
         with:
           token: "${{ secrets.GITHUB_TOKEN }}"
@@ -63,7 +63,7 @@ jobs:
           echo "${issue_number}"
 
       - name: Create or Update Issue
-        uses: peter-evans/create-issue-from-file@v5
+        uses: peter-evans/create-issue-from-file@v5.0.1
         with:
           token: "${{ secrets.GITHUB_TOKEN }}"
           title: "${{ env.WORKFLOW_ISSUE_TITLE }}"
